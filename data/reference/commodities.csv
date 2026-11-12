@@ -1,0 +1,62 @@
+commodity_id,name_en,category,unit,core,name_bn
+rice_fine,"Rice, fine (Nazirshail/Miniket)",Rice,kg,1,চাল সরু (নাজির/মিনিকেট)
+rice_medium,"Rice, medium (Pajam/BR-28)",Rice,kg,1,চাল (মাঝারী)পাইজাম/আটাশ
+rice_coarse,"Rice, coarse (Swarna/China IRRI)",Rice,kg,1,চাল (মোটা)/স্বর্ণা/চায়না ইরি
+rice_aromatic,"Rice, aromatic (polao), loose",Rice,kg,0,চাল সুগন্ধী (পোলাও)
+rice_aromatic_pkt,"Rice, aromatic (polao), packet",Rice,kg,0,চাল সুগন্ধী (পোলাও)
+atta_loose,"Atta, loose",Flour,kg,1,আটা সাদা (খোলা)
+atta_pkt,"Atta, packet",Flour,kg,0,আটা (প্যাকেট)
+maida_loose,"Maida, loose",Flour,kg,0,ময়দা (খোলা)
+maida_pkt,"Maida, packet",Flour,kg,0,ময়দা (প্যাকেট)
+soybean_loose,"Soybean oil, loose",Edible oil,litre,1,সয়াবিন তেল (লুজ)
+soybean_1l,"Soybean oil, bottle 1 L",Edible oil,1 L bottle,1,সয়াবিন তেল (বোতল)
+soybean_2l,"Soybean oil, bottle 2 L",Edible oil,2 L bottle,0,সয়াবিন তেল (বোতল)
+soybean_5l,"Soybean oil, bottle 5 L",Edible oil,5 L bottle,0,সয়াবিন তেল (বোতল)
+palm_loose,"Palm oil, loose",Edible oil,litre,1,পাম অয়েল (লুজ)
+palm_super_loose,"Super palm oil, loose",Edible oil,litre,0,সুপার পাম অয়েল (লুজ)
+ricebran_1l,"Rice bran oil, bottle 1 L",Edible oil,1 L bottle,0,রাইস ব্রান তেল (বোতল)
+ricebran_5l,"Rice bran oil, bottle 5 L",Edible oil,5 L bottle,0,রাইস ব্রান তেল (বোতল)
+lentil_bold,"Lentil (masur), bold grain",Pulses,kg,1,মশুর ডাল (বড় দানা)
+lentil_medium,"Lentil (masur), medium grain",Pulses,kg,0,মশুর ডাল (মাঝারী দানা)
+lentil_fine,"Lentil (masur), fine grain",Pulses,kg,0,মশুর ডাল (ছোট দানা)
+mung,Mung dal,Pulses,kg,0,মুগ ডাল (মানভেদে)
+anchor_dal,Anchor dal,Pulses,kg,0,এ্যাংকর ডাল
+chickpea,Chickpea (chola),Pulses,kg,1,ছোলা (মানভেদে)
+potato,Potato,Vegetables,kg,1,আলু (নতুন/পুরাতন)
+onion_local,"Onion, local",Vegetables,kg,1,পিঁয়াজ (দেশী)
+onion_imported,"Onion, imported",Vegetables,kg,0,পিঁয়াজ (আমদানি)
+garlic_local,"Garlic, local",Vegetables,kg,1,রসুন (দেশী)
+garlic_imported,"Garlic, imported",Vegetables,kg,0,রসুন (আমদানি)
+ginger_local,"Ginger, local",Vegetables,kg,0,আদা (দেশী)
+ginger_imported,"Ginger, imported",Vegetables,kg,1,আদা (আমদানি)
+green_chili,Green chilli,Vegetables,kg,0,কাঁচামরিচ
+brinjal,Brinjal,Vegetables,kg,0,বেগুন
+cucumber,Cucumber,Vegetables,kg,0,শসা
+lemon,Lemon,Vegetables,hali (4 pcs),0,লেবু
+chili_dry_local,"Dry chilli, local",Spices,kg,0,শুকনা মরিচ (দেশী)
+chili_dry_imported,"Dry chilli, imported",Spices,kg,0,শুকনা মরিচ (আমদানি)
+turmeric_local,"Turmeric, local",Spices,kg,0,হলুদ (দেশী)
+turmeric_imported,"Turmeric, imported",Spices,kg,0,হলুদ (আমদানি)
+cumin,Cumin,Spices,kg,0,জিরা
+cinnamon,Cinnamon,Spices,kg,0,দারুচিনি
+clove,Clove,Spices,kg,0,লবঙ্গ
+cardamom,Cardamom (small),Spices,kg,0,এলাচ(ছোট)
+coriander,Coriander seed,Spices,kg,0,ধনে
+bay_leaf,Bay leaf,Spices,kg,0,তেজপাতা
+rui,Rui fish,Fish & meat,kg,1,রুই
+hilsa,Hilsa (ilish),Fish & meat,kg,1,ইলিশ
+beef,Beef,Fish & meat,kg,1,গরু
+mutton,Goat meat (khasi),Fish & meat,kg,0,খাসী
+chicken_broiler,"Chicken, broiler",Fish & meat,kg,1,মুরগী(ব্রয়লার)
+chicken_local,"Chicken, local (deshi)",Fish & meat,kg,0,মুরগী (দেশী)
+eggs,"Eggs, farm",Eggs & dairy,hali (4 pcs),1,ডিম (ফার্ম)
+milk_dano,"Milk powder, Dano",Eggs & dairy,kg,0,ডানো
+milk_diploma,"Milk powder, Diploma",Eggs & dairy,kg,0,ডিপ্লোমা (নিউজিল্যান্ড)
+milk_fresh,"Milk powder, Fresh",Eggs & dairy,kg,0,ফ্রেশ
+milk_marks,"Milk powder, Marks",Eggs & dairy,kg,0,মার্কস
+sugar,Sugar,Other groceries,kg,1,চিনি
+dates,"Dates (khejur), regular",Other groceries,kg,1,খেজুর(সাধারণ মানের)
+salt,"Salt, iodized, packet",Other groceries,kg,0,লবণ(প্যাঃ)আয়োডিনযুক্ত
+paper,"Writing paper, white",Non-food,dista (24 sheets),0,লেখার কাগজ(সাদা)
+rod_60,"MS rod, 60 grade",Non-food,metric ton,0,"এম,এস রড (৬০ গ্রেড)"
+rod_40,"MS rod, 40 grade",Non-food,metric ton,0,"এম,এস রড( ৪০ গ্রেড)"

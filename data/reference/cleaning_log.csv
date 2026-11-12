@@ -1,0 +1,7 @@
+date,commodity_id,rule,detail
+2020-10-14,rod_60,digit_typo,price_max 5500 -> 55000
+2020-10-17,rod_60,digit_typo,price_max 5500 -> 55000
+2021-06-19,rod_40,digit_typo,price_max 705000 -> 70500
+2021-08-28,cumin,digit_typo,price_max 4000 -> 400
+2024-05-26,soybean_2l,isolated_spike_dropped,162.5 vs neighbours ~317.5/317.5 (backfill_year)
+2024-05-30,soybean_2l,isolated_spike_dropped,162.5 vs neighbours ~317.5/317.5 (backfill_year)

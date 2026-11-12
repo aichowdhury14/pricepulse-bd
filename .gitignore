@@ -1,0 +1,10 @@
+# raw downloads are re-creatable from data/reference/tcb_manifest.csv
+data/raw/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+node_modules/
+.vercel/
+.DS_Store
