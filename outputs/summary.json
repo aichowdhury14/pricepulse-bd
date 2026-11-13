@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T12:07:11",
+ "generated": "2026-11-13T10:27:18",
  "data_through": "2026-11-12",
  "core_basket_index_latest": 140.6,
  "import_vs_domestic": {
   "n_import": 19,
   "n_domestic": 21,
   "median_change_import_pct": 70.86930919756836,
-  "median_change_domestic_pct": 38.7403160544857,
+  "median_change_domestic_pct": 38.740316054485696,
   "mean_log_diff": 0.15954055094878017,
   "p_permutation_one_sided": 0.0022498875056247186,
   "p_mannwhitney_one_sided": 0.00397449789959994
