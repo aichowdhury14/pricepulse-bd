@@ -8,21 +8,25 @@
 <meta property="og:title" content="PricePulse BD">
 <meta property="og:description" content="Dhaka bazaar prices, at a glance — updated daily from TCB.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#17385a">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2317385a'/%3E%3Cpath d='M4 18h6l3-9 5 15 3-9h7' fill='none' stroke='%23e0a06a' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#006a4e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23006a4e'/%3E%3Ccircle cx='14.4' cy='16' r='8' fill='%23f42a41'/%3E%3Cpath d='M3 17h6l2.5-6 4 11 2.5-5H29' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400..700&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#prices" data-i18n="skip">Skip to prices</a>
 
 <header class="hero">
+  <div class="sun" aria-hidden="true"></div>
   <div class="wrap">
     <div class="topbar">
       <div class="brand">
-        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path d="M2 18h7l3-10 5 17 3-10h10" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="#f42a41"/><path d="M1 17h8l2.5-6.5 4.5 12 2.6-5.5H31" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <span>PricePulse <b>BD</b></span>
       </div>
-      <div class="lang" role="group" aria-label="Language">
+      <div class="lang" role="group" aria-label="Language" data-i18n-aria="a_lang">
         <button type="button" data-lang="en" aria-pressed="true">EN</button>
         <button type="button" data-lang="bn" aria-pressed="false">বাং</button>
       </div>
@@ -33,7 +37,7 @@
   </div>
 </header>
 
-<nav class="tabs" aria-label="Sections">
+<nav class="tabs" aria-label="Sections" data-i18n-aria="a_sections">
   <div class="wrap tabs-row">
     <a href="#prices" data-i18n="nav_prices">Prices</a>
     <a href="#alerts" data-i18n="nav_alerts">Alerts</a>
@@ -59,7 +63,7 @@
         </select>
       </label>
     </div>
-    <div class="chips" id="chips" role="group" aria-label="Category"></div>
+    <div class="chips" id="chips" role="group" aria-label="Category" data-i18n-aria="a_category"></div>
     <div class="card table-card">
       <table id="price-table">
         <thead><tr>
@@ -106,7 +110,7 @@
     <h2 data-i18n="fest_title">Festival effect</h2>
     <div class="countdown" id="countdown"></div>
     <div class="card">
-      <div class="seg" id="fest-seg" role="group" aria-label="Festival"></div>
+      <div class="seg" id="fest-seg" role="group" aria-label="Festival" data-i18n-aria="a_festival"></div>
       <p class="sub" data-i18n="fest_sub">Extra price change in the two weeks before, compared with normal times</p>
       <div class="legend" id="fest-legend"></div>
       <div class="lp" id="fest-chart"></div>
@@ -136,6 +140,10 @@
 
 <footer>
   <div class="wrap">
+    <div class="foot-brand">
+      <svg viewBox="0 0 50 30" width="40" height="24" aria-hidden="true"><rect width="50" height="30" rx="3" fill="#006a4e"/><circle cx="22.5" cy="15" r="10" fill="#f42a41"/></svg>
+      <span>PricePulse <b>BD</b></span>
+    </div>
     <p data-i18n="foot_data">Data: Trading Corporation of Bangladesh (TCB) daily retail prices, Dhaka; World Food Programme.</p>
     <p data-i18n="foot_disc">Ranges are estimates, not guarantees.</p>
     <p><span data-i18n="foot_by">Built by</span> Atiqul Islam Chowdhury · <span id="foot-updated"></span></p>
@@ -148,10 +156,10 @@
       <h2 id="d-title"></h2>
       <p class="sub" id="d-unit"></p>
     </div>
-    <button type="button" class="close" id="d-close" aria-label="Close">×</button>
+    <button type="button" class="close" id="d-close" aria-label="Close" data-i18n-aria="a_close">×</button>
   </div>
   <div class="d-stats" id="d-stats"></div>
-  <div class="seg small" id="d-range" role="group" aria-label="Period"></div>
+  <div class="seg small" id="d-range" role="group" aria-label="Period" data-i18n-aria="a_period"></div>
   <div class="legend" id="d-legend"></div>
   <div class="chart tall" id="d-chart"></div>
   <div id="d-forecast"></div>

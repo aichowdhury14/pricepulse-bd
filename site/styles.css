@@ -1,11 +1,16 @@
-/* PricePulse BD — brand: navy + copper; charts: validated colour-blind-safe palette */
+/* PricePulse BD — brand: the Bangladesh flag (bottle green #006a4e, red disc #f42a41).
+   Flag green/red stay on the page chrome only: data marks keep the validated
+   colour-blind-safe palette, because red-vs-green is the pair colour-blind readers
+   can't separate. */
 :root {
   color-scheme: light;
+  --font-bn: "Noto Sans Bengali", "Nirmala UI", system-ui, sans-serif;
   --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink2: #52514e; --muted: #898781;
   --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11, 11, 11, .10); --wash: rgba(11, 11, 11, .04);
   --s1: #2a78d6; --s2: #eb6834; --up: #e34948; --down: #2a78d6; --context: #c3c2b7;
-  --navy1: #17385a; --navy2: #0a1726; --copper: #d0803f; --copper-soft: #e0a06a; --copper-ink: #9c561f;
-  --on-navy: #ffffff; --on-navy2: #c9c8c4;
+  --green: #006a4e; --green-deep: #004d38; --green-press: #006a4e; --green-ink: #006a4e;
+  --red: #f42a41; --red-ink: #d91e36;
+  --on-hero: #ffffff; --on-hero2: #d7ebe4;
   --radius: 14px;
   --font: system-ui, -apple-system, "Segoe UI", "Noto Sans Bengali", "Nirmala UI", "Hind Siliguri", sans-serif;
 }
@@ -15,35 +20,42 @@
     --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink2: #c3c2b7; --muted: #898781;
     --grid: #2c2c2a; --axis: #383835; --border: rgba(255, 255, 255, .10); --wash: rgba(255, 255, 255, .05);
     --s1: #3987e5; --s2: #d95926; --up: #e66767; --down: #3987e5; --context: #52514e;
-    --copper-ink: #e0a06a;
+    --green-press: #0b7a58; --green-ink: #4cc49a; --red-ink: #f45a6c;
   }
 }
+html:lang(bn) { --font: var(--font-bn); }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 56px; }
 body { margin: 0; background: var(--page); color: var(--ink); font: 16px/1.5 var(--font); }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
 h1, h2, h3, p { margin: 0; }
 button, input, select { font: inherit; color: inherit; }
-:focus-visible { outline: 2px solid var(--copper); outline-offset: 2px; border-radius: 6px; }
+:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 6px; }
+.hero :focus-visible, footer :focus-visible { outline-color: #fff; }
 .skip { position: absolute; left: -999px; top: 8px; background: var(--surface); padding: 8px 12px; border-radius: 8px; z-index: 50; }
 .skip:focus { left: 8px; }
 
 /* ---------- hero ---------- */
-.hero { background: linear-gradient(160deg, var(--navy1), var(--navy2)); color: var(--on-navy); padding: 14px 0 26px; }
+.hero { position: relative; overflow: hidden; background: linear-gradient(160deg, var(--green) 0%, var(--green-deep) 100%); color: var(--on-hero); padding: 14px 0 26px; }
+.hero > .wrap { position: relative; z-index: 1; }
+/* the red disc of the flag, as a rising sun behind the headline */
+.sun { position: absolute; z-index: 0; width: 300px; height: 300px; border-radius: 50%; background: var(--red);
+       right: max(-80px, calc((100vw - 1080px) / 2 - 20px)); top: -142px; }
+.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: var(--red); }
 .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 26px; }
 .brand { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 18px; letter-spacing: .2px; }
-.brand svg { color: var(--copper-soft); }
-.brand b { color: var(--copper-soft); font-weight: 700; }
-.lang { display: flex; border: 1px solid rgba(255, 255, 255, .25); border-radius: 999px; overflow: hidden; }
-.lang button { background: none; border: 0; padding: 5px 13px; color: var(--on-navy2); cursor: pointer; font-size: 14px; }
-.lang button[aria-pressed="true"] { background: var(--copper); color: #1b1108; font-weight: 600; }
+.brand .mark { flex: none; }
+.brand b { font-weight: 700; }
+.lang { display: flex; border: 1px solid rgba(255, 255, 255, .55); border-radius: 999px; overflow: hidden; background: var(--green-deep); }
+.lang button { background: none; border: 0; padding: 5px 13px; color: var(--on-hero); cursor: pointer; font-size: 14px; }
+.lang button[aria-pressed="true"] { background: #fff; color: var(--green); font-weight: 700; }
 .hero h1 { font-size: clamp(26px, 5vw, 40px); line-height: 1.15; font-weight: 700; letter-spacing: -.3px; }
-.hero-sub { color: var(--on-navy2); font-size: 14px; margin-top: 8px; }
+.hero-sub { color: var(--on-hero2); font-size: 14px; margin-top: 8px; max-width: 62ch; }
 .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 22px; }
-.tile { background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .12); border-radius: var(--radius); padding: 14px 16px; min-width: 0; }
-.tile .t-label { font-size: 13px; color: var(--on-navy2); }
+.tile { background: rgba(0, 50, 36, .55); border: 1px solid rgba(255, 255, 255, .18); backdrop-filter: blur(6px); border-radius: var(--radius); padding: 14px 16px; min-width: 0; }
+.tile .t-label { font-size: 13px; color: var(--on-hero2); }
 .tile .t-value { font-size: 30px; font-weight: 650; line-height: 1.2; margin-top: 2px; }
-.tile .t-sub { font-size: 13px; color: var(--on-navy2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tile .t-sub { font-size: 13px; color: var(--on-hero2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tile .t-sub .up { color: #f2a3a2; } .tile .t-sub .down { color: #9ec5f4; }
 .tile svg { display: block; margin-top: 6px; width: 100%; height: 26px; }
 
@@ -53,11 +65,13 @@ button, input, select { font: inherit; color: inherit; }
 .tabs-row::-webkit-scrollbar { display: none; }
 .tabs a { padding: 13px 12px; color: var(--ink2); text-decoration: none; font-size: 15px; white-space: nowrap; border-bottom: 2px solid transparent; }
 .tabs a:hover { color: var(--ink); }
-.tabs a.on { color: var(--ink); border-bottom-color: var(--copper); font-weight: 600; }
+.tabs a.on { color: var(--ink); border-bottom-color: var(--red); font-weight: 600; }
 
 /* ---------- sections ---------- */
 section { padding: 34px 0 6px; }
 h2 { font-size: 22px; font-weight: 700; letter-spacing: -.2px; margin-bottom: 12px; }
+main h2 { display: flex; align-items: center; gap: 10px; }
+main h2::before { content: ""; flex: none; width: 12px; height: 12px; border-radius: 50%; background: var(--red); box-shadow: 0 0 0 4px color-mix(in srgb, var(--green) 18%, transparent); }
 h3 { font-size: 16px; font-weight: 650; }
 .lede, .hint, .note, .sub { color: var(--ink2); font-size: 14px; }
 .lede { margin: -6px 0 14px; max-width: 70ch; }
@@ -77,10 +91,7 @@ h3 { font-size: 16px; font-weight: 650; }
 .chips::-webkit-scrollbar { display: none; }
 .chip, .seg button, .more { border: 1px solid var(--axis); background: var(--surface); border-radius: 999px; padding: 6px 13px; font-size: 14px; cursor: pointer; white-space: nowrap; color: var(--ink2); }
 .chip:hover, .seg button:hover, .more:hover { background: var(--wash); color: var(--ink); }
-.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--navy1); border-color: var(--navy1); color: #fff; font-weight: 600; }
-@media (prefers-color-scheme: dark) {
-  .chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--copper); border-color: var(--copper); color: #1b1108; }
-}
+.chip[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--green-press); border-color: var(--green-press); color: #fff; font-weight: 600; }
 .seg { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
 .seg.small button { padding: 4px 11px; font-size: 13px; }
 .more { display: block; margin: 12px auto 0; }
@@ -154,7 +165,7 @@ tr.cat-row td { background: var(--wash); font-size: 12px; font-weight: 600; colo
 .cd span { color: var(--ink2); font-size: 13px; }
 
 /* forecast */
-.lead-card { border-left: 4px solid var(--copper); }
+.lead-card { border-left: 4px solid var(--red); }
 .lead { font-size: clamp(20px, 3.4vw, 28px); font-weight: 700; line-height: 1.25; letter-spacing: -.2px; }
 .mini-tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
 .mini { background: var(--wash); border-radius: 10px; padding: 10px; text-align: center; }
@@ -163,7 +174,7 @@ tr.cat-row td { background: var(--wash); font-size: 12px; font-weight: 600; colo
 
 /* data tables */
 details.data { margin-top: 10px; font-size: 14px; }
-details.data summary { cursor: pointer; color: var(--copper-ink); width: fit-content; }
+details.data summary { cursor: pointer; color: var(--green-ink); width: fit-content; }
 .table-scroll { max-height: 260px; overflow: auto; margin-top: 8px; border: 1px solid var(--grid); border-radius: 10px; }
 .table-scroll table { font-size: 13px; }
 .table-scroll th { position: sticky; top: 0; background: var(--surface); }
@@ -194,10 +205,13 @@ dialog::backdrop { background: rgba(10, 23, 38, .55); }
 .tip .tip-r b { font-weight: 650; font-variant-numeric: tabular-nums; }
 .tip .tip-r span { color: var(--ink2); }
 
-footer { margin-top: 40px; padding: 22px 0 34px; border-top: 1px solid var(--border); color: var(--ink2); font-size: 13px; }
+footer { margin-top: 44px; padding: 24px 0 36px; background: var(--green-deep); color: var(--on-hero2); font-size: 13px; border-top: 4px solid var(--red); }
+.foot-brand { display: flex; align-items: center; gap: 10px; color: #fff; font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+.foot-brand svg { border-radius: 3px; box-shadow: 0 0 0 1px rgba(255, 255, 255, .35); }
 footer p + p { margin-top: 4px; }
 
 @media (max-width: 760px) {
+  .sun { width: 200px; height: 200px; right: -60px; top: -96px; }
   .tiles { grid-template-columns: 1fr 1fr; }
   .two { grid-template-columns: 1fr; }
   .two .card { margin-bottom: 14px; }

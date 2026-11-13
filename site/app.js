@@ -51,6 +51,8 @@
       fc_cov: "In testing, this item's range held {p}% of the time.",
       fc_none: 'Not enough history for a forecast yet.', date: 'Date', low: 'Lowest',
       high: 'Highest', load_fail: 'Could not load the data. Please refresh.',
+      a_lang: 'Language', a_sections: 'Sections', a_category: 'Category', a_festival: 'Festival',
+      a_close: 'Close', a_period: 'Period',
     },
     bn: {
       skip: 'দামের তালিকায় যান', headline: 'ঢাকার বাজারদর, এক নজরে',
@@ -84,7 +86,7 @@
       cheaper: 'স্বাভাবিকের চেয়ে কম দাম', fest_tip: '{y} বছরের মধ্যে {a} বছর স্বাভাবিকের বেশি',
       fc_title: 'পূর্বাভাস কতটা নির্ভরযোগ্য?',
       fc_lead: 'আগামী মাসের দামের সেরা অনুমান: আজকের দামই।',
-      fc_sub: '{n}টি অতীত পূর্বাভাসে ৬টি মডেল পরীক্ষা করা হয়েছে। কোনোটিই এর চেয়ে ভালো করেনি—তাই আমরা একটি সৎ সীমা দেখাই।',
+      fc_sub: '{n}টি অতীত পূর্বাভাসে ৬টি মডেল পরীক্ষা করা হয়েছে। কোনোটিই এর চেয়ে ভালো করেনি—তাই আমরা দামের একটি বাস্তবসম্মত সম্ভাব্য সীমা দেখাই।',
       fc_models_title: '“দাম অপরিবর্তিত” ধরার তুলনায় পূর্বাভাসের ভুল, ৪ সপ্তাহ পরে',
       fc_range_title: '৮০% সীমা কতবার ঠিক ছিল',
       fc_typical: 'চার সপ্তাহে একটি পণ্যের দাম সাধারণত {p}% বদলায়।', wk: '{h} সপ্তাহ',
@@ -100,6 +102,8 @@
       fc_cov: 'পরীক্ষায় এই পণ্যের সীমা {p}% ক্ষেত্রে ঠিক ছিল।',
       fc_none: 'পূর্বাভাসের জন্য এখনো যথেষ্ট তথ্য নেই।', date: 'তারিখ', low: 'সর্বনিম্ন',
       high: 'সর্বোচ্চ', load_fail: 'তথ্য লোড করা যায়নি। পাতাটি আবার খুলুন।',
+      a_lang: 'ভাষা', a_sections: 'অংশসমূহ', a_category: 'শ্রেণি', a_festival: 'উৎসব',
+      a_close: 'বন্ধ করুন', a_period: 'সময়কাল',
     },
   };
 
@@ -436,7 +440,7 @@
     };
     const last = app.basket.all[app.basket.all.length - 1];
     tile(t('tile_basket'), pct(last - 100, 0), t('tile_basket_sub', { v: num(last, 0) }),
-      sparkline(app.basket.all, '#c9c8c4', '#e0a06a', 200, 26));
+      sparkline(app.basket.all, 'rgba(255,255,255,.75)', '#ffffff', 200, 26));
     const moved = app.items.map((i) => i.chg.m1).filter((v) => v != null);
     const up = moved.filter((v) => v > 0.05).length, down = moved.filter((v) => v < -0.05).length;
     tile(t('tile_month'), num(up), t('tile_month_sub', { d: num(down), f: num(moved.length - up - down) }));
@@ -464,9 +468,9 @@
 
   function renderTable() {
     const body = $('#price-body');
-    const q = state.q.trim().toLowerCase();
+    const q = state.q.normalize('NFC').trim().toLowerCase();
     let rows = state.app.items.filter((i) => (state.cat === 'all' || i.cat === state.cat)
-      && (!q || i.en.toLowerCase().includes(q) || i.bn.includes(q)));
+      && (!q || i.en.toLowerCase().includes(q) || i.bn.normalize('NFC').includes(q)));
     // unfiltered view starts with the 20-item core basket; any filter shows everything
     const collapsible = state.cat === 'all' && !q;
     const total = rows.length;
@@ -731,6 +735,7 @@
     document.documentElement.lang = state.lang;
     document.title = `PricePulse BD — ${t('headline')}`;
     for (const n of document.querySelectorAll('[data-i18n]')) n.textContent = t(n.dataset.i18n);
+    for (const n of document.querySelectorAll('[data-i18n-aria]')) n.setAttribute('aria-label', t(n.dataset.i18nAria));
     for (const n of document.querySelectorAll('[data-i18n-placeholder]')) {
       n.placeholder = t(n.dataset.i18nPlaceholder);
       n.setAttribute('aria-label', n.placeholder);
