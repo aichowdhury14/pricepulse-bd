@@ -4,7 +4,7 @@
 61 commodities since 2020, with spike detection, Ramadan/Eid effects and short-term
 forecasts with uncertainty bands.
 
-> Status: **Stage 2 of 4 complete — data pipeline + analysis.** Forecasting models and the website are next (see roadmap).
+> Status: **Stage 3 of 4 complete — data pipeline, analysis, forecasting.** The website is next (see roadmap).
 
 ## Key findings (May 2020 – Nov 2026)
 
@@ -18,7 +18,10 @@ forecasts with uncertainty bands.
 | 4 | Do festivals move prices? | Ramadan premium sits in **meat** (beef +4.9%, broiler +9.5%), not iftar staples (sugar flat, chickpea cheaper); broiler **falls ~10%** before Eid-ul-Adha | event study vs placebo dates, BH-FDR |
 | 5 | Which prices move together? | Families: rice grades, edible oils, imported staples; imported onion does **not** lead local | clustered correlation, Granger tests |
 
-Full walk-through with caveats: [`notebooks/02_analysis.ipynb`](notebooks/02_analysis.ipynb).
+| 6 | Can next month's price be forecast? | **The level, no; the uncertainty, yes.** No model beat "price stays the same" over 39,652 out-of-sample forecasts. ML ranges are calibrated (80% coverage) and beat historical quantiles at every horizon (p ≤ 0.043) | rolling-origin backtest, Diebold–Mariano, conformal intervals |
+
+Walk-throughs with caveats: [`notebooks/02_analysis.ipynb`](notebooks/02_analysis.ipynb) ·
+[`notebooks/03_forecasting.ipynb`](notebooks/03_forecasting.ipynb) · [`MODEL_CARD.md`](MODEL_CARD.md)
 
 <p>
 <img src="reports/figures/07_festival_effects.png" width="49%">
@@ -107,13 +110,48 @@ python notebooks/build_02_analysis.py    # regenerate + execute the notebook
 ```
 
 Festival dates (`data/reference/festivals.csv`) are Bangladesh's moon-sighting dates,
-which often differ by a day from Saudi Arabia's.
+which often differ by a day from Saudi Arabia's. 2027 dates are astronomical
+projections (±1 day), used only as forecast features.
+
+## Forecasting
+
+![No model beats the naive forecast](reports/figures/09_point_skill.png)
+
+Six models were compared on 1–4 week horizons with a rolling-origin backtest
+(Feb 2023 – Nov 2026, 57 commodities). **None beat "the price stays where it is"** —
+retail prices here don't move in 63% of weeks, and when they do the change is
+unpredictable from history. Machine learning earns its place on the *range* instead:
+
+| 80% range method | Coverage, 1 → 4 weeks | Verdict |
+|---|---|---|
+| Item's own past changes | 85.5 → 81.7% | too wide early |
+| ML quantiles, raw | 80.1 → 74.5% | overconfident |
+| **ML + conformal correction (shipped)** | **79.6 → 80.6%** | calibrated, best interval score |
+
+So the product ships **today's price + an ML-built 80% range**, and publishes each
+item's own backtest coverage beside it. Shipping rules were fixed in code before the
+results were read; a look-ahead test guards every feature.
+
+```
+forecast/
+  panel.py      weekly (Thursday) panel, 25 features known at the forecast day
+  models.py     naive, drift, seasonal naive, ETS, pooled gradient boosting (mean/median/quantile)
+  backtest.py   rolling origin, Diebold-Mariano, interval score, conformal calibration
+  run.py        backtest -> selection rules -> outputs/forecasts.json + figures
+tests/test_no_leakage.py   features must not change when the future is deleted
+```
+
+```bash
+python -m forecast.run                      # ~8 min
+python tests/test_no_leakage.py
+python notebooks/build_03_forecasting.py
+```
 
 ## Roadmap
 
 - [x] **1. Data** — scraper, parser, label mapping, validation, backfill, cleaning
 - [x] **2. Analysis** — EDA, spike detection, Ramadan/Eid event study, co-movement
-- [ ] **3. Models** — seasonal-naive / ETS / gradient boosting, rolling-origin backtests, prediction intervals
+- [x] **3. Models** — seasonal-naive / ETS / gradient boosting, rolling-origin backtests, prediction intervals
 - [ ] **4. Product** — static site on Vercel (Bangla/English), daily GitHub Action refresh, model card
 
 ---

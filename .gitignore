@@ -8,3 +8,6 @@ __pycache__/
 node_modules/
 .vercel/
 .DS_Store
+
+# large and fully re-creatable by `python -m forecast.run`
+outputs/backtest_predictions.parquet

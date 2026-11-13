@@ -1,0 +1,2855 @@
+{
+ "origin": "2026-11-12",
+ "interval_method": "gbm_cqr",
+ "point_model": {
+  "1": "naive",
+  "2": "naive",
+  "3": "naive",
+  "4": "naive"
+ },
+ "nominal_coverage": 0.8,
+ "evaluation": {
+  "period": [
+   "2023-02-02",
+   "2026-11-05"
+  ],
+  "forecasts_scored": 39652,
+  "commodities": 57,
+  "point": [
+   {
+    "h": 1,
+    "model": "naive",
+    "n": 10089,
+    "mae_pct": 1.532,
+    "rmse_pct": 4.333,
+    "rel_mae": 1.0,
+    "rel_rmse": 1.0,
+    "direction_hit": null,
+    "share_called": 0.0
+   },
+   {
+    "h": 1,
+    "model": "drift",
+    "n": 10089,
+    "mae_pct": 1.712,
+    "rmse_pct": 4.381,
+    "rel_mae": 1.117,
+    "rel_rmse": 1.011,
+    "direction_hit": 0.492,
+    "share_called": 0.168
+   },
+   {
+    "h": 1,
+    "model": "seasonal",
+    "n": 10089,
+    "mae_pct": 2.802,
+    "rmse_pct": 6.172,
+    "rel_mae": 1.829,
+    "rel_rmse": 1.424,
+    "direction_hit": 0.528,
+    "share_called": 0.34
+   },
+   {
+    "h": 1,
+    "model": "ses",
+    "n": 10089,
+    "mae_pct": 1.586,
+    "rmse_pct": 4.347,
+    "rel_mae": 1.035,
+    "rel_rmse": 1.003,
+    "direction_hit": 0.59,
+    "share_called": 0.059
+   },
+   {
+    "h": 1,
+    "model": "gbm",
+    "n": 10089,
+    "mae_pct": 1.97,
+    "rmse_pct": 4.487,
+    "rel_mae": 1.286,
+    "rel_rmse": 1.036,
+    "direction_hit": 0.56,
+    "share_called": 0.394
+   },
+   {
+    "h": 1,
+    "model": "gbm_median",
+    "n": 10089,
+    "mae_pct": 1.544,
+    "rmse_pct": 4.343,
+    "rel_mae": 1.008,
+    "rel_rmse": 1.002,
+    "direction_hit": 0.495,
+    "share_called": 0.015
+   },
+   {
+    "h": 2,
+    "model": "naive",
+    "n": 9970,
+    "mae_pct": 2.479,
+    "rmse_pct": 6.128,
+    "rel_mae": 1.0,
+    "rel_rmse": 1.0,
+    "direction_hit": null,
+    "share_called": 0.0
+   },
+   {
+    "h": 2,
+    "model": "drift",
+    "n": 9970,
+    "mae_pct": 2.771,
+    "rmse_pct": 6.262,
+    "rel_mae": 1.118,
+    "rel_rmse": 1.022,
+    "direction_hit": 0.484,
+    "share_called": 0.368
+   },
+   {
+    "h": 2,
+    "model": "seasonal",
+    "n": 9970,
+    "mae_pct": 4.296,
+    "rmse_pct": 8.624,
+    "rel_mae": 1.733,
+    "rel_rmse": 1.407,
+    "direction_hit": 0.529,
+    "share_called": 0.472
+   },
+   {
+    "h": 2,
+    "model": "ses",
+    "n": 9970,
+    "mae_pct": 2.519,
+    "rmse_pct": 6.138,
+    "rel_mae": 1.016,
+    "rel_rmse": 1.002,
+    "direction_hit": 0.574,
+    "share_called": 0.059
+   },
+   {
+    "h": 2,
+    "model": "gbm",
+    "n": 9970,
+    "mae_pct": 3.148,
+    "rmse_pct": 6.335,
+    "rel_mae": 1.27,
+    "rel_rmse": 1.034,
+    "direction_hit": 0.54,
+    "share_called": 0.599
+   },
+   {
+    "h": 2,
+    "model": "gbm_median",
+    "n": 9970,
+    "mae_pct": 2.51,
+    "rmse_pct": 6.13,
+    "rel_mae": 1.012,
+    "rel_rmse": 1.0,
+    "direction_hit": 0.527,
+    "share_called": 0.073
+   },
+   {
+    "h": 3,
+    "model": "naive",
+    "n": 9854,
+    "mae_pct": 3.273,
+    "rmse_pct": 7.595,
+    "rel_mae": 1.0,
+    "rel_rmse": 1.0,
+    "direction_hit": null,
+    "share_called": 0.0
+   },
+   {
+    "h": 3,
+    "model": "drift",
+    "n": 9854,
+    "mae_pct": 3.668,
+    "rmse_pct": 7.83,
+    "rel_mae": 1.121,
+    "rel_rmse": 1.031,
+    "direction_hit": 0.49,
+    "share_called": 0.525
+   },
+   {
+    "h": 3,
+    "model": "seasonal",
+    "n": 9854,
+    "mae_pct": 5.457,
+    "rmse_pct": 10.48,
+    "rel_mae": 1.668,
+    "rel_rmse": 1.38,
+    "direction_hit": 0.538,
+    "share_called": 0.551
+   },
+   {
+    "h": 3,
+    "model": "ses",
+    "n": 9854,
+    "mae_pct": 3.3,
+    "rmse_pct": 7.596,
+    "rel_mae": 1.008,
+    "rel_rmse": 1.0,
+    "direction_hit": 0.584,
+    "share_called": 0.059
+   },
+   {
+    "h": 3,
+    "model": "gbm",
+    "n": 9854,
+    "mae_pct": 3.996,
+    "rmse_pct": 7.713,
+    "rel_mae": 1.221,
+    "rel_rmse": 1.016,
+    "direction_hit": 0.549,
+    "share_called": 0.713
+   },
+   {
+    "h": 3,
+    "model": "gbm_median",
+    "n": 9854,
+    "mae_pct": 3.342,
+    "rmse_pct": 7.603,
+    "rel_mae": 1.021,
+    "rel_rmse": 1.001,
+    "direction_hit": 0.536,
+    "share_called": 0.15
+   },
+   {
+    "h": 4,
+    "model": "naive",
+    "n": 9739,
+    "mae_pct": 3.877,
+    "rmse_pct": 8.67,
+    "rel_mae": 1.0,
+    "rel_rmse": 1.0,
+    "direction_hit": null,
+    "share_called": 0.0
+   },
+   {
+    "h": 4,
+    "model": "drift",
+    "n": 9739,
+    "mae_pct": 4.37,
+    "rmse_pct": 9.01,
+    "rel_mae": 1.127,
+    "rel_rmse": 1.039,
+    "direction_hit": 0.492,
+    "share_called": 0.622
+   },
+   {
+    "h": 4,
+    "model": "seasonal",
+    "n": 9739,
+    "mae_pct": 6.315,
+    "rmse_pct": 11.837,
+    "rel_mae": 1.629,
+    "rel_rmse": 1.365,
+    "direction_hit": 0.546,
+    "share_called": 0.606
+   },
+   {
+    "h": 4,
+    "model": "ses",
+    "n": 9739,
+    "mae_pct": 3.899,
+    "rmse_pct": 8.673,
+    "rel_mae": 1.006,
+    "rel_rmse": 1.0,
+    "direction_hit": 0.577,
+    "share_called": 0.059
+   },
+   {
+    "h": 4,
+    "model": "gbm",
+    "n": 9739,
+    "mae_pct": 4.788,
+    "rmse_pct": 8.904,
+    "rel_mae": 1.235,
+    "rel_rmse": 1.027,
+    "direction_hit": 0.559,
+    "share_called": 0.792
+   },
+   {
+    "h": 4,
+    "model": "gbm_median",
+    "n": 9739,
+    "mae_pct": 4.008,
+    "rmse_pct": 8.681,
+    "rel_mae": 1.034,
+    "rel_rmse": 1.001,
+    "direction_hit": 0.532,
+    "share_called": 0.262
+   }
+  ],
+  "intervals": [
+   {
+    "h": 1,
+    "method": "empirical",
+    "n": 10089,
+    "coverage": 0.855,
+    "mean_width_pct": 5.657,
+    "interval_score_pct": 11.857
+   },
+   {
+    "h": 1,
+    "method": "gbm_q",
+    "n": 10089,
+    "coverage": 0.801,
+    "mean_width_pct": 5.591,
+    "interval_score_pct": 11.621
+   },
+   {
+    "h": 1,
+    "method": "gbm_cqr",
+    "n": 10089,
+    "coverage": 0.796,
+    "mean_width_pct": 5.713,
+    "interval_score_pct": 11.615
+   },
+   {
+    "h": 1,
+    "method": "gbm_cqr_item",
+    "n": 10089,
+    "coverage": 0.792,
+    "mean_width_pct": 6.375,
+    "interval_score_pct": 11.845
+   },
+   {
+    "h": 2,
+    "method": "empirical",
+    "n": 9970,
+    "coverage": 0.834,
+    "mean_width_pct": 9.254,
+    "interval_score_pct": 17.518
+   },
+   {
+    "h": 2,
+    "method": "gbm_q",
+    "n": 9970,
+    "coverage": 0.783,
+    "mean_width_pct": 8.373,
+    "interval_score_pct": 17.022
+   },
+   {
+    "h": 2,
+    "method": "gbm_cqr",
+    "n": 9970,
+    "coverage": 0.808,
+    "mean_width_pct": 8.802,
+    "interval_score_pct": 17.029
+   },
+   {
+    "h": 2,
+    "method": "gbm_cqr_item",
+    "n": 9970,
+    "coverage": 0.8,
+    "mean_width_pct": 10.135,
+    "interval_score_pct": 17.604
+   },
+   {
+    "h": 3,
+    "method": "empirical",
+    "n": 9854,
+    "coverage": 0.82,
+    "mean_width_pct": 12.223,
+    "interval_score_pct": 22.001
+   },
+   {
+    "h": 3,
+    "method": "gbm_q",
+    "n": 9854,
+    "coverage": 0.763,
+    "mean_width_pct": 10.384,
+    "interval_score_pct": 21.399
+   },
+   {
+    "h": 3,
+    "method": "gbm_cqr",
+    "n": 9854,
+    "coverage": 0.801,
+    "mean_width_pct": 11.426,
+    "interval_score_pct": 21.353
+   },
+   {
+    "h": 3,
+    "method": "gbm_cqr_item",
+    "n": 9854,
+    "coverage": 0.792,
+    "mean_width_pct": 13.397,
+    "interval_score_pct": 22.294
+   },
+   {
+    "h": 4,
+    "method": "empirical",
+    "n": 9739,
+    "coverage": 0.817,
+    "mean_width_pct": 14.701,
+    "interval_score_pct": 25.387
+   },
+   {
+    "h": 4,
+    "method": "gbm_q",
+    "n": 9739,
+    "coverage": 0.745,
+    "mean_width_pct": 11.962,
+    "interval_score_pct": 24.849
+   },
+   {
+    "h": 4,
+    "method": "gbm_cqr",
+    "n": 9739,
+    "coverage": 0.806,
+    "mean_width_pct": 14.203,
+    "interval_score_pct": 24.609
+   },
+   {
+    "h": 4,
+    "method": "gbm_cqr_item",
+    "n": 9739,
+    "coverage": 0.788,
+    "mean_width_pct": 16.321,
+    "interval_score_pct": 25.991
+   }
+  ]
+ },
+ "items": [
+  {
+   "commodity_id": "anchor_dal",
+   "name_en": "Anchor dal",
+   "name_bn": "এ্যাংকর ডাল",
+   "unit": "kg",
+   "category": "Pulses",
+   "price_now": 67.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 67.5,
+     "hi": 67.5,
+     "lo_pct": 0.0,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.74
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 65.74,
+     "hi": 67.76,
+     "lo_pct": -2.61,
+     "hi_pct": 0.38,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 63.51,
+     "hi": 67.93,
+     "lo_pct": -5.92,
+     "hi_pct": 0.64,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 63.21,
+     "hi": 68.95,
+     "lo_pct": -6.36,
+     "hi_pct": 2.14,
+     "backtest_coverage": 0.76
+    }
+   ]
+  },
+  {
+   "commodity_id": "atta_loose",
+   "name_en": "Atta, loose",
+   "name_bn": "আটা সাদা (খোলা)",
+   "unit": "kg",
+   "category": "Flour",
+   "price_now": 49.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 48.28,
+     "hi": 49.66,
+     "lo_pct": -1.46,
+     "hi_pct": 1.36,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 47.78,
+     "hi": 50.47,
+     "lo_pct": -2.49,
+     "hi_pct": 3.0,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 47.44,
+     "hi": 51.03,
+     "lo_pct": -3.19,
+     "hi_pct": 4.15,
+     "backtest_coverage": 0.76
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 47.45,
+     "hi": 51.63,
+     "lo_pct": -3.16,
+     "hi_pct": 5.36,
+     "backtest_coverage": 0.74
+    }
+   ]
+  },
+  {
+   "commodity_id": "atta_pkt",
+   "name_en": "Atta, packet",
+   "name_bn": "আটা (প্যাকেট)",
+   "unit": "kg",
+   "category": "Flour",
+   "price_now": 67.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 67.41,
+     "hi": 67.78,
+     "lo_pct": -0.14,
+     "hi_pct": 0.41,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 66.83,
+     "hi": 69.05,
+     "lo_pct": -1.0,
+     "hi_pct": 2.29,
+     "backtest_coverage": 0.76
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 66.02,
+     "hi": 69.93,
+     "lo_pct": -2.19,
+     "hi_pct": 3.6,
+     "backtest_coverage": 0.72
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 65.54,
+     "hi": 71.05,
+     "lo_pct": -2.9,
+     "hi_pct": 5.25,
+     "backtest_coverage": 0.71
+    }
+   ]
+  },
+  {
+   "commodity_id": "bay_leaf",
+   "name_en": "Bay leaf",
+   "name_bn": "তেজপাতা",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 265.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 263.41,
+     "hi": 267.43,
+     "lo_pct": -0.6,
+     "hi_pct": 0.92,
+     "backtest_coverage": 0.88
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 258.5,
+     "hi": 273.94,
+     "lo_pct": -2.45,
+     "hi_pct": 3.37,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 249.32,
+     "hi": 279.08,
+     "lo_pct": -5.92,
+     "hi_pct": 5.31,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 247.84,
+     "hi": 281.4,
+     "lo_pct": -6.48,
+     "hi_pct": 6.19,
+     "backtest_coverage": 0.83
+    }
+   ]
+  },
+  {
+   "commodity_id": "beef",
+   "name_en": "Beef",
+   "name_bn": "গরু",
+   "unit": "kg",
+   "category": "Fish & meat",
+   "price_now": 825.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 824.78,
+     "hi": 828.72,
+     "lo_pct": -0.03,
+     "hi_pct": 0.45,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 824.0,
+     "hi": 830.77,
+     "lo_pct": -0.12,
+     "hi_pct": 0.7,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 823.22,
+     "hi": 829.45,
+     "lo_pct": -0.22,
+     "hi_pct": 0.54,
+     "backtest_coverage": 0.85
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 821.46,
+     "hi": 832.17,
+     "lo_pct": -0.43,
+     "hi_pct": 0.87,
+     "backtest_coverage": 0.88
+    }
+   ]
+  },
+  {
+   "commodity_id": "cardamom",
+   "name_en": "Cardamom (small)",
+   "name_bn": "এলাচ(ছোট)",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 5100.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 5099.39,
+     "hi": 5103.03,
+     "lo_pct": -0.01,
+     "hi_pct": 0.06,
+     "backtest_coverage": 0.85
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 5071.58,
+     "hi": 5119.57,
+     "lo_pct": -0.56,
+     "hi_pct": 0.38,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 5052.18,
+     "hi": 5135.48,
+     "lo_pct": -0.94,
+     "hi_pct": 0.7,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 5053.37,
+     "hi": 5168.74,
+     "lo_pct": -0.91,
+     "hi_pct": 1.35,
+     "backtest_coverage": 0.82
+    }
+   ]
+  },
+  {
+   "commodity_id": "chicken_broiler",
+   "name_en": "Chicken, broiler",
+   "name_bn": "মুরগী(ব্রয়লার)",
+   "unit": "kg",
+   "category": "Fish & meat",
+   "price_now": 185.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 180.85,
+     "hi": 190.34,
+     "lo_pct": -2.24,
+     "hi_pct": 2.89,
+     "backtest_coverage": 0.76
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 176.12,
+     "hi": 193.73,
+     "lo_pct": -4.8,
+     "hi_pct": 4.72,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 171.83,
+     "hi": 195.28,
+     "lo_pct": -7.12,
+     "hi_pct": 5.56,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 170.22,
+     "hi": 196.69,
+     "lo_pct": -7.99,
+     "hi_pct": 6.32,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "chicken_local",
+   "name_en": "Chicken, local (deshi)",
+   "name_bn": "মুরগী (দেশী)",
+   "unit": "kg",
+   "category": "Fish & meat",
+   "price_now": 675.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 654.53,
+     "hi": 675.0,
+     "lo_pct": -3.03,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 670.07,
+     "hi": 677.54,
+     "lo_pct": -0.73,
+     "hi_pct": 0.38,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 662.34,
+     "hi": 674.56,
+     "lo_pct": -1.87,
+     "hi_pct": -0.07,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 662.87,
+     "hi": 693.71,
+     "lo_pct": -1.8,
+     "hi_pct": 2.77,
+     "backtest_coverage": 0.82
+    }
+   ]
+  },
+  {
+   "commodity_id": "chickpea",
+   "name_en": "Chickpea (chola)",
+   "name_bn": "ছোলা (মানভেদে)",
+   "unit": "kg",
+   "category": "Pulses",
+   "price_now": 115.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 112.25,
+     "hi": 118.43,
+     "lo_pct": -2.4,
+     "hi_pct": 2.98,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 110.15,
+     "hi": 119.34,
+     "lo_pct": -4.22,
+     "hi_pct": 3.78,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 109.44,
+     "hi": 120.22,
+     "lo_pct": -4.84,
+     "hi_pct": 4.54,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 109.56,
+     "hi": 120.17,
+     "lo_pct": -4.73,
+     "hi_pct": 4.49,
+     "backtest_coverage": 0.73
+    }
+   ]
+  },
+  {
+   "commodity_id": "chili_dry_imported",
+   "name_en": "Dry chilli, imported",
+   "name_bn": "শুকনা মরিচ (আমদানি)",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 415.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 388.43,
+     "hi": 417.11,
+     "lo_pct": -6.4,
+     "hi_pct": 0.51,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 403.11,
+     "hi": 430.47,
+     "lo_pct": -2.86,
+     "hi_pct": 3.73,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 365.49,
+     "hi": 430.63,
+     "lo_pct": -11.93,
+     "hi_pct": 3.77,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 364.79,
+     "hi": 432.85,
+     "lo_pct": -12.1,
+     "hi_pct": 4.3,
+     "backtest_coverage": 0.8
+    }
+   ]
+  },
+  {
+   "commodity_id": "chili_dry_local",
+   "name_en": "Dry chilli, local",
+   "name_bn": "শুকনা মরিচ (দেশী)",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 350.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 348.37,
+     "hi": 351.01,
+     "lo_pct": -0.47,
+     "hi_pct": 0.29,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 343.93,
+     "hi": 363.09,
+     "lo_pct": -1.73,
+     "hi_pct": 3.74,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 324.02,
+     "hi": 371.57,
+     "lo_pct": -7.42,
+     "hi_pct": 6.16,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 329.12,
+     "hi": 366.0,
+     "lo_pct": -5.97,
+     "hi_pct": 4.57,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "cinnamon",
+   "name_en": "Cinnamon",
+   "name_bn": "দারুচিনি",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 540.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 533.25,
+     "hi": 545.54,
+     "lo_pct": -1.25,
+     "hi_pct": 1.03,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 530.86,
+     "hi": 549.13,
+     "lo_pct": -1.69,
+     "hi_pct": 1.69,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 526.69,
+     "hi": 553.95,
+     "lo_pct": -2.46,
+     "hi_pct": 2.58,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 525.5,
+     "hi": 553.52,
+     "lo_pct": -2.69,
+     "hi_pct": 2.5,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "clove",
+   "name_en": "Clove",
+   "name_bn": "লবঙ্গ",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 1525.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 1521.37,
+     "hi": 1527.99,
+     "lo_pct": -0.24,
+     "hi_pct": 0.2,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 1514.23,
+     "hi": 1541.03,
+     "lo_pct": -0.71,
+     "hi_pct": 1.05,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 1503.99,
+     "hi": 1559.48,
+     "lo_pct": -1.38,
+     "hi_pct": 2.26,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 1506.95,
+     "hi": 1585.92,
+     "lo_pct": -1.18,
+     "hi_pct": 3.99,
+     "backtest_coverage": 0.87
+    }
+   ]
+  },
+  {
+   "commodity_id": "coriander",
+   "name_en": "Coriander seed",
+   "name_bn": "ধনে",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 225.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 223.51,
+     "hi": 225.69,
+     "lo_pct": -0.66,
+     "hi_pct": 0.31,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 223.61,
+     "hi": 228.15,
+     "lo_pct": -0.62,
+     "hi_pct": 1.4,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 221.19,
+     "hi": 229.37,
+     "lo_pct": -1.69,
+     "hi_pct": 1.94,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 220.81,
+     "hi": 229.63,
+     "lo_pct": -1.86,
+     "hi_pct": 2.06,
+     "backtest_coverage": 0.83
+    }
+   ]
+  },
+  {
+   "commodity_id": "cumin",
+   "name_en": "Cumin",
+   "name_bn": "জিরা",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 600.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 597.57,
+     "hi": 600.83,
+     "lo_pct": -0.41,
+     "hi_pct": 0.14,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 590.24,
+     "hi": 603.56,
+     "lo_pct": -1.63,
+     "hi_pct": 0.59,
+     "backtest_coverage": 0.73
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 586.1,
+     "hi": 602.29,
+     "lo_pct": -2.32,
+     "hi_pct": 0.38,
+     "backtest_coverage": 0.7
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 582.72,
+     "hi": 606.17,
+     "lo_pct": -2.88,
+     "hi_pct": 1.03,
+     "backtest_coverage": 0.73
+    }
+   ]
+  },
+  {
+   "commodity_id": "dates",
+   "name_en": "Dates (khejur), regular",
+   "name_bn": "খেজুর(সাধারণ মানের)",
+   "unit": "kg",
+   "category": "Other groceries",
+   "price_now": 450.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 450.0,
+     "hi": 450.93,
+     "lo_pct": 0.0,
+     "hi_pct": 0.21,
+     "backtest_coverage": 0.69
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 443.38,
+     "hi": 459.71,
+     "lo_pct": -1.47,
+     "hi_pct": 2.16,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 424.06,
+     "hi": 460.8,
+     "lo_pct": -5.76,
+     "hi_pct": 2.4,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 424.01,
+     "hi": 481.8,
+     "lo_pct": -5.78,
+     "hi_pct": 7.07,
+     "backtest_coverage": 0.83
+    }
+   ]
+  },
+  {
+   "commodity_id": "eggs",
+   "name_en": "Eggs, farm",
+   "name_bn": "ডিম (ফার্ম)",
+   "unit": "hali (4 pcs)",
+   "category": "Eggs & dairy",
+   "price_now": 46.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 44.17,
+     "hi": 47.72,
+     "lo_pct": -3.98,
+     "hi_pct": 3.74,
+     "backtest_coverage": 0.76
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 43.2,
+     "hi": 48.58,
+     "lo_pct": -6.09,
+     "hi_pct": 5.61,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 41.17,
+     "hi": 49.04,
+     "lo_pct": -10.5,
+     "hi_pct": 6.61,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 40.63,
+     "hi": 49.34,
+     "lo_pct": -11.68,
+     "hi_pct": 7.27,
+     "backtest_coverage": 0.76
+    }
+   ]
+  },
+  {
+   "commodity_id": "garlic_imported",
+   "name_en": "Garlic, imported",
+   "name_bn": "রসুন (আমদানি)",
+   "unit": "kg",
+   "category": "Vegetables",
+   "price_now": 190.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 181.16,
+     "hi": 200.1,
+     "lo_pct": -4.65,
+     "hi_pct": 5.31,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 176.29,
+     "hi": 204.43,
+     "lo_pct": -7.22,
+     "hi_pct": 7.59,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 167.98,
+     "hi": 208.0,
+     "lo_pct": -11.59,
+     "hi_pct": 9.47,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 167.83,
+     "hi": 215.13,
+     "lo_pct": -11.67,
+     "hi_pct": 13.23,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "garlic_local",
+   "name_en": "Garlic, local",
+   "name_bn": "রসুন (দেশী)",
+   "unit": "kg",
+   "category": "Vegetables",
+   "price_now": 110.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 103.81,
+     "hi": 115.09,
+     "lo_pct": -5.63,
+     "hi_pct": 4.63,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 99.49,
+     "hi": 118.41,
+     "lo_pct": -9.55,
+     "hi_pct": 7.64,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 95.43,
+     "hi": 120.28,
+     "lo_pct": -13.25,
+     "hi_pct": 9.34,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 91.02,
+     "hi": 119.48,
+     "lo_pct": -17.26,
+     "hi_pct": 8.62,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "ginger_imported",
+   "name_en": "Ginger, imported",
+   "name_bn": "আদা (আমদানি)",
+   "unit": "kg",
+   "category": "Vegetables",
+   "price_now": 170.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 157.98,
+     "hi": 178.3,
+     "lo_pct": -7.07,
+     "hi_pct": 4.88,
+     "backtest_coverage": 0.73
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 149.98,
+     "hi": 179.14,
+     "lo_pct": -11.78,
+     "hi_pct": 5.37,
+     "backtest_coverage": 0.74
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 146.72,
+     "hi": 182.06,
+     "lo_pct": -13.69,
+     "hi_pct": 7.09,
+     "backtest_coverage": 0.74
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 146.97,
+     "hi": 187.7,
+     "lo_pct": -13.55,
+     "hi_pct": 10.41,
+     "backtest_coverage": 0.73
+    }
+   ]
+  },
+  {
+   "commodity_id": "ginger_local",
+   "name_en": "Ginger, local",
+   "name_bn": "আদা (দেশী)",
+   "unit": "kg",
+   "category": "Vegetables",
+   "price_now": 135.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 126.33,
+     "hi": 145.54,
+     "lo_pct": -6.42,
+     "hi_pct": 7.81,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 121.81,
+     "hi": 144.5,
+     "lo_pct": -9.77,
+     "hi_pct": 7.03,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 119.56,
+     "hi": 150.54,
+     "lo_pct": -11.44,
+     "hi_pct": 11.51,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 122.11,
+     "hi": 153.72,
+     "lo_pct": -9.55,
+     "hi_pct": 13.86,
+     "backtest_coverage": 0.77
+    }
+   ]
+  },
+  {
+   "commodity_id": "hilsa",
+   "name_en": "Hilsa (ilish)",
+   "name_bn": "ইলিশ",
+   "unit": "kg",
+   "category": "Fish & meat",
+   "price_now": 1350.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 1295.65,
+     "hi": 1383.66,
+     "lo_pct": -4.03,
+     "hi_pct": 2.49,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 1318.29,
+     "hi": 1515.22,
+     "lo_pct": -2.35,
+     "hi_pct": 12.24,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 1232.62,
+     "hi": 1495.18,
+     "lo_pct": -8.7,
+     "hi_pct": 10.75,
+     "backtest_coverage": 0.72
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 1255.51,
+     "hi": 1512.48,
+     "lo_pct": -7.0,
+     "hi_pct": 12.04,
+     "backtest_coverage": 0.77
+    }
+   ]
+  },
+  {
+   "commodity_id": "lentil_bold",
+   "name_en": "Lentil (masur), bold grain",
+   "name_bn": "মশুর ডাল (বড় দানা)",
+   "unit": "kg",
+   "category": "Pulses",
+   "price_now": 95.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 94.69,
+     "hi": 95.24,
+     "lo_pct": -0.33,
+     "hi_pct": 0.26,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 93.61,
+     "hi": 95.78,
+     "lo_pct": -1.46,
+     "hi_pct": 0.82,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 92.77,
+     "hi": 95.97,
+     "lo_pct": -2.34,
+     "hi_pct": 1.02,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 92.44,
+     "hi": 96.65,
+     "lo_pct": -2.7,
+     "hi_pct": 1.74,
+     "backtest_coverage": 0.82
+    }
+   ]
+  },
+  {
+   "commodity_id": "lentil_fine",
+   "name_en": "Lentil (masur), fine grain",
+   "name_bn": "মশুর ডাল (ছোট দানা)",
+   "unit": "kg",
+   "category": "Pulses",
+   "price_now": 155.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 150.58,
+     "hi": 156.34,
+     "lo_pct": -2.85,
+     "hi_pct": 0.86,
+     "backtest_coverage": 0.85
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 152.2,
+     "hi": 157.74,
+     "lo_pct": -1.8,
+     "hi_pct": 1.77,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 150.95,
+     "hi": 157.57,
+     "lo_pct": -2.62,
+     "hi_pct": 1.66,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 149.68,
+     "hi": 158.3,
+     "lo_pct": -3.43,
+     "hi_pct": 2.13,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "lentil_medium",
+   "name_en": "Lentil (masur), medium grain",
+   "name_bn": "মশুর ডাল (মাঝারী দানা)",
+   "unit": "kg",
+   "category": "Pulses",
+   "price_now": 117.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 115.36,
+     "hi": 117.81,
+     "lo_pct": -1.82,
+     "hi_pct": 0.26,
+     "backtest_coverage": 0.89
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 115.45,
+     "hi": 118.08,
+     "lo_pct": -1.74,
+     "hi_pct": 0.49,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 114.72,
+     "hi": 117.91,
+     "lo_pct": -2.36,
+     "hi_pct": 0.35,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 114.71,
+     "hi": 119.18,
+     "lo_pct": -2.37,
+     "hi_pct": 1.43,
+     "backtest_coverage": 0.83
+    }
+   ]
+  },
+  {
+   "commodity_id": "maida_loose",
+   "name_en": "Maida, loose",
+   "name_bn": "ময়দা (খোলা)",
+   "unit": "kg",
+   "category": "Flour",
+   "price_now": 67.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 66.86,
+     "hi": 68.51,
+     "lo_pct": -0.95,
+     "hi_pct": 1.5,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 66.18,
+     "hi": 69.27,
+     "lo_pct": -1.95,
+     "hi_pct": 2.63,
+     "backtest_coverage": 0.75
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 65.48,
+     "hi": 70.07,
+     "lo_pct": -2.99,
+     "hi_pct": 3.8,
+     "backtest_coverage": 0.74
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 65.51,
+     "hi": 70.53,
+     "lo_pct": -2.94,
+     "hi_pct": 4.5,
+     "backtest_coverage": 0.72
+    }
+   ]
+  },
+  {
+   "commodity_id": "maida_pkt",
+   "name_en": "Maida, packet",
+   "name_bn": "ময়দা (প্যাকেট)",
+   "unit": "kg",
+   "category": "Flour",
+   "price_now": 87.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 86.62,
+     "hi": 89.08,
+     "lo_pct": -1.0,
+     "hi_pct": 1.81,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 85.69,
+     "hi": 90.31,
+     "lo_pct": -2.07,
+     "hi_pct": 3.21,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 85.56,
+     "hi": 92.12,
+     "lo_pct": -2.21,
+     "hi_pct": 5.29,
+     "backtest_coverage": 0.76
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 84.76,
+     "hi": 91.13,
+     "lo_pct": -3.13,
+     "hi_pct": 4.14,
+     "backtest_coverage": 0.76
+    }
+   ]
+  },
+  {
+   "commodity_id": "milk_dano",
+   "name_en": "Milk powder, Dano",
+   "name_bn": "ডানো",
+   "unit": "kg",
+   "category": "Eggs & dairy",
+   "price_now": 900.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 900.0,
+     "hi": 900.22,
+     "lo_pct": 0.0,
+     "hi_pct": 0.02,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 892.02,
+     "hi": 911.14,
+     "lo_pct": -0.89,
+     "hi_pct": 1.24,
+     "backtest_coverage": 0.87
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 882.58,
+     "hi": 931.6,
+     "lo_pct": -1.94,
+     "hi_pct": 3.51,
+     "backtest_coverage": 0.9
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 871.78,
+     "hi": 936.31,
+     "lo_pct": -3.14,
+     "hi_pct": 4.03,
+     "backtest_coverage": 0.88
+    }
+   ]
+  },
+  {
+   "commodity_id": "milk_diploma",
+   "name_en": "Milk powder, Diploma",
+   "name_bn": "ডিপ্লোমা (নিউজিল্যান্ড)",
+   "unit": "kg",
+   "category": "Eggs & dairy",
+   "price_now": 925.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 923.61,
+     "hi": 925.65,
+     "lo_pct": -0.15,
+     "hi_pct": 0.07,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 923.95,
+     "hi": 924.9,
+     "lo_pct": -0.11,
+     "hi_pct": -0.01,
+     "backtest_coverage": 0.86
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 922.7,
+     "hi": 925.39,
+     "lo_pct": -0.25,
+     "hi_pct": 0.04,
+     "backtest_coverage": 0.87
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 921.5,
+     "hi": 925.57,
+     "lo_pct": -0.38,
+     "hi_pct": 0.06,
+     "backtest_coverage": 0.89
+    }
+   ]
+  },
+  {
+   "commodity_id": "milk_fresh",
+   "name_en": "Milk powder, Fresh",
+   "name_bn": "ফ্রেশ",
+   "unit": "kg",
+   "category": "Eggs & dairy",
+   "price_now": 910.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 910.0,
+     "hi": 910.22,
+     "lo_pct": 0.0,
+     "hi_pct": 0.02,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 909.24,
+     "hi": 912.03,
+     "lo_pct": -0.08,
+     "hi_pct": 0.22,
+     "backtest_coverage": 0.87
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 907.77,
+     "hi": 914.81,
+     "lo_pct": -0.24,
+     "hi_pct": 0.53,
+     "backtest_coverage": 0.88
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 909.29,
+     "hi": 930.35,
+     "lo_pct": -0.08,
+     "hi_pct": 2.24,
+     "backtest_coverage": 0.9
+    }
+   ]
+  },
+  {
+   "commodity_id": "milk_marks",
+   "name_en": "Milk powder, Marks",
+   "name_bn": "মার্কস",
+   "unit": "kg",
+   "category": "Eggs & dairy",
+   "price_now": 915.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 915.0,
+     "hi": 915.41,
+     "lo_pct": 0.0,
+     "hi_pct": 0.04,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 914.96,
+     "hi": 921.49,
+     "lo_pct": 0.0,
+     "hi_pct": 0.71,
+     "backtest_coverage": 0.87
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 911.35,
+     "hi": 920.91,
+     "lo_pct": -0.4,
+     "hi_pct": 0.65,
+     "backtest_coverage": 0.88
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 913.52,
+     "hi": 937.03,
+     "lo_pct": -0.16,
+     "hi_pct": 2.41,
+     "backtest_coverage": 0.87
+    }
+   ]
+  },
+  {
+   "commodity_id": "mung",
+   "name_en": "Mung dal",
+   "name_bn": "মুগ ডাল (মানভেদে)",
+   "unit": "kg",
+   "category": "Pulses",
+   "price_now": 150.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 149.94,
+     "hi": 150.0,
+     "lo_pct": -0.04,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 149.07,
+     "hi": 150.29,
+     "lo_pct": -0.62,
+     "hi_pct": 0.19,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 148.29,
+     "hi": 152.11,
+     "lo_pct": -1.14,
+     "hi_pct": 1.41,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 147.11,
+     "hi": 153.58,
+     "lo_pct": -1.93,
+     "hi_pct": 2.39,
+     "backtest_coverage": 0.78
+    }
+   ]
+  },
+  {
+   "commodity_id": "mutton",
+   "name_en": "Goat meat (khasi)",
+   "name_bn": "খাসী",
+   "unit": "kg",
+   "category": "Fish & meat",
+   "price_now": 1275.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 1275.0,
+     "hi": 1281.38,
+     "lo_pct": 0.0,
+     "hi_pct": 0.5,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 1274.83,
+     "hi": 1289.63,
+     "lo_pct": -0.01,
+     "hi_pct": 1.15,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 1260.66,
+     "hi": 1295.15,
+     "lo_pct": -1.13,
+     "hi_pct": 1.58,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 1260.32,
+     "hi": 1290.27,
+     "lo_pct": -1.15,
+     "hi_pct": 1.2,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "onion_local",
+   "name_en": "Onion, local",
+   "name_bn": "পিঁয়াজ (দেশী)",
+   "unit": "kg",
+   "category": "Vegetables",
+   "price_now": 47.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 43.64,
+     "hi": 54.56,
+     "lo_pct": -8.12,
+     "hi_pct": 14.86,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 39.97,
+     "hi": 55.56,
+     "lo_pct": -15.86,
+     "hi_pct": 16.97,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 40.27,
+     "hi": 59.01,
+     "lo_pct": -15.23,
+     "hi_pct": 24.23,
+     "backtest_coverage": 0.72
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 39.03,
+     "hi": 60.75,
+     "lo_pct": -17.82,
+     "hi_pct": 27.9,
+     "backtest_coverage": 0.72
+    }
+   ]
+  },
+  {
+   "commodity_id": "palm_loose",
+   "name_en": "Palm oil, loose",
+   "name_bn": "পাম অয়েল (লুজ)",
+   "unit": "litre",
+   "category": "Edible oil",
+   "price_now": 171.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 170.68,
+     "hi": 172.24,
+     "lo_pct": -0.48,
+     "hi_pct": 0.43,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 169.79,
+     "hi": 174.01,
+     "lo_pct": -0.99,
+     "hi_pct": 1.47,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 169.35,
+     "hi": 175.07,
+     "lo_pct": -1.25,
+     "hi_pct": 2.08,
+     "backtest_coverage": 0.89
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 170.3,
+     "hi": 174.96,
+     "lo_pct": -0.7,
+     "hi_pct": 2.02,
+     "backtest_coverage": 0.89
+    }
+   ]
+  },
+  {
+   "commodity_id": "palm_super_loose",
+   "name_en": "Super palm oil, loose",
+   "name_bn": "সুপার পাম অয়েল (লুজ)",
+   "unit": "litre",
+   "category": "Edible oil",
+   "price_now": 178.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 177.21,
+     "hi": 179.32,
+     "lo_pct": -0.45,
+     "hi_pct": 0.74,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 176.87,
+     "hi": 179.75,
+     "lo_pct": -0.63,
+     "hi_pct": 0.98,
+     "backtest_coverage": 0.86
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 176.22,
+     "hi": 180.81,
+     "lo_pct": -1.0,
+     "hi_pct": 1.58,
+     "backtest_coverage": 0.92
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 176.98,
+     "hi": 179.82,
+     "lo_pct": -0.57,
+     "hi_pct": 1.02,
+     "backtest_coverage": 0.95
+    }
+   ]
+  },
+  {
+   "commodity_id": "paper",
+   "name_en": "Writing paper, white",
+   "name_bn": "লেখার কাগজ(সাদা)",
+   "unit": "dista (24 sheets)",
+   "category": "Non-food",
+   "price_now": 37.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 37.0,
+     "hi": 37.0,
+     "lo_pct": 0.0,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.76
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 36.99,
+     "hi": 37.0,
+     "lo_pct": -0.02,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 36.97,
+     "hi": 37.07,
+     "lo_pct": -0.07,
+     "hi_pct": 0.2,
+     "backtest_coverage": 0.96
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 36.97,
+     "hi": 37.02,
+     "lo_pct": -0.09,
+     "hi_pct": 0.06,
+     "backtest_coverage": 0.98
+    }
+   ]
+  },
+  {
+   "commodity_id": "potato",
+   "name_en": "Potato",
+   "name_bn": "আলু (নতুন/পুরাতন)",
+   "unit": "kg",
+   "category": "Vegetables",
+   "price_now": 27.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 23.62,
+     "hi": 28.78,
+     "lo_pct": -14.13,
+     "hi_pct": 4.67,
+     "backtest_coverage": 0.74
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 25.7,
+     "hi": 30.3,
+     "lo_pct": -6.56,
+     "hi_pct": 10.2,
+     "backtest_coverage": 0.73
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 19.0,
+     "hi": 31.17,
+     "lo_pct": -30.91,
+     "hi_pct": 13.33,
+     "backtest_coverage": 0.74
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 19.93,
+     "hi": 30.15,
+     "lo_pct": -27.53,
+     "hi_pct": 9.65,
+     "backtest_coverage": 0.73
+    }
+   ]
+  },
+  {
+   "commodity_id": "rice_coarse",
+   "name_en": "Rice, coarse (Swarna/China IRRI)",
+   "name_bn": "চাল (মোটা)/স্বর্ণা/চায়না ইরি",
+   "unit": "kg",
+   "category": "Rice",
+   "price_now": 54.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 53.01,
+     "hi": 55.04,
+     "lo_pct": -1.83,
+     "hi_pct": 1.92,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 52.77,
+     "hi": 55.6,
+     "lo_pct": -2.28,
+     "hi_pct": 2.96,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 52.28,
+     "hi": 55.43,
+     "lo_pct": -3.19,
+     "hi_pct": 2.65,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 52.87,
+     "hi": 55.52,
+     "lo_pct": -2.09,
+     "hi_pct": 2.82,
+     "backtest_coverage": 0.83
+    }
+   ]
+  },
+  {
+   "commodity_id": "rice_fine",
+   "name_en": "Rice, fine (Nazirshail/Miniket)",
+   "name_bn": "চাল সরু (নাজির/মিনিকেট)",
+   "unit": "kg",
+   "category": "Rice",
+   "price_now": 80.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 79.34,
+     "hi": 80.75,
+     "lo_pct": -0.82,
+     "hi_pct": 0.94,
+     "backtest_coverage": 0.87
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 78.83,
+     "hi": 81.58,
+     "lo_pct": -1.46,
+     "hi_pct": 1.97,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 78.15,
+     "hi": 82.04,
+     "lo_pct": -2.31,
+     "hi_pct": 2.55,
+     "backtest_coverage": 0.86
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 78.34,
+     "hi": 81.88,
+     "lo_pct": -2.07,
+     "hi_pct": 2.35,
+     "backtest_coverage": 0.9
+    }
+   ]
+  },
+  {
+   "commodity_id": "rice_medium",
+   "name_en": "Rice, medium (Pajam/BR-28)",
+   "name_bn": "চাল (মাঝারী)পাইজাম/আটাশ",
+   "unit": "kg",
+   "category": "Rice",
+   "price_now": 60.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 60.1,
+     "hi": 61.12,
+     "lo_pct": -0.66,
+     "hi_pct": 1.03,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 59.62,
+     "hi": 61.64,
+     "lo_pct": -1.45,
+     "hi_pct": 1.88,
+     "backtest_coverage": 0.77
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 59.42,
+     "hi": 61.86,
+     "lo_pct": -1.79,
+     "hi_pct": 2.25,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 59.22,
+     "hi": 61.89,
+     "lo_pct": -2.12,
+     "hi_pct": 2.3,
+     "backtest_coverage": 0.78
+    }
+   ]
+  },
+  {
+   "commodity_id": "ricebran_5l",
+   "name_en": "Rice bran oil, bottle 5 L",
+   "name_bn": "রাইস ব্রান তেল (বোতল)",
+   "unit": "5 L bottle",
+   "category": "Edible oil",
+   "price_now": 1117.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 1116.83,
+     "hi": 1117.5,
+     "lo_pct": -0.06,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.48
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 1117.37,
+     "hi": 1125.15,
+     "lo_pct": -0.01,
+     "hi_pct": 0.68,
+     "backtest_coverage": 0.89
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 1116.07,
+     "hi": 1132.42,
+     "lo_pct": -0.13,
+     "hi_pct": 1.34,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 1116.78,
+     "hi": 1135.45,
+     "lo_pct": -0.06,
+     "hi_pct": 1.61,
+     "backtest_coverage": 0.77
+    }
+   ]
+  },
+  {
+   "commodity_id": "rod_40",
+   "name_en": "MS rod, 40 grade",
+   "name_bn": "এম,এস রড( ৪০ গ্রেড)",
+   "unit": "metric ton",
+   "category": "Non-food",
+   "price_now": 87000.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 86583.6,
+     "hi": 87706.28,
+     "lo_pct": -0.48,
+     "hi_pct": 0.81,
+     "backtest_coverage": 0.85
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 85716.63,
+     "hi": 88670.64,
+     "lo_pct": -1.48,
+     "hi_pct": 1.92,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 83920.07,
+     "hi": 89968.8,
+     "lo_pct": -3.54,
+     "hi_pct": 3.41,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 83222.35,
+     "hi": 91581.3,
+     "lo_pct": -4.34,
+     "hi_pct": 5.27,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "rod_60",
+   "name_en": "MS rod, 60 grade",
+   "name_bn": "এম,এস রড (৬০ গ্রেড)",
+   "unit": "metric ton",
+   "category": "Non-food",
+   "price_now": 91250.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 90629.63,
+     "hi": 91975.02,
+     "lo_pct": -0.68,
+     "hi_pct": 0.79,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 90110.03,
+     "hi": 92824.43,
+     "lo_pct": -1.25,
+     "hi_pct": 1.73,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 89416.66,
+     "hi": 94132.88,
+     "lo_pct": -2.01,
+     "hi_pct": 3.16,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 89496.68,
+     "hi": 94602.59,
+     "lo_pct": -1.92,
+     "hi_pct": 3.67,
+     "backtest_coverage": 0.83
+    }
+   ]
+  },
+  {
+   "commodity_id": "rui",
+   "name_en": "Rui fish",
+   "name_bn": "রুই",
+   "unit": "kg",
+   "category": "Fish & meat",
+   "price_now": 375.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 375.0,
+     "hi": 375.0,
+     "lo_pct": 0.0,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.71
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 374.31,
+     "hi": 375.35,
+     "lo_pct": -0.18,
+     "hi_pct": 0.09,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 373.94,
+     "hi": 375.52,
+     "lo_pct": -0.28,
+     "hi_pct": 0.14,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 373.74,
+     "hi": 376.99,
+     "lo_pct": -0.34,
+     "hi_pct": 0.53,
+     "backtest_coverage": 0.78
+    }
+   ]
+  },
+  {
+   "commodity_id": "salt",
+   "name_en": "Salt, iodized, packet",
+   "name_bn": "লবণ(প্যাঃ)আয়োডিনযুক্ত",
+   "unit": "kg",
+   "category": "Other groceries",
+   "price_now": 41.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 41.0,
+     "hi": 41.0,
+     "lo_pct": 0.0,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.73
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 41.0,
+     "hi": 41.0,
+     "lo_pct": 0.0,
+     "hi_pct": 0.01,
+     "backtest_coverage": 0.87
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 40.95,
+     "hi": 41.04,
+     "lo_pct": -0.12,
+     "hi_pct": 0.09,
+     "backtest_coverage": 0.92
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 40.93,
+     "hi": 41.04,
+     "lo_pct": -0.18,
+     "hi_pct": 0.11,
+     "backtest_coverage": 0.91
+    }
+   ]
+  },
+  {
+   "commodity_id": "soybean_1l",
+   "name_en": "Soybean oil, bottle 1 L",
+   "name_bn": "সয়াবিন তেল (বোতল)",
+   "unit": "1 L bottle",
+   "category": "Edible oil",
+   "price_now": 204.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 204.0,
+     "hi": 204.77,
+     "lo_pct": 0.0,
+     "hi_pct": 0.38,
+     "backtest_coverage": 0.85
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 203.7,
+     "hi": 206.53,
+     "lo_pct": -0.15,
+     "hi_pct": 1.24,
+     "backtest_coverage": 0.85
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 202.78,
+     "hi": 208.71,
+     "lo_pct": -0.6,
+     "hi_pct": 2.31,
+     "backtest_coverage": 0.86
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 202.96,
+     "hi": 208.27,
+     "lo_pct": -0.51,
+     "hi_pct": 2.09,
+     "backtest_coverage": 0.84
+    }
+   ]
+  },
+  {
+   "commodity_id": "soybean_2l",
+   "name_en": "Soybean oil, bottle 2 L",
+   "name_bn": "সয়াবিন তেল (বোতল)",
+   "unit": "2 L bottle",
+   "category": "Edible oil",
+   "price_now": 410.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 409.88,
+     "hi": 412.36,
+     "lo_pct": -0.03,
+     "hi_pct": 0.58,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 410.05,
+     "hi": 415.5,
+     "lo_pct": 0.01,
+     "hi_pct": 1.34,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 409.58,
+     "hi": 418.66,
+     "lo_pct": -0.1,
+     "hi_pct": 2.11,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 410.03,
+     "hi": 421.07,
+     "lo_pct": 0.01,
+     "hi_pct": 2.7,
+     "backtest_coverage": 0.79
+    }
+   ]
+  },
+  {
+   "commodity_id": "soybean_5l",
+   "name_en": "Soybean oil, bottle 5 L",
+   "name_bn": "সয়াবিন তেল (বোতল)",
+   "unit": "5 L bottle",
+   "category": "Edible oil",
+   "price_now": 1000.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 999.39,
+     "hi": 1005.21,
+     "lo_pct": -0.06,
+     "hi_pct": 0.52,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 998.72,
+     "hi": 1013.56,
+     "lo_pct": -0.13,
+     "hi_pct": 1.36,
+     "backtest_coverage": 0.79
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 995.91,
+     "hi": 1023.88,
+     "lo_pct": -0.41,
+     "hi_pct": 2.39,
+     "backtest_coverage": 0.78
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 994.61,
+     "hi": 1029.35,
+     "lo_pct": -0.54,
+     "hi_pct": 2.94,
+     "backtest_coverage": 0.81
+    }
+   ]
+  },
+  {
+   "commodity_id": "soybean_loose",
+   "name_en": "Soybean oil, loose",
+   "name_bn": "সয়াবিন তেল (লুজ)",
+   "unit": "litre",
+   "category": "Edible oil",
+   "price_now": 194.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 194.12,
+     "hi": 195.43,
+     "lo_pct": -0.19,
+     "hi_pct": 0.48,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 192.97,
+     "hi": 196.63,
+     "lo_pct": -0.79,
+     "hi_pct": 1.09,
+     "backtest_coverage": 0.83
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 192.78,
+     "hi": 198.23,
+     "lo_pct": -0.89,
+     "hi_pct": 1.92,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 193.2,
+     "hi": 198.57,
+     "lo_pct": -0.67,
+     "hi_pct": 2.09,
+     "backtest_coverage": 0.78
+    }
+   ]
+  },
+  {
+   "commodity_id": "sugar",
+   "name_en": "Sugar",
+   "name_bn": "চিনি",
+   "unit": "kg",
+   "category": "Other groceries",
+   "price_now": 112.5,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 111.02,
+     "hi": 114.48,
+     "lo_pct": -1.31,
+     "hi_pct": 1.76,
+     "backtest_coverage": 0.76
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 110.0,
+     "hi": 114.88,
+     "lo_pct": -2.22,
+     "hi_pct": 2.12,
+     "backtest_coverage": 0.74
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 109.43,
+     "hi": 116.1,
+     "lo_pct": -2.73,
+     "hi_pct": 3.2,
+     "backtest_coverage": 0.7
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 109.18,
+     "hi": 116.31,
+     "lo_pct": -2.95,
+     "hi_pct": 3.39,
+     "backtest_coverage": 0.65
+    }
+   ]
+  },
+  {
+   "commodity_id": "turmeric_imported",
+   "name_en": "Turmeric, imported",
+   "name_bn": "হলুদ (আমদানি)",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 325.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 325.0,
+     "hi": 327.74,
+     "lo_pct": 0.0,
+     "hi_pct": 0.84,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 324.85,
+     "hi": 326.67,
+     "lo_pct": -0.05,
+     "hi_pct": 0.51,
+     "backtest_coverage": 0.82
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 321.0,
+     "hi": 330.62,
+     "lo_pct": -1.23,
+     "hi_pct": 1.73,
+     "backtest_coverage": 0.81
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 322.01,
+     "hi": 328.35,
+     "lo_pct": -0.92,
+     "hi_pct": 1.03,
+     "backtest_coverage": 0.78
+    }
+   ]
+  },
+  {
+   "commodity_id": "turmeric_local",
+   "name_en": "Turmeric, local",
+   "name_bn": "হলুদ (দেশী)",
+   "unit": "kg",
+   "category": "Spices",
+   "price_now": 335.0,
+   "horizons": [
+    {
+     "h": 1,
+     "target_date": "2026-11-19T00:00:00.000",
+     "lo": 334.91,
+     "hi": 335.34,
+     "lo_pct": -0.03,
+     "hi_pct": 0.1,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 2,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 334.88,
+     "hi": 336.36,
+     "lo_pct": -0.04,
+     "hi_pct": 0.41,
+     "backtest_coverage": 0.84
+    },
+    {
+     "h": 3,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 332.89,
+     "hi": 337.66,
+     "lo_pct": -0.63,
+     "hi_pct": 0.79,
+     "backtest_coverage": 0.8
+    },
+    {
+     "h": 4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 332.14,
+     "hi": 337.25,
+     "lo_pct": -0.85,
+     "hi_pct": 0.67,
+     "backtest_coverage": 0.81
+    }
+   ]
+  }
+ ]
+}
