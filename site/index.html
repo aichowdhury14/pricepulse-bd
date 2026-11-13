@@ -40,6 +40,7 @@
 <nav class="tabs" aria-label="Sections" data-i18n-aria="a_sections">
   <div class="wrap tabs-row">
     <a href="#prices" data-i18n="nav_prices">Prices</a>
+    <a href="#basket" data-i18n="nav_basket">My bazaar</a>
     <a href="#alerts" data-i18n="nav_alerts">Alerts</a>
     <a href="#trends" data-i18n="nav_trends">Trends</a>
     <a href="#festivals" data-i18n="nav_festivals">Festivals</a>
@@ -82,6 +83,38 @@
     <p class="hint" data-i18n="tap_hint">Tap an item for its history and 4-week range.</p>
   </section>
 
+  <section id="basket">
+    <h2 data-i18n="basket_h">Your monthly bazaar</h2>
+    <p class="lede" data-i18n="basket_lede">An example monthly basket for a family of four. Change the amounts to match your home.</p>
+    <div class="basket-grid">
+      <div class="card">
+        <table class="b-table">
+          <thead><tr>
+            <th scope="col" data-i18n="b_item">Item</th>
+            <th scope="col" class="num" data-i18n="b_qty">Amount</th>
+            <th scope="col" class="num" data-i18n="b_cost">Cost</th>
+            <th scope="col"><span class="sr" data-i18n="b_remove_col">Remove</span></th>
+          </tr></thead>
+          <tbody id="b-body"></tbody>
+        </table>
+        <p class="empty" id="b-empty" hidden data-i18n="b_empty">Add items to see your bill.</p>
+        <div class="b-actions">
+          <select id="b-add" aria-label="Add item" data-i18n-aria="b_add"></select>
+          <button type="button" class="more" id="b-reset" data-i18n="b_reset">Reset to example</button>
+        </div>
+      </div>
+      <div class="card" id="b-result">
+        <div class="b-tiles" id="b-tiles"></div>
+        <h3 data-i18n="b_share">Where the money goes</h3>
+        <div class="segbar" id="b-seg" role="img"></div>
+        <div class="legend" id="b-seg-legend"></div>
+        <h3 class="mt" data-i18n="b_drivers">What changed your bill since last year</h3>
+        <div class="lp" id="b-drivers"></div>
+        <p class="note" id="b-note"></p>
+      </div>
+    </div>
+  </section>
+
   <section id="alerts">
     <h2 data-i18n="alerts_title">Sudden price jumps</h2>
     <p class="lede" id="alerts-sub"></p>
@@ -99,6 +132,24 @@
       <details class="data"><summary data-i18n="show_data">Show data</summary><div class="table-scroll" id="basket-table"></div></details>
     </div>
     <div class="card">
+      <h3 data-i18n="cmp_title">Compare items</h3>
+      <p class="sub" data-i18n="cmp_sub">Price index, start of period = 100. Lines above 100 got more expensive.</p>
+      <div class="cmp-controls">
+        <select id="cmp-add" aria-label="Add item" data-i18n-aria="cmp_add"></select>
+        <div class="seg small" id="cmp-period" role="group" aria-label="Period" data-i18n-aria="a_period"></div>
+      </div>
+      <div class="legend" id="cmp-legend"></div>
+      <div class="chart" id="cmp-chart"></div>
+      <details class="data"><summary data-i18n="show_data">Show data</summary><div class="table-scroll" id="cmp-table"></div></details>
+    </div>
+    <div class="card">
+      <h3 data-i18n="heat_title">When prices move</h3>
+      <p class="sub" data-i18n="heat_sub">Month-on-month price change, core items. Tap a cell to open the item.</p>
+      <div class="heat-legend" id="heat-legend"></div>
+      <div class="heat-scroll"><div class="heat" id="heat"></div></div>
+      <details class="data"><summary data-i18n="show_data">Show data</summary><div class="table-scroll" id="heat-table"></div></details>
+    </div>
+    <div class="card">
       <h3 data-i18n="items_title">Change since 2020-21, by item</h3>
       <div class="legend" id="items-legend"></div>
       <div class="lp" id="items-chart"></div>
@@ -114,6 +165,12 @@
       <p class="sub" data-i18n="fest_sub">Extra price change in the two weeks before, compared with normal times</p>
       <div class="legend" id="fest-legend"></div>
       <div class="lp" id="fest-chart"></div>
+      <div class="path-box">
+        <h3 id="path-title"></h3>
+        <p class="sub" id="path-sub"></p>
+        <div class="legend" id="path-legend"></div>
+        <div class="chart" id="path-chart"></div>
+      </div>
       <p class="note" data-i18n="fest_note">Onion, garlic and potato fall mainly because recent Ramadans coincided with harvest season.</p>
     </div>
   </section>
@@ -156,17 +213,22 @@
       <h2 id="d-title"></h2>
       <p class="sub" id="d-unit"></p>
     </div>
-    <button type="button" class="close" id="d-close" aria-label="Close" data-i18n-aria="a_close">×</button>
+    <div class="d-btns">
+      <button type="button" class="share" id="d-share" data-i18n="share">Share</button>
+      <button type="button" class="close" id="d-close" aria-label="Close" data-i18n-aria="a_close">×</button>
+    </div>
   </div>
   <div class="d-stats" id="d-stats"></div>
   <div class="seg small" id="d-range" role="group" aria-label="Period" data-i18n-aria="a_period"></div>
   <div class="legend" id="d-legend"></div>
   <div class="chart tall" id="d-chart"></div>
   <div id="d-forecast"></div>
+  <div class="season-box" id="d-season"></div>
   <details class="data"><summary data-i18n="show_data">Show data</summary><div class="table-scroll" id="d-table"></div></details>
 </dialog>
 
 <div id="tip" class="tip" role="status" hidden></div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 <script src="app.js" defer></script>
 </body>
 </html>

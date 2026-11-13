@@ -53,6 +53,29 @@
       high: 'Highest', load_fail: 'Could not load the data. Please refresh.',
       a_lang: 'Language', a_sections: 'Sections', a_category: 'Category', a_festival: 'Festival',
       a_close: 'Close', a_period: 'Period',
+      nav_basket: 'My bazaar', basket_h: 'Your monthly bazaar',
+      basket_lede: 'An example monthly basket for a family of four. Change the amounts to match your home — your list is saved only on this device.',
+      b_item: 'Item', b_qty: 'Amount', b_cost: 'Cost', b_remove_col: 'Remove', b_add: '+ Add item',
+      b_reset: 'Reset to example', b_total: 'This month', b_vs_m: 'vs 1 month ago', b_vs_y: 'vs 1 year ago',
+      b_share: 'Where the money goes', b_drivers: 'What changed your bill since last year',
+      b_excluded: '{n} item(s) have no price from a year ago and are left out of that comparison.',
+      b_empty: 'Add items to see your bill.',
+      b_src: 'Prices: midpoint of TCB Dhaka retail quotes. Your local market may differ.',
+      remove: 'Remove {x}', less: 'Less {x}', more_of: 'More {x}', qty_of: 'Amount of {x}', year_ago: 'a year ago',
+      cmp_title: 'Compare items', cmp_add: '+ Add item (up to 4)', cmp_none: 'Add at least one item to compare.',
+      cmp_sub: 'Price index, start of period = 100. Lines above 100 got more expensive.',
+      p_base: 'Since 2020-21', p_3y: '3 years', p_1y: '1 year',
+      heat_title: 'When prices move', heat_cheaper: 'cheaper', heat_pricier: 'pricier', heat_tip: 'vs previous month',
+      heat_sub: 'Month-on-month price change, core items. Tap a cell to open the item.',
+      season_title: 'A typical year',
+      season_txt: 'Usually cheapest in {lo} and priciest in {hi} — about {amp}% apart ({n} years of data).',
+      season_flat: 'No clear seasonal pattern — prices swing only about {amp}% across the year.',
+      season_none: 'Not enough years of data yet to show a seasonal pattern.', vs_avg: 'vs yearly average',
+      share: 'Share', copied: 'Link copied',
+      path_title: 'Average price around {f}: {item}',
+      path_sub: 'Line = average of {n} years; shaded = lowest to highest year. Tap an item in the list above to switch.',
+      avg: 'Average', range_years: 'Range across years', day0: '{f} day', days_before: '{n} days before',
+      days_after: '{n} days after', d_short: 'd',
     },
     bn: {
       skip: 'দামের তালিকায় যান', headline: 'ঢাকার বাজারদর, এক নজরে',
@@ -104,12 +127,37 @@
       high: 'সর্বোচ্চ', load_fail: 'তথ্য লোড করা যায়নি। পাতাটি আবার খুলুন।',
       a_lang: 'ভাষা', a_sections: 'অংশসমূহ', a_category: 'শ্রেণি', a_festival: 'উৎসব',
       a_close: 'বন্ধ করুন', a_period: 'সময়কাল',
+      nav_basket: 'আমার বাজার', basket_h: 'আপনার মাসিক বাজার',
+      basket_lede: 'চার সদস্যের একটি পরিবারের উদাহরণ মাসিক বাজার। আপনার বাসার সঙ্গে মিলিয়ে পরিমাণ বদলান—তালিকাটি শুধু এই ডিভাইসে সংরক্ষিত থাকে।',
+      b_item: 'পণ্য', b_qty: 'পরিমাণ', b_cost: 'খরচ', b_remove_col: 'বাদ দিন', b_add: '+ পণ্য যোগ করুন',
+      b_reset: 'উদাহরণে ফিরে যান', b_total: 'এই মাসের খরচ', b_vs_m: '১ মাস আগের তুলনায়', b_vs_y: '১ বছর আগের তুলনায়',
+      b_share: 'টাকা কোথায় খরচ হয়', b_drivers: 'গত বছরের তুলনায় কোন পণ্যে খরচ বদলেছে',
+      b_excluded: '{n}টি পণ্যের এক বছর আগের দাম নেই, তাই ওই তুলনা থেকে বাদ রাখা হয়েছে।',
+      b_empty: 'খরচ দেখতে পণ্য যোগ করুন।',
+      b_src: 'দাম: টিসিবির ঢাকা খুচরা বাজারদরের মধ্যম মান। আপনার এলাকার বাজারে দাম ভিন্ন হতে পারে।',
+      remove: '{x} বাদ দিন', less: '{x} কমান', more_of: '{x} বাড়ান', qty_of: '{x}-এর পরিমাণ', year_ago: '১ বছর আগে',
+      cmp_title: 'পণ্যের তুলনা', cmp_add: '+ পণ্য যোগ করুন (সর্বোচ্চ ৪টি)', cmp_none: 'তুলনার জন্য অন্তত একটি পণ্য যোগ করুন।',
+      cmp_sub: 'মূল্যসূচক, সময়ের শুরু = ১০০। ১০০-র ওপরে থাকা রেখা মানে দাম বেড়েছে।',
+      p_base: '২০২০-২১ থেকে', p_3y: '৩ বছর', p_1y: '১ বছর',
+      heat_title: 'কখন দাম বদলায়', heat_cheaper: 'কমেছে', heat_pricier: 'বেড়েছে', heat_tip: 'আগের মাসের তুলনায়',
+      heat_sub: 'আগের মাসের তুলনায় দামের পরিবর্তন, মূল পণ্য। পণ্যটি খুলতে ঘরে চাপুন।',
+      season_title: 'সাধারণ একটি বছর',
+      season_txt: 'সাধারণত {lo} মাসে সবচেয়ে সস্তা আর {hi} মাসে সবচেয়ে দামি—পার্থক্য প্রায় {amp}% ({n} বছরের তথ্য)।',
+      season_flat: 'স্পষ্ট মৌসুমি ধারা নেই—বছরজুড়ে দাম ওঠানামা করে মাত্র প্রায় {amp}%।',
+      season_none: 'মৌসুমি ধারা দেখানোর মতো যথেষ্ট বছরের তথ্য এখনো নেই।', vs_avg: 'বার্ষিক গড়ের তুলনায়',
+      share: 'শেয়ার', copied: 'লিংক কপি হয়েছে',
+      path_title: '{f}-এর আগে-পরে গড় দাম: {item}',
+      path_sub: 'রেখা = {n} বছরের গড়; ছায়া = বছরভেদে সর্বনিম্ন থেকে সর্বোচ্চ। বদলাতে ওপরের তালিকার কোনো পণ্যে চাপুন।',
+      avg: 'গড়', range_years: 'বছরভেদে সীমা', day0: '{f}-এর দিন', days_before: '{n} দিন আগে',
+      days_after: '{n} দিন পরে', d_short: ' দিন',
     },
   };
 
   const state = {
     lang: 'en', app: null, cat: 'all', q: '', sort: 'cat', fest: 'ramadan_start', range: 'r1y',
     item: null, showAllItems: false, showAllAlerts: false, showAllPrices: false, series: new Map(),
+    basket: null, compare: ['rice_coarse', 'atta_loose', 'soybean_loose', 'onion_local'], cmpSlot: {},
+    cmpPeriod: 'base', festItem: null,
   };
   try {
     const saved = localStorage.getItem('pp-lang');
@@ -243,7 +291,7 @@
         root.append(tx);
       }
       root.append(svg('line', { class: 'axis', x1: m.l, x2: W - m.r, y1: m.t + ph, y2: m.t + ph }));
-      for (const k of timeTicks(t0, t1, Math.max(2, Math.floor(pw / 72)))) {
+      for (const k of (cfg.xTicks ? cfg.xTicks(t0, t1) : timeTicks(t0, t1, Math.max(2, Math.floor(pw / 72))))) {
         const tx = svg('text', { x: X(k.t), y: H - 7, 'text-anchor': 'middle' });
         tx.textContent = k.label;
         root.append(tx);
@@ -253,6 +301,12 @@
         const dn = a.pts.map((p) => `${X(p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`).reverse();
         root.append(svg('polygon', { points: up.concat(dn).join(' '), fill: a.color, 'fill-opacity': opacity }));
       };
+      for (const mk of cfg.markers || []) {
+        root.append(svg('line', { class: 'cross', x1: X(mk.x), x2: X(mk.x), y1: m.t, y2: m.t + ph }));
+        const tx = svg('text', { x: X(mk.x) + 5, y: m.t + 11 });
+        tx.textContent = mk.label;
+        root.append(tx);
+      }
       if (cfg.band) area(cfg.band, 0.14);
       if (cfg.cone) area(cfg.cone, 0.26);
       const ends = [];
@@ -305,7 +359,7 @@
         }
         const box = root.getBoundingClientRect();
         const info = cfg.tip ? cfg.tip(tv) : {
-          header: fmtDate(tv),
+          header: cfg.xFmt ? cfg.xFmt(tv) : fmtDate(tv),
           rows: cfg.lines.map((ln) => { const p = ln.pts.find((q) => q[0] === tv); return p && { color: ln.color, value: yFmt(p[1]), label: ln.label }; }).filter(Boolean),
         };
         showTip(box.left + (px / W) * box.width, box.top + m.t + 10, info.header, info.rows);
@@ -342,7 +396,7 @@
     const lo = Math.min(0, min), hi = Math.max(0, max);
     const pos = (v) => ((v - lo) / (hi - lo || 1)) * 100;
     for (const r of rows) {
-      const row = el('div', 'lp-row');
+      const row = el('div', 'lp-row' + (r.selected ? ' sel' : ''));
       row.tabIndex = 0;
       row.append(el('span', 'lp-label', r.label));
       const track = el('div', 'lp-track');
@@ -365,7 +419,15 @@
         row.addEventListener('pointerleave', hideTip);
         row.addEventListener('blur', hideTip);
       }
-      if (r.onClick) { row.style.cursor = 'pointer'; row.addEventListener('click', r.onClick); }
+      if (r.onClick) {
+        row.style.cursor = 'pointer';
+        row.setAttribute('role', 'button');
+        if (r.selected != null) row.setAttribute('aria-pressed', String(!!r.selected));
+        row.addEventListener('click', r.onClick);
+        row.addEventListener('keydown', (ev) => {
+          if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); r.onClick(); }
+        });
+      }
       host.append(row);
     }
   }
@@ -392,7 +454,7 @@
     host.replaceChildren(...entries.map(([cls, color, label]) => {
       const s = el('span');
       const k = el('i', cls);
-      if (cls === 'k-rect' || cls === 'k-dot') k.style.background = color; else k.style.borderColor = color;
+      if (cls === 'k-rect' || cls === 'k-dot' || cls === 'k-sq') k.style.background = color; else k.style.borderColor = color;
       if (cls === 'k-rect') k.style.opacity = 0.35;
       s.append(k, el('span', null, label));
       return s;
@@ -431,8 +493,9 @@
     $('#hero-sub').textContent = t('hero_sub', { date: fmtDate(utc(app.meta.data_through)), n: num(app.meta.items) });
     const tiles = $('#tiles');
     tiles.replaceChildren();
-    const tile = (label, value, sub, extra) => {
-      const d = el('div', 'tile');
+    const tile = (label, value, sub, extra, href) => {
+      const d = el(href ? 'a' : 'div', 'tile');
+      if (href) d.href = href;
       d.append(el('div', 't-label', label), el('div', 't-value', value));
       if (sub) d.append(typeof sub === 'string' ? el('div', 't-sub', sub) : sub);
       if (extra) d.append(extra);
@@ -440,17 +503,18 @@
     };
     const last = app.basket.all[app.basket.all.length - 1];
     tile(t('tile_basket'), pct(last - 100, 0), t('tile_basket_sub', { v: num(last, 0) }),
-      sparkline(app.basket.all, 'rgba(255,255,255,.75)', '#ffffff', 200, 26));
+      sparkline(app.basket.all, 'rgba(255,255,255,.75)', '#ffffff', 200, 26), '#trends');
     const moved = app.items.map((i) => i.chg.m1).filter((v) => v != null);
     const up = moved.filter((v) => v > 0.05).length, down = moved.filter((v) => v < -0.05).length;
-    tile(t('tile_month'), num(up), t('tile_month_sub', { d: num(down), f: num(moved.length - up - down) }));
+    tile(t('tile_month'), num(up), t('tile_month_sub', { d: num(down), f: num(moved.length - up - down) }), null, '#prices');
     const live = app.items.filter((i) => i.spike);
-    tile(t('tile_alert'), num(live.length), live.length ? live.map(name).join(', ') : t('tile_alert_none'));
+    tile(t('tile_alert'), num(live.length), live.length ? live.map(name).join(', ') : t('tile_alert_none'), null, '#alerts');
     const ram = app.festivals.next.find((f) => f.festival === 'ramadan_start');
     if (ram) {
       const days = Math.max(0, Math.ceil((utc(ram.date) - Date.now()) / 864e5));
       tile(t('tile_ramadan'), t('days', { n: num(days) }),
-        (ram.projected ? '~' : '') + fmtDate(utc(ram.date)) + (ram.projected ? ' · ' + t('projected') : ''));
+        (ram.projected ? '~' : '') + fmtDate(utc(ram.date)) + (ram.projected ? ' · ' + t('projected') : ''),
+        null, '#festivals');
     }
   }
 
@@ -596,13 +660,18 @@
     const all = f.effects.map((e) => e.pct);
     const rows = f.items.map((id) => f.effects.find((e) => e.id === id && e.festival === state.fest))
       .filter((e) => e && itemById(e.id));
+    const paths = (f.paths && f.paths[state.fest]) || {};
+    const pathItem = state.festItem && paths[state.festItem] ? state.festItem
+      : (rows.find((e) => e.sig && paths[e.id]) || rows.find((e) => paths[e.id]) || {}).id;
     lollipop($('#fest-chart'), rows.map((e) => {
       const c = css(e.pct >= 0 ? '--up' : '--down');
       return { label: name(itemById(e.id)), value: e.pct, text: pct(e.pct), color: c, hollow: !e.sig,
+        selected: e.id === pathItem, onClick: () => { state.festItem = e.id; renderFestivals(); },
         tip: { header: `${name(itemById(e.id))} · ${t(state.fest)}`,
           rows: [{ color: c, value: pct(e.pct), label: t(e.sig ? 'clear' : 'unclear') },
             { value: '', label: t('fest_tip', { a: num(e.above), y: num(e.years) }) }] } };
     }), { min: Math.min(...all), max: Math.max(...all) });
+    renderPath(pathItem);
   }
 
   function renderForecast() {
@@ -624,6 +693,401 @@
     }));
     const typ = fc.naive_mae.find((x) => x.h === 4);
     $('#fc-typical').textContent = typ ? t('fc_typical', { p: num(typ.pct, 1) }) : '';
+  }
+
+  // ------------------------------------------------------------------ helpers for the new views
+  const toastEl = $('#toast');
+  let toastTimer = null;
+  function toast(msg) {
+    toastEl.textContent = msg;
+    toastEl.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { toastEl.hidden = true; }, 2200);
+  }
+  function shareUrl(id) {
+    const q = new URLSearchParams({ item: id });
+    if (state.lang === 'bn') q.set('lang', 'bn');
+    return `${location.origin}${location.pathname}?${q}`;
+  }
+  function setUrlItem(id) {
+    try {
+      const q = new URLSearchParams(location.search);
+      if (id) q.set('item', id); else q.delete('item');
+      const qs = q.toString();
+      history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+    } catch { /* ignore */ }
+  }
+  const signedTaka = (d) => (d > 0.5 ? '+' : d < -0.5 ? '−' : '') + '৳' + price(Math.abs(Math.round(d)));
+  const monthName = (m, style = 'long') => fmtDate(Date.UTC(2021, m, 1), { month: style });
+  function mix(a, b, w) {
+    const p = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+    const A = p(a), B = p(b);
+    return '#' + A.map((v, i) => Math.round(v + (B[i] - v) * w).toString(16).padStart(2, '0')).join('');
+  }
+  function itemSelect(sel, placeholder, exclude, disabled) {
+    sel.replaceChildren();
+    const first = el('option', null, placeholder);
+    first.value = '';
+    sel.append(first);
+    for (const c of state.app.categories) {
+      const og = document.createElement('optgroup');
+      og.label = catName(c.id);
+      for (const it of state.app.items) {
+        if (it.cat !== c.id || exclude.includes(it.id)) continue;
+        const o = el('option', null, name(it));
+        o.value = it.id;
+        og.append(o);
+      }
+      if (og.children.length) sel.append(og);
+    }
+    sel.value = '';
+    sel.disabled = !!disabled;
+    sel.classList.add('add');
+  }
+
+  // ------------------------------------------------------------------ my bazaar
+  const BASKET_DEFAULT = [['rice_coarse', 30], ['atta_loose', 4], ['soybean_loose', 4], ['lentil_bold', 2],
+    ['potato', 6], ['onion_local', 3], ['eggs', 6], ['chicken_broiler', 3], ['sugar', 2], ['rui', 2]];
+  function loadBasket() {
+    try {
+      const saved = JSON.parse(localStorage.getItem('pp-basket'));
+      if (Array.isArray(saved)) return saved.filter((r) => Array.isArray(r) && itemById(r[0]) && r[1] >= 0);
+    } catch { /* storage unavailable or corrupt: fall back to the example */ }
+    return BASKET_DEFAULT.map((r) => [...r]).filter(([id]) => itemById(id));
+  }
+  function saveBasket() {
+    try { localStorage.setItem('pp-basket', JSON.stringify(state.basket)); } catch { /* ignore */ }
+  }
+  function renderBasket(rebuild) {
+    if (!state.basket) state.basket = loadBasket();
+    if (rebuild) {
+      const body = $('#b-body');
+      body.replaceChildren();
+      for (const row of state.basket) {
+        const it = itemById(row[0]);
+        const tr = el('tr');
+        const c1 = el('td');
+        const nb = el('button', 'i-name', name(it));
+        nb.type = 'button';
+        nb.style.cssText = 'background:none;border:0;padding:0;text-align:left;cursor:pointer';
+        nb.addEventListener('click', () => openDetail(it.id));
+        c1.append(nb, el('div', 'i-unit', `${taka(it.mid)} · ${t('per', { u: unit(it) })}`));
+        const c2 = el('td', 'num');
+        const box = el('span', 'qty');
+        const minus = el('button', null, '−');
+        const plus = el('button', null, '+');
+        const inp = el('input');
+        minus.type = 'button';
+        plus.type = 'button';
+        minus.setAttribute('aria-label', t('less', { x: name(it) }));
+        plus.setAttribute('aria-label', t('more_of', { x: name(it) }));
+        inp.type = 'number'; inp.min = '0'; inp.step = '0.5'; inp.inputMode = 'decimal';
+        inp.value = String(row[1]);
+        inp.setAttribute('aria-label', t('qty_of', { x: name(it) }));
+        const c3 = el('td', 'num', taka(Math.round(row[1] * it.mid)));
+        const set = (v) => {
+          row[1] = Math.max(0, Math.round((Number.isFinite(v) ? v : 0) * 2) / 2);
+          inp.value = String(row[1]);
+          c3.textContent = taka(Math.round(row[1] * it.mid));
+          saveBasket();
+          renderBasketResult();
+        };
+        minus.addEventListener('click', () => set(row[1] - 1));
+        plus.addEventListener('click', () => set(row[1] + 1));
+        inp.addEventListener('change', () => set(parseFloat(inp.value)));
+        box.append(minus, inp, plus);
+        c2.append(box);
+        const c4 = el('td');
+        const rm = el('button', 'rm', '×');
+        rm.type = 'button';
+        rm.setAttribute('aria-label', t('remove', { x: name(it) }));
+        rm.addEventListener('click', () => {
+          state.basket = state.basket.filter((r) => r !== row);
+          saveBasket(); renderBasket(true);
+        });
+        c4.append(rm);
+        tr.append(c1, c2, c3, c4);
+        body.append(tr);
+      }
+      $('#b-empty').hidden = state.basket.length > 0;
+      itemSelect($('#b-add'), t('b_add'), state.basket.map((r) => r[0]));
+    }
+    renderBasketResult();
+  }
+
+  function renderBasketResult() {
+    const rows = state.basket.map(([id, q]) => {
+      const it = itemById(id);
+      const now = q * it.mid;
+      const back = (c) => (c == null ? null : now / (1 + c / 100));
+      return { it, q, now, m1: back(it.chg.m1), y1: back(it.chg.y1) };
+    }).filter((r) => r.q > 0);
+    const sum = (arr, k) => arr.reduce((a, r) => a + r[k], 0);
+    const total = sum(rows, 'now');
+    const tiles = $('#b-tiles');
+    tiles.replaceChildren();
+    const tile = (label, big, small, dir) => {
+      const d = el('div', 'b-tile');
+      d.append(el('span', null, label));
+      d.append(el('b', dir ? (dir > 0 ? 'delta-up' : 'delta-down') : null, big));
+      if (small) d.append(el('i', null, small));
+      tiles.append(d);
+    };
+    tile(t('b_total'), taka(Math.round(total)));
+    for (const [k, label] of [['m1', 'b_vs_m'], ['y1', 'b_vs_y']]) {
+      const ok = rows.filter((r) => r[k] != null);
+      const now = sum(ok, 'now'), then = sum(ok, k);
+      const d = now - then;
+      tile(t(label), ok.length ? signedTaka(d) : '–', ok.length && then ? pct((now / then - 1) * 100) : '',
+        Math.abs(d) < 0.5 ? 0 : Math.sign(d));
+    }
+
+    // where the money goes: tall segmented bar, top 5 + other
+    const seg = $('#b-seg');
+    const sorted = [...rows].sort((a, b) => b.now - a.now);
+    const parts = sorted.slice(0, 5).map((r, i) => ({ label: name(r.it), v: r.now, color: css('--s' + (i + 1)), dark: i === 3 }));
+    const rest = sorted.slice(5).reduce((a, r) => a + r.now, 0);
+    // grey "Other" takes dark text on the light theme's pale grey, white on the dark theme's deep grey
+    const darkTheme = matchMedia('(prefers-color-scheme: dark)').matches;
+    if (rest > 0) parts.push({ label: t('other'), v: rest, color: css('--context'), dark: !darkTheme });
+    seg.replaceChildren(...parts.map((p) => {
+      const share = total ? (p.v / total) * 100 : 0;
+      const d = el('div', p.dark ? 'dark-text' : null, share >= 9 ? num(share, 0) + '%' : '');
+      d.style.flex = `${p.v} 1 0`;
+      d.style.background = p.color;
+      d.tabIndex = 0;
+      const open = () => {
+        const b = d.getBoundingClientRect();
+        showTip(b.left + b.width / 2, b.top, p.label, [{ value: taka(Math.round(p.v)), label: num(share, 0) + '%' }]);
+      };
+      d.addEventListener('pointerenter', open);
+      d.addEventListener('focus', open);
+      d.addEventListener('pointerleave', hideTip);
+      d.addEventListener('blur', hideTip);
+      return d;
+    }));
+    seg.setAttribute('aria-label', parts.map((p) => `${p.label} ${num(total ? (p.v / total) * 100 : 0, 0)}%`).join(', '));
+    legend($('#b-seg-legend'), parts.map((p) => ['k-sq', p.color, p.label]));
+
+    // what changed the bill since last year
+    const drv = rows.filter((r) => r.y1 != null).map((r) => ({ r, d: r.now - r.y1 }))
+      .sort((a, b) => Math.abs(b.d) - Math.abs(a.d)).slice(0, 8);
+    const vals = drv.map((x) => x.d);
+    lollipop($('#b-drivers'), drv.map(({ r, d }) => ({
+      label: name(r.it), value: d, text: signedTaka(d), color: css(d >= 0 ? '--up' : '--down'),
+      tip: { header: name(r.it), rows: [{ value: `${taka(Math.round(r.y1))} → ${taka(Math.round(r.now))}`,
+        label: `${t('year_ago')} → ${t('b_total')}` }] },
+      onClick: () => openDetail(r.it.id),
+    })), { min: Math.min(0, ...vals), max: Math.max(0, ...vals) });
+    const missing = rows.filter((r) => r.y1 == null).length;
+    $('#b-note').textContent = (missing ? t('b_excluded', { n: num(missing) }) + ' ' : '') + t('b_src');
+  }
+
+  // ------------------------------------------------------------------ compare
+  function renderCompare() {
+    const M = state.app.monthly;
+    state.compare = state.compare.filter((id) => M.v[id] && itemById(id));
+    for (const id of Object.keys(state.cmpSlot)) if (!state.compare.includes(id)) delete state.cmpSlot[id];
+    for (const id of state.compare) {
+      if (state.cmpSlot[id] != null) continue;
+      const used = new Set(Object.values(state.cmpSlot));
+      let k = 0;
+      while (used.has(k)) k++;
+      state.cmpSlot[id] = k; // colour follows the item, never its position in the list
+    }
+    itemSelect($('#cmp-add'), t('cmp_add'), state.compare, state.compare.length >= 4);
+    $('#cmp-period').replaceChildren(...['base', '3y', '1y'].map((k) => {
+      const b = el('button', null, t('p_' + k));
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(state.cmpPeriod === k));
+      b.addEventListener('click', () => { state.cmpPeriod = k; renderCompare(); });
+      return b;
+    }));
+    const n = M.months.length;
+    const start = state.cmpPeriod === 'base' ? Math.max(0, M.months.indexOf('2020-07'))
+      : Math.max(0, n - (state.cmpPeriod === '3y' ? 37 : 13));
+    const months = M.months.slice(start);
+    const ts = months.map((m) => utc(m + '-01'));
+    const lines = state.compare.map((id) => {
+      const v = M.v[id].slice(start);
+      const base = v.find((x) => x != null);
+      return { id, label: name(itemById(id)), color: css('--s' + (state.cmpSlot[id] + 1)),
+        pts: v.map((x, i) => (x == null ? null : [ts[i], (x / base) * 100])).filter(Boolean) };
+    }).filter((l) => l.pts.length > 1);
+
+    $('#cmp-legend').replaceChildren(...lines.map((l) => {
+      const s = el('span', 'rm-key');
+      const k = el('i', 'k-line');
+      k.style.borderColor = l.color;
+      const x = el('button', null, '×');
+      x.type = 'button';
+      x.setAttribute('aria-label', t('remove', { x: l.label }));
+      x.addEventListener('click', () => { state.compare = state.compare.filter((id) => id !== l.id); renderCompare(); });
+      s.append(k, el('span', null, l.label), x);
+      return s;
+    }));
+    const host = $('#cmp-chart');
+    if (!lines.length) {
+      host._ro?.disconnect();
+      host.replaceChildren(el('p', 'empty', t('cmp_none')));
+      $('#cmp-table').replaceChildren();
+      return;
+    }
+    lineChart(host, {
+      label: t('cmp_title'), endLabels: true, yFmt: (v) => num(v, 0), lines,
+      xFmt: (tv) => fmtDate(tv, { month: 'long', year: 'numeric' }),
+      tip: (tv) => {
+        const i = ts.indexOf(tv);
+        return { header: fmtDate(tv, { month: 'long', year: 'numeric' }),
+          rows: lines.map((l) => {
+            const p = l.pts.find((q) => q[0] === tv);
+            return p && { color: l.color, value: num(p[1], 0), label: `${l.label} · ${taka(M.v[l.id][start + i])}` };
+          }).filter(Boolean) };
+      },
+    });
+    dataTable($('#cmp-table'), [t('month'), ...lines.map((l) => l.label)],
+      months.map((m, i) => [fmtDate(ts[i], { month: 'short', year: 'numeric' }),
+        ...lines.map((l) => { const v = M.v[l.id][start + i]; return v == null ? '–' : price(v); })]).reverse());
+  }
+
+  // ------------------------------------------------------------------ heatmap
+  function heatColor(v) {
+    const end = css(v >= 0 ? '--div-up' : '--div-down');
+    return mix(css('--div-mid'), end, Math.pow(Math.min(1, Math.abs(v) / 15), 0.7));
+  }
+  function renderHeat() {
+    const M = state.app.monthly;
+    const ids = state.app.items.filter((i) => i.core && M.v[i.id]).map((i) => i.id);
+    const N = innerWidth < 640 ? 12 : 24;
+    const n = M.months.length;
+    const idx = Array.from({ length: N }, (_, j) => n - N + j);
+    const grid = $('#heat');
+    grid.style.gridTemplateColumns = `minmax(92px, 170px) repeat(${N}, minmax(12px, 1fr))`;
+    const cells = [el('div')];
+    for (const i of idx) {
+      const [y, m] = M.months[i].split('-').map(Number);
+      const lab = m === 1 ? fmtDate(Date.UTC(y, 0, 1), { month: 'short', year: '2-digit' })
+        : (m - 1) % 3 === 0 ? monthName(m - 1, 'short') : '';
+      cells.push(el('div', 'hm', lab));
+    }
+    const change = (id, i) => {
+      const v = M.v[id], a = v[i], b = v[i - 1];
+      return a != null && b != null ? (a / b - 1) * 100 : null;
+    };
+    for (const id of ids) {
+      const it = itemById(id);
+      cells.push(el('div', 'hl', name(it)));
+      for (const i of idx) {
+        const ch = change(id, i);
+        const c = el('div', 'c' + (ch == null ? ' na' : ''));
+        if (ch != null) {
+          c.style.background = heatColor(ch);
+          const [y, m] = M.months[i].split('-').map(Number);
+          const header = `${name(it)} · ${fmtDate(Date.UTC(y, m - 1, 1), { month: 'long', year: 'numeric' })}`;
+          c.addEventListener('pointerenter', () => {
+            const b = c.getBoundingClientRect();
+            showTip(b.left + b.width / 2, b.top, header, [{ color: c.style.background, value: pct(ch), label: t('heat_tip') }]);
+          });
+          c.addEventListener('pointerleave', hideTip);
+          c.addEventListener('click', () => openDetail(id));
+        }
+        cells.push(c);
+      }
+    }
+    grid.replaceChildren(...cells);
+    const bar = el('span', 'bar');
+    bar.style.background = `linear-gradient(90deg, ${css('--div-down')}, ${css('--div-mid')}, ${css('--div-up')})`;
+    $('#heat-legend').replaceChildren(el('span', null, `${pct(-15, 0)} ${t('heat_cheaper')}`), bar,
+      el('span', null, `${pct(15, 0)} ${t('heat_pricier')}`));
+    dataTable($('#heat-table'), [t('col_item'), ...idx.map((i) => fmtDate(utc(M.months[i] + '-01'), { month: 'short', year: '2-digit' }))],
+      ids.map((id) => [name(itemById(id)), ...idx.map((i) => { const ch = change(id, i); return ch == null ? '–' : pct(ch); })]));
+  }
+
+  // ------------------------------------------------------------------ festival path
+  function renderPath(id) {
+    const f = state.app.festivals;
+    const P = id && f.paths && f.paths[state.fest] && f.paths[state.fest][id];
+    const box = $('.path-box');
+    box.hidden = !P;
+    if (!P) return;
+    const fest = t(state.fest);
+    $('#path-title').textContent = t('path_title', { f: fest, item: name(itemById(id)) });
+    $('#path-sub').textContent = t('path_sub', { n: num(P.n) });
+    const c = css('--s1');
+    legend($('#path-legend'), [['k-line', c, t('avg')], ['k-rect', c, t('range_years')]]);
+    const days = f.paths.days;
+    const mean = days.map((d, i) => [d, P.mean[i]]).filter((p) => p[1] != null);
+    const band = days.map((d, i) => [d, P.lo[i], P.hi[i]]).filter((p) => p[1] != null && p[2] != null);
+    const dayFmt = (d) => (d === 0 ? t('day0', { f: fest })
+      : t(d < 0 ? 'days_before' : 'days_after', { n: num(Math.abs(d)) }));
+    lineChart($('#path-chart'), {
+      label: $('#path-title').textContent, yFmt: (v) => pct(v, 0),
+      lines: [{ label: t('avg'), color: c, pts: mean }], band: { color: c, pts: band },
+      markers: [{ x: 0, label: fest }], xFmt: dayFmt,
+      xTicks: (t0, t1) => [-60, -30, 0, 30].filter((d) => d >= t0 && d <= t1)
+        .map((d) => ({ t: d, label: d === 0 ? num(0) : (d > 0 ? '+' : '−') + num(Math.abs(d)) + t('d_short') })),
+      tip: (tv) => {
+        const i = days.indexOf(tv);
+        return { header: dayFmt(tv), rows: [{ color: c, value: pct(P.mean[i]), label: t('avg') },
+          { value: `${pct(P.lo[i])} … ${pct(P.hi[i])}`, label: t('range_years') }] };
+      },
+    });
+  }
+
+  // ------------------------------------------------------------------ a typical year (item view)
+  function renderSeason(it) {
+    const box = $('#d-season');
+    box.replaceChildren(el('h3', null, t('season_title')));
+    const s = it.season;
+    if (!s) { box.append(el('p', 'sub', t('season_none'))); return; }
+    const lo = s.pct.indexOf(Math.min(...s.pct)), hi = s.pct.indexOf(Math.max(...s.pct));
+    const sentence = s.amp < 5 ? t('season_flat', { amp: num(s.amp, 0) })
+      : t('season_txt', { lo: monthName(lo), hi: monthName(hi), amp: num(s.amp, 0), n: num(s.years) });
+    box.append(el('p', 'sub', sentence));
+    const host = el('div', 'season');
+    box.append(host);
+    const draw = () => {
+      const W = host.clientWidth, H = host.clientHeight;
+      if (!W) return;
+      const m = { l: 40, r: 4, t: 8, b: 20 };
+      const pw = W - m.l - m.r, ph = H - m.t - m.b;
+      const A = Math.max(2, ...s.pct.map(Math.abs)) * 1.1;
+      const Y = (v) => m.t + (1 - (v + A) / (2 * A)) * ph;
+      const band = pw / 12, bw = Math.min(24, band * 0.62);
+      const root = svg('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': sentence });
+      for (const v of [-A / 1.1, 0, A / 1.1]) {
+        root.append(svg('line', { x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v), stroke: css(v ? '--grid' : '--axis'), 'stroke-width': 1 }));
+        const tx = svg('text', { x: m.l - 6, y: Y(v) + 4, 'text-anchor': 'end' });
+        tx.textContent = pct(v, 0);
+        root.append(tx);
+      }
+      s.pct.forEach((v, i) => {
+        const x = m.l + i * band + (band - bw) / 2;
+        const y0 = Y(0), y1 = Y(v);
+        const r = Math.min(4, Math.abs(y1 - y0) / 2, bw / 2);
+        const up = v >= 0;
+        // 4px rounded data end, square at the zero baseline
+        const d = up
+          ? `M${x} ${y0}V${y1 + r}Q${x} ${y1} ${x + r} ${y1}H${x + bw - r}Q${x + bw} ${y1} ${x + bw} ${y1 + r}V${y0}Z`
+          : `M${x} ${y0}V${y1 - r}Q${x} ${y1} ${x + r} ${y1}H${x + bw - r}Q${x + bw} ${y1} ${x + bw} ${y1 - r}V${y0}Z`;
+        root.append(svg('path', { d, fill: css(up ? '--up' : '--down'), opacity: i === lo || i === hi ? 1 : 0.55 }));
+        if (band >= 26 || i % 2 === 0) {
+          const tx = svg('text', { x: x + bw / 2, y: H - 5, 'text-anchor': 'middle' });
+          tx.textContent = monthName(i, 'short');
+          root.append(tx);
+        }
+        const hit = svg('rect', { x: m.l + i * band, y: m.t, width: band, height: ph, fill: 'transparent' });
+        hit.addEventListener('pointerenter', () => {
+          const b = hit.getBoundingClientRect();
+          showTip(b.left + b.width / 2, b.top + 10, monthName(i), [{ color: css(up ? '--up' : '--down'), value: pct(v), label: t('vs_avg') }]);
+        });
+        hit.addEventListener('pointerleave', hideTip);
+        root.append(hit);
+      });
+      host.replaceChildren(root);
+    };
+    new ResizeObserver(draw).observe(host);
+    draw();
   }
 
   // ------------------------------------------------------------------ detail dialog
@@ -684,6 +1148,7 @@
     }
     fcBox.append(box);
 
+    renderSeason(it);
     const all = state.series.get(it.id);
     if (!all) return;
     const end = all[all.length - 1][0];
@@ -722,11 +1187,22 @@
     $('#d-chart').replaceChildren();
     renderDetail();
     if (!dialog.open) dialog.showModal();
-    dialog.append(tip); // the dialog is in the top layer; the tooltip must live inside it
+    dialog.append(tip, toastEl); // the dialog is in the top layer; overlays must live inside it
+    setUrlItem(id);
     try { await loadSeries(id); if (state.item?.id === id) renderDetail(); }
     catch (err) { $('#d-chart').replaceChildren(el('p', 'empty', t('load_fail'))); }
   }
-  dialog.addEventListener('close', () => { document.body.append(tip); hideTip(); state.item = null; });
+  dialog.addEventListener('close', () => {
+    document.body.append(tip, toastEl); hideTip(); state.item = null; setUrlItem(null);
+  });
+  $('#d-share').addEventListener('click', async () => {
+    if (!state.item) return;
+    const url = shareUrl(state.item.id);
+    try {
+      if (navigator.share) { await navigator.share({ title: `${name(state.item)} — PricePulse BD`, url }); return; }
+    } catch (err) { if (err && err.name === 'AbortError') return; }
+    try { await navigator.clipboard.writeText(url); toast(t('copied')); } catch { toast(url); }
+  });
   dialog.addEventListener('click', (ev) => { if (ev.target === dialog) dialog.close(); });
   $('#d-close').addEventListener('click', () => dialog.close());
 
@@ -746,7 +1222,8 @@
 
   function renderAll() {
     applyStatic();
-    renderHero(); renderChips(); renderTable(); renderAlerts(); renderTrends(); renderFestivals(); renderForecast();
+    renderHero(); renderChips(); renderTable(); renderBasket(true); renderAlerts(); renderTrends();
+    renderCompare(); renderHeat(); renderFestivals(); renderForecast();
     if (state.item) renderDetail();
   }
 
@@ -763,6 +1240,21 @@
   $('#alerts-more').addEventListener('click', () => { state.showAllAlerts = !state.showAllAlerts; renderAlerts(); });
   $('#items-more').addEventListener('click', () => { state.showAllItems = !state.showAllItems; renderTrends(); });
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => state.app && renderAll());
+  matchMedia('(max-width: 639px)').addEventListener('change', () => state.app && renderHeat());
+  $('#b-add').addEventListener('change', (ev) => {
+    const id = ev.target.value;
+    if (id && !state.basket.some((r) => r[0] === id)) { state.basket.push([id, 1]); saveBasket(); }
+    renderBasket(true);
+  });
+  $('#b-reset').addEventListener('click', () => {
+    state.basket = BASKET_DEFAULT.map((r) => [...r]).filter(([id]) => itemById(id));
+    saveBasket(); renderBasket(true);
+  });
+  $('#cmp-add').addEventListener('change', (ev) => {
+    const id = ev.target.value;
+    if (id && !state.compare.includes(id) && state.compare.length < 4) state.compare.push(id);
+    renderCompare();
+  });
 
   const links = [...document.querySelectorAll('.tabs a')];
   const spy = new IntersectionObserver((entries) => {

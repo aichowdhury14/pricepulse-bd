@@ -17,6 +17,9 @@ from . import data
 
 SITE = data.ROOT / "site" / "data"
 SPARK_WEEKS = 26
+MONTHLY_FROM = "2020-06"   # first complete month of data
+PATH_DAYS = list(range(-60, 31, 3))
+SEASON_MIN_YEARS = 3
 ALERT_DAYS = 14          # a spike is "active" if it was still flagged this recently
 RECENT_SPIKE_DAYS = 365
 
@@ -93,6 +96,50 @@ def _items(T: pd.Timestamp) -> list[dict]:
     return items
 
 
+def _monthly(T: pd.Timestamp) -> tuple[dict, dict]:
+    """Monthly mean prices (complete months only) and each item's typical-year profile.
+
+    Seasonality = ratio to a centred 13-month moving average (removes trend and
+    inflation), averaged by calendar month, re-centred to 0% = the item's yearly
+    average. Shown only with >= SEASON_MIN_YEARS observations for every month.
+    """
+    m = data.monthly_wide()
+    m = m[(m.index >= MONTHLY_FROM) & (m.index < T.to_period("M").to_timestamp())]
+    monthly = {"months": [str(d.date())[:7] for d in m.index],
+               "v": {c: [_r(v) for v in m[c].tolist()] for c in m.columns}}
+    season = {}
+    for c in m.columns:
+        s = m[c]
+        trend = s.rolling(13, center=True, min_periods=11).mean()
+        ratio = (s / trend).dropna()
+        counts = ratio.groupby(ratio.index.month).size().reindex(range(1, 13), fill_value=0)
+        if counts.min() < SEASON_MIN_YEARS:
+            continue
+        prof = ratio.groupby(ratio.index.month).mean()
+        prof = (prof / prof.mean() - 1) * 100
+        season[c] = {"pct": [_r(v) for v in prof.tolist()], "years": int(counts.min()),
+                     "amp": _r(prof.max() - prof.min())}
+    return monthly, season
+
+
+def _paths() -> dict:
+    """Average price path (and range across years) around each festival."""
+    from .events import event_paths
+    out = {}
+    for fest in FESTIVAL_KEY.values():
+        out[fest] = {}
+        for cid in FESTIVAL_ITEMS:
+            p = event_paths(cid, fest, lo=PATH_DAYS[0], hi=PATH_DAYS[-1]).reindex(PATH_DAYS)
+            p = p.loc[:, p.notna().mean() >= 0.8]
+            if p.shape[1] < 3:
+                continue
+            out[fest][cid] = {"n": int(p.shape[1]),
+                              "mean": [_r(v) for v in p.mean(axis=1)],
+                              "lo": [_r(v) for v in p.min(axis=1)],
+                              "hi": [_r(v) for v in p.max(axis=1)]}
+    return {"days": PATH_DAYS, **out}
+
+
 def _series(T: pd.Timestamp) -> int:
     long = data.daily_long().sort_values("date")
     (SITE / "series").mkdir(parents=True, exist_ok=True)
@@ -158,6 +205,9 @@ def build() -> dict:
         }
 
     items = _items(T)
+    monthly, season = _monthly(T)
+    for it in items:
+        it["season"] = season.get(it["id"])
     app = {
         "meta": {
             "data_through": str(T.date()),
@@ -181,7 +231,8 @@ def build() -> dict:
                    for r in recent.sort_values("start", ascending=False).itertuples()
                    if r.commodity_id in c.index],
         "spike_recall": summary["known_shocks_detected"],
-        "festivals": _festivals(T),
+        "festivals": {**_festivals(T), "paths": _paths()},
+        "monthly": monthly,
         "forecast": forecast,
     }
     SITE.mkdir(parents=True, exist_ok=True)

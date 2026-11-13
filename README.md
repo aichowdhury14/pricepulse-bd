@@ -163,10 +163,22 @@ that reads two kinds of JSON written by `python -m analysis.site`:
   festival effects, forecasts and their backtest scores
 * `site/data/series/<item>.json`: full daily history, fetched when an item is opened
 
-Features: searchable price table with 6-month sparklines; item view with min–max band,
-4-week 80% range and that item's own backtest coverage; spike alerts; import vs
-domestic index; Ramadan/Eid effects with significance; forecast honesty panel.
-Bangla/English toggle, dark mode, keyboard-accessible charts with a data-table view,
+Features:
+
+* **Price table**: search, category filter, sort, 6-month sparklines, spike badges
+* **My bazaar**: edit a family's monthly basket and see this month's bill, the change
+  vs a month and a year ago, where the money goes, and which items drove the change
+  (saved in the visitor's browser only)
+* **Compare items**: up to 4 items on one indexed chart (start = 100), 1 y / 3 y / since 2020-21
+* **When prices move**: heatmap of month-on-month changes for the 20 core items
+* **Item view**: min–max band, 4-week 80% range with that item's own backtest
+  coverage, and "a typical year" (seasonal profile: ratio to a centred 13-month
+  average, by calendar month, shown only with ≥ 3 years per month); shareable link
+* **Spike alerts**, **import vs domestic index**, **festival effects** with a
+  clickable average price path around Ramadan / Eid (range across years shaded),
+  and the **forecast honesty panel**
+
+Bangla/English, dark mode, keyboard-accessible charts with data-table views,
 colour-blind-safe palette (validated), 390 px mobile layout. Shareable links:
 `?lang=bn`, `?item=onion_local`.
 
