@@ -1,0 +1,9 @@
+date,commodity_id,event,evaluable,detected,lag_days,change_14d_pct
+2020-09-14,onion_local,India bans onion exports,False,,,
+2020-09-14,onion_imported,India bans onion exports,False,,,
+2022-04-28,palm_loose,Indonesia palm oil export ban takes effect,True,True,-2.0,19.64285714285716
+2022-04-28,soybean_loose,Indonesia palm oil export ban takes effect,True,True,-1.0,22.516556291390682
+2022-05-13,atta_loose,India bans wheat exports,True,True,0.0,31.506849315068497
+2022-05-13,maida_loose,India bans wheat exports,True,True,5.0,12.389380530973414
+2023-12-08,onion_local,India bans onion exports,True,True,1.0,68.18181818181806
+2023-12-08,onion_imported,India bans onion exports,True,True,1.0,73.68421052631575

@@ -1,0 +1,92 @@
+[
+ {
+  "commodity_id": "atta_loose",
+  "wfp_commodity": "Wheat flour",
+  "months": 68,
+  "from": "2020-07-01T00:00:00.000",
+  "to": "2026-08-01T00:00:00.000",
+  "level_corr": 0.917,
+  "change_corr": 0.319,
+  "median_ratio_tcb_to_wfp": 0.838
+ },
+ {
+  "commodity_id": "rice_coarse",
+  "wfp_commodity": "Rice (coarse)",
+  "months": 35,
+  "from": "2020-07-01T00:00:00.000",
+  "to": "2024-12-01T00:00:00.000",
+  "level_corr": 0.848,
+  "change_corr": -0.043,
+  "median_ratio_tcb_to_wfp": 1.026
+ },
+ {
+  "commodity_id": "palm_loose",
+  "wfp_commodity": "Oil (palm)",
+  "months": 43,
+  "from": "2022-07-01T00:00:00.000",
+  "to": "2026-07-01T00:00:00.000",
+  "level_corr": 0.968,
+  "change_corr": 0.627,
+  "median_ratio_tcb_to_wfp": 1.022
+ },
+ {
+  "commodity_id": "lentil_bold",
+  "wfp_commodity": "Lentils (masur)",
+  "months": 33,
+  "from": "2023-08-01T00:00:00.000",
+  "to": "2026-07-01T00:00:00.000",
+  "level_corr": 0.859,
+  "change_corr": 0.625,
+  "median_ratio_tcb_to_wfp": 0.991
+ },
+ {
+  "commodity_id": "soybean_loose",
+  "wfp_commodity": "Oil (soybean, fortified)",
+  "months": 21,
+  "from": "2024-09-01T00:00:00.000",
+  "to": "2026-07-01T00:00:00.000",
+  "level_corr": 0.974,
+  "change_corr": 0.761,
+  "median_ratio_tcb_to_wfp": 0.99
+ },
+ {
+  "commodity_id": "sugar",
+  "wfp_commodity": "Sugar",
+  "months": 21,
+  "from": "2024-09-01T00:00:00.000",
+  "to": "2026-07-01T00:00:00.000",
+  "level_corr": 0.964,
+  "change_corr": 0.436,
+  "median_ratio_tcb_to_wfp": 0.968
+ },
+ {
+  "commodity_id": "garlic_imported",
+  "wfp_commodity": "Garlic (imported, China)",
+  "months": 21,
+  "from": "2024-09-01T00:00:00.000",
+  "to": "2026-07-01T00:00:00.000",
+  "level_corr": 0.95,
+  "change_corr": 0.826,
+  "median_ratio_tcb_to_wfp": 1.012
+ },
+ {
+  "commodity_id": "green_chili",
+  "wfp_commodity": "Chili (green)",
+  "months": 14,
+  "from": "2025-02-01T00:00:00.000",
+  "to": "2026-07-01T00:00:00.000",
+  "level_corr": 0.849,
+  "change_corr": 0.412,
+  "median_ratio_tcb_to_wfp": 0.951
+ },
+ {
+  "commodity_id": "eggs",
+  "wfp_commodity": "Eggs (brown)",
+  "months": 21,
+  "from": "2024-09-01T00:00:00.000",
+  "to": "2026-07-01T00:00:00.000",
+  "level_corr": 0.921,
+  "change_corr": 0.807,
+  "median_ratio_tcb_to_wfp": 0.984
+ }
+]

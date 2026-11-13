@@ -7,3 +7,8 @@ scipy
 statsmodels>=0.14
 scikit-learn>=1.4
 matplotlib>=3.8
+
+# notebook build (dev)
+nbformat>=5.10
+nbclient>=0.10
+ipykernel>=6.29

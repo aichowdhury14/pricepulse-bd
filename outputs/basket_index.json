@@ -1,0 +1,480 @@
+{
+ "base": "FY2020-21 = 100",
+ "method": "Jevons, monthly",
+ "series": [
+  {
+   "date": "2020-05-01T00:00:00.000",
+   "core_basket_index": 98.5,
+   "import-dependent": 96.8,
+   "domestic": 99.9
+  },
+  {
+   "date": "2020-06-01T00:00:00.000",
+   "core_basket_index": 97.7,
+   "import-dependent": 92.2,
+   "domestic": 102.5
+  },
+  {
+   "date": "2020-07-01T00:00:00.000",
+   "core_basket_index": 94.7,
+   "import-dependent": 89.8,
+   "domestic": 98.9
+  },
+  {
+   "date": "2020-08-01T00:00:00.000",
+   "core_basket_index": 95.0,
+   "import-dependent": 92.0,
+   "domestic": 97.5
+  },
+  {
+   "date": "2020-09-01T00:00:00.000",
+   "core_basket_index": 100.6,
+   "import-dependent": 96.5,
+   "domestic": 104.1
+  },
+  {
+   "date": "2020-10-01T00:00:00.000",
+   "core_basket_index": 104.8,
+   "import-dependent": 100.7,
+   "domestic": 108.3
+  },
+  {
+   "date": "2020-11-01T00:00:00.000",
+   "core_basket_index": 101.8,
+   "import-dependent": 96.5,
+   "domestic": 106.4
+  },
+  {
+   "date": "2020-12-01T00:00:00.000",
+   "core_basket_index": 98.5,
+   "import-dependent": 92.8,
+   "domestic": 103.4
+  },
+  {
+   "date": "2021-01-01T00:00:00.000",
+   "core_basket_index": 96.2,
+   "import-dependent": 98.9,
+   "domestic": 94.1
+  },
+  {
+   "date": "2021-02-01T00:00:00.000",
+   "core_basket_index": 96.6,
+   "import-dependent": 102.8,
+   "domestic": 91.8
+  },
+  {
+   "date": "2021-03-01T00:00:00.000",
+   "core_basket_index": 96.2,
+   "import-dependent": 102.6,
+   "domestic": 91.3
+  },
+  {
+   "date": "2021-04-01T00:00:00.000",
+   "core_basket_index": 100.3,
+   "import-dependent": 105.3,
+   "domestic": 96.3
+  },
+  {
+   "date": "2021-05-01T00:00:00.000",
+   "core_basket_index": 98.2,
+   "import-dependent": 103.1,
+   "domestic": 94.3
+  },
+  {
+   "date": "2021-06-01T00:00:00.000",
+   "core_basket_index": 102.2,
+   "import-dependent": 105.6,
+   "domestic": 99.4
+  },
+  {
+   "date": "2021-07-01T00:00:00.000",
+   "core_basket_index": 102.1,
+   "import-dependent": 106.7,
+   "domestic": 98.5
+  },
+  {
+   "date": "2021-08-01T00:00:00.000",
+   "core_basket_index": 99.4,
+   "import-dependent": 104.7,
+   "domestic": 95.2
+  },
+  {
+   "date": "2021-09-01T00:00:00.000",
+   "core_basket_index": 100.7,
+   "import-dependent": 109.3,
+   "domestic": 94.2
+  },
+  {
+   "date": "2021-10-01T00:00:00.000",
+   "core_basket_index": 105.5,
+   "import-dependent": 112.8,
+   "domestic": 99.8
+  },
+  {
+   "date": "2021-11-01T00:00:00.000",
+   "core_basket_index": 104.8,
+   "import-dependent": 113.4,
+   "domestic": 98.2
+  },
+  {
+   "date": "2021-12-01T00:00:00.000",
+   "core_basket_index": 104.4,
+   "import-dependent": 112.3,
+   "domestic": 98.4
+  },
+  {
+   "date": "2022-01-01T00:00:00.000",
+   "core_basket_index": 102.4,
+   "import-dependent": 114.6,
+   "domestic": 93.4
+  },
+  {
+   "date": "2022-02-01T00:00:00.000",
+   "core_basket_index": 101.2,
+   "import-dependent": 114.8,
+   "domestic": 91.4
+  },
+  {
+   "date": "2022-03-01T00:00:00.000",
+   "core_basket_index": 105.1,
+   "import-dependent": 117.8,
+   "domestic": 95.7
+  },
+  {
+   "date": "2022-04-01T00:00:00.000",
+   "core_basket_index": 102.7,
+   "import-dependent": 117.5,
+   "domestic": 92.1
+  },
+  {
+   "date": "2022-05-01T00:00:00.000",
+   "core_basket_index": 113.2,
+   "import-dependent": 130.7,
+   "domestic": 100.7
+  },
+  {
+   "date": "2022-06-01T00:00:00.000",
+   "core_basket_index": 114.6,
+   "import-dependent": 129.0,
+   "domestic": 104.0
+  },
+  {
+   "date": "2022-07-01T00:00:00.000",
+   "core_basket_index": 113.0,
+   "import-dependent": 124.9,
+   "domestic": 104.1
+  },
+  {
+   "date": "2022-08-01T00:00:00.000",
+   "core_basket_index": 117.2,
+   "import-dependent": 128.3,
+   "domestic": 108.9
+  },
+  {
+   "date": "2022-09-01T00:00:00.000",
+   "core_basket_index": 116.8,
+   "import-dependent": 131.6,
+   "domestic": 105.9
+  },
+  {
+   "date": "2022-10-01T00:00:00.000",
+   "core_basket_index": 120.4,
+   "import-dependent": 135.6,
+   "domestic": 109.3
+  },
+  {
+   "date": "2022-11-01T00:00:00.000",
+   "core_basket_index": 122.3,
+   "import-dependent": 144.8,
+   "domestic": 106.5
+  },
+  {
+   "date": "2022-12-01T00:00:00.000",
+   "core_basket_index": 120.4,
+   "import-dependent": 142.4,
+   "domestic": 104.9
+  },
+  {
+   "date": "2023-01-01T00:00:00.000",
+   "core_basket_index": 123.4,
+   "import-dependent": 144.9,
+   "domestic": 108.1
+  },
+  {
+   "date": "2023-02-01T00:00:00.000",
+   "core_basket_index": 127.3,
+   "import-dependent": 147.6,
+   "domestic": 112.8
+  },
+  {
+   "date": "2023-03-01T00:00:00.000",
+   "core_basket_index": 125.9,
+   "import-dependent": 148.2,
+   "domestic": 110.2
+  },
+  {
+   "date": "2023-04-01T00:00:00.000",
+   "core_basket_index": 127.7,
+   "import-dependent": 147.6,
+   "domestic": 113.5
+  },
+  {
+   "date": "2023-05-01T00:00:00.000",
+   "core_basket_index": 140.4,
+   "import-dependent": 158.3,
+   "domestic": 127.3
+  },
+  {
+   "date": "2023-06-01T00:00:00.000",
+   "core_basket_index": 138.9,
+   "import-dependent": 155.8,
+   "domestic": 126.4
+  },
+  {
+   "date": "2023-07-01T00:00:00.000",
+   "core_basket_index": 136.8,
+   "import-dependent": 149.8,
+   "domestic": 127.0
+  },
+  {
+   "date": "2023-08-01T00:00:00.000",
+   "core_basket_index": 139.4,
+   "import-dependent": 144.1,
+   "domestic": 135.8
+  },
+  {
+   "date": "2023-09-01T00:00:00.000",
+   "core_basket_index": 138.9,
+   "import-dependent": 144.2,
+   "domestic": 134.7
+  },
+  {
+   "date": "2023-10-01T00:00:00.000",
+   "core_basket_index": 142.2,
+   "import-dependent": 147.3,
+   "domestic": 138.1
+  },
+  {
+   "date": "2023-11-01T00:00:00.000",
+   "core_basket_index": 144.0,
+   "import-dependent": 149.5,
+   "domestic": 139.6
+  },
+  {
+   "date": "2023-12-01T00:00:00.000",
+   "core_basket_index": 145.2,
+   "import-dependent": 152.0,
+   "domestic": 139.9
+  },
+  {
+   "date": "2024-01-01T00:00:00.000",
+   "core_basket_index": 144.1,
+   "import-dependent": 152.5,
+   "domestic": 137.5
+  },
+  {
+   "date": "2024-02-01T00:00:00.000",
+   "core_basket_index": 141.7,
+   "import-dependent": 153.0,
+   "domestic": 133.1
+  },
+  {
+   "date": "2024-03-01T00:00:00.000",
+   "core_basket_index": 137.2,
+   "import-dependent": 152.1,
+   "domestic": 126.0
+  },
+  {
+   "date": "2024-04-01T00:00:00.000",
+   "core_basket_index": 138.1,
+   "import-dependent": 149.5,
+   "domestic": 129.4
+  },
+  {
+   "date": "2024-05-01T00:00:00.000",
+   "core_basket_index": 141.3,
+   "import-dependent": 145.4,
+   "domestic": 138.0
+  },
+  {
+   "date": "2024-06-01T00:00:00.000",
+   "core_basket_index": 145.4,
+   "import-dependent": 149.6,
+   "domestic": 142.1
+  },
+  {
+   "date": "2024-07-01T00:00:00.000",
+   "core_basket_index": 146.7,
+   "import-dependent": 150.1,
+   "domestic": 144.0
+  },
+  {
+   "date": "2024-08-01T00:00:00.000",
+   "core_basket_index": 148.4,
+   "import-dependent": 152.2,
+   "domestic": 145.4
+  },
+  {
+   "date": "2024-09-01T00:00:00.000",
+   "core_basket_index": 150.2,
+   "import-dependent": 153.5,
+   "domestic": 147.6
+  },
+  {
+   "date": "2024-10-01T00:00:00.000",
+   "core_basket_index": 154.0,
+   "import-dependent": 157.6,
+   "domestic": 151.1
+  },
+  {
+   "date": "2024-11-01T00:00:00.000",
+   "core_basket_index": 158.2,
+   "import-dependent": 160.5,
+   "domestic": 156.3
+  },
+  {
+   "date": "2024-12-01T00:00:00.000",
+   "core_basket_index": 154.3,
+   "import-dependent": 157.2,
+   "domestic": 152.0
+  },
+  {
+   "date": "2025-01-01T00:00:00.000",
+   "core_basket_index": 145.1,
+   "import-dependent": 154.6,
+   "domestic": 137.8
+  },
+  {
+   "date": "2025-02-01T00:00:00.000",
+   "core_basket_index": 137.3,
+   "import-dependent": 154.7,
+   "domestic": 124.6
+  },
+  {
+   "date": "2025-03-01T00:00:00.000",
+   "core_basket_index": 133.3,
+   "import-dependent": 150.3,
+   "domestic": 120.9
+  },
+  {
+   "date": "2025-04-01T00:00:00.000",
+   "core_basket_index": 132.9,
+   "import-dependent": 148.4,
+   "domestic": 121.4
+  },
+  {
+   "date": "2025-05-01T00:00:00.000",
+   "core_basket_index": 134.1,
+   "import-dependent": 149.2,
+   "domestic": 122.9
+  },
+  {
+   "date": "2025-06-01T00:00:00.000",
+   "core_basket_index": 132.7,
+   "import-dependent": 148.6,
+   "domestic": 121.0
+  },
+  {
+   "date": "2025-07-01T00:00:00.000",
+   "core_basket_index": 136.2,
+   "import-dependent": 149.3,
+   "domestic": 126.4
+  },
+  {
+   "date": "2025-08-01T00:00:00.000",
+   "core_basket_index": 141.8,
+   "import-dependent": 155.3,
+   "domestic": 131.6
+  },
+  {
+   "date": "2025-09-01T00:00:00.000",
+   "core_basket_index": 141.9,
+   "import-dependent": 155.9,
+   "domestic": 131.5
+  },
+  {
+   "date": "2025-10-01T00:00:00.000",
+   "core_basket_index": 140.2,
+   "import-dependent": 155.6,
+   "domestic": 128.7
+  },
+  {
+   "date": "2025-11-01T00:00:00.000",
+   "core_basket_index": 140.6,
+   "import-dependent": 153.2,
+   "domestic": 131.0
+  },
+  {
+   "date": "2025-12-01T00:00:00.000",
+   "core_basket_index": 139.1,
+   "import-dependent": 151.0,
+   "domestic": 130.0
+  },
+  {
+   "date": "2026-01-01T00:00:00.000",
+   "core_basket_index": 136.8,
+   "import-dependent": 149.4,
+   "domestic": 127.3
+  },
+  {
+   "date": "2026-02-01T00:00:00.000",
+   "core_basket_index": 133.9,
+   "import-dependent": 148.6,
+   "domestic": 123.0
+  },
+  {
+   "date": "2026-03-01T00:00:00.000",
+   "core_basket_index": 129.2,
+   "import-dependent": 149.1,
+   "domestic": 114.9
+  },
+  {
+   "date": "2026-04-01T00:00:00.000",
+   "core_basket_index": 131.6,
+   "import-dependent": 151.3,
+   "domestic": 117.4
+  },
+  {
+   "date": "2026-05-01T00:00:00.000",
+   "core_basket_index": 133.4,
+   "import-dependent": 153.3,
+   "domestic": 119.1
+  },
+  {
+   "date": "2026-06-01T00:00:00.000",
+   "core_basket_index": 134.8,
+   "import-dependent": 155.9,
+   "domestic": 119.8
+  },
+  {
+   "date": "2026-07-01T00:00:00.000",
+   "core_basket_index": 136.7,
+   "import-dependent": 154.4,
+   "domestic": 123.8
+  },
+  {
+   "date": "2026-08-01T00:00:00.000",
+   "core_basket_index": 137.7,
+   "import-dependent": 155.8,
+   "domestic": 124.5
+  },
+  {
+   "date": "2026-09-01T00:00:00.000",
+   "core_basket_index": 138.0,
+   "import-dependent": 157.0,
+   "domestic": 124.2
+  },
+  {
+   "date": "2026-10-01T00:00:00.000",
+   "core_basket_index": 140.6,
+   "import-dependent": 161.6,
+   "domestic": 125.5
+  },
+  {
+   "date": "2026-11-01T00:00:00.000",
+   "core_basket_index": 140.7,
+   "import-dependent": 163.5,
+   "domestic": 124.5
+  }
+ ]
+}

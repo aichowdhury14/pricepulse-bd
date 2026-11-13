@@ -1,0 +1,25 @@
+{
+ "generated": "2026-11-13T11:37:39",
+ "data_through": "2026-11-12",
+ "core_basket_index_latest": 140.6,
+ "import_vs_domestic": {
+  "n_import": 19,
+  "n_domestic": 21,
+  "median_change_import_pct": 70.86930919756836,
+  "median_change_domestic_pct": 38.7403160544857,
+  "mean_log_diff": 0.15954055094878017,
+  "p_permutation_one_sided": 0.0022498875056247186,
+  "p_mannwhitney_one_sided": 0.00397449789959994
+ },
+ "wfp_level_corr_range": [
+  0.85,
+  0.97
+ ],
+ "spike_episodes_up": 224,
+ "known_shocks_detected": "6/6 evaluable",
+ "festival_significant_q10": {
+  "Eid-ul-Adha": 7,
+  "Eid-ul-Fitr": 9,
+  "Ramadan": 10
+ }
+}
