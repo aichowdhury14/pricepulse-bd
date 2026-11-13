@@ -58,19 +58,23 @@ Naive's own typical error: 1.5% at 1 week, 3.9% at 4 weeks.
 |---|---|---|
 | Item's own past changes | 85.5 / 83.4 / 82.0 / 81.7% | 25.4 |
 | ML quantiles, raw | 80.1 / 78.3 / 76.3 / 74.5% | 24.8 |
-| **ML + conformal, pooled (shipped)** | **79.6 / 80.8 / 80.1 / 80.6%** | **24.6** |
+| **ML + conformal, pooled (shipped)** | **79.6 / 80.8 / 80.1 / 80.6%** ¹ | **24.6** |
 | ML + conformal, per item | 79.2 / 80.0 / 79.2 / 78.8% | 26.0 |
 
 The shipped method beats the historical-quantile baseline on interval score at every
-horizon (p ≤ 0.043). The improvement is modest: 2–3%.
+horizon (p < 0.05). The improvement is modest: 2–3%.
+
+¹ First release, computed on Windows. The weekly GitHub Actions re-run on Linux gives
+78.9 / 80.6 / 80.4 / 80.8% and p ≤ 0.032: same selection, same conclusions (see the
+last limitation below).
 
 Selection rules were written into `forecast/run.py` before results were inspected.
 
 ## Known limitations
 
 * **Uneven across items.** Coverage is ~80% on average, but at 4 weeks individual
-  items range from 65% (sugar) to 98%. Each item's own backtest coverage is published
-  with its forecast.
+  items range from 65–70% (sugar is lowest in both runs) to 98%. Each item's own
+  backtest coverage is published with its forecast.
 * **Shocks escape.** Export bans, floods and policy changes cannot be anticipated from
   price history; after such events the actual price is often outside the range.
 * **Short history, one city.** Six years of Dhaka data; seasonal patterns are observed
@@ -80,6 +84,14 @@ Selection rules were written into `forecast/run.py` before results were inspecte
 * **Separate models per horizon.** A 3-week range is not guaranteed to sit inside the
   4-week range.
 * **New items** (under ~1 year of history, e.g. lemon, aromatic rice) get no forecast.
+
+* **Not bit-reproducible across machines.** The gradient-boosted quantile models are
+  multi-threaded, so floating-point sums happen in a different order on different
+  hardware. Re-running on Linux instead of Windows left every point-forecast metric
+  within 0.02% and every headline interval metric within 0.7 points, but individual
+  items' ranges moved by a median of 0.05 and at most 12 percentage points (potato,
+  3 weeks). Per-item ranges are therefore less precise than they look; the backtest
+  coverage shown next to each item is the better guide.
 
 ## Safeguards
 

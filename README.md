@@ -25,7 +25,7 @@ forecasts with uncertainty bands.
 | 4 | Do festivals move prices? | Ramadan premium sits in **meat** (beef +4.9%, broiler +9.5%), not iftar staples (sugar flat, chickpea cheaper); broiler **falls ~10%** before Eid-ul-Adha | event study vs placebo dates, BH-FDR |
 | 5 | Which prices move together? | Families: rice grades, edible oils, imported staples; imported onion does **not** lead local | clustered correlation, Granger tests |
 
-| 6 | Can next month's price be forecast? | **The level, no; the uncertainty, yes.** No model beat "price stays the same" over 39,652 out-of-sample forecasts. ML ranges are calibrated (80% coverage) and beat historical quantiles at every horizon (p ≤ 0.043) | rolling-origin backtest, Diebold–Mariano, conformal intervals |
+| 6 | Can next month's price be forecast? | **The level, no; the uncertainty, yes.** No model beat "price stays the same" over 39,652 out-of-sample forecasts. ML ranges are calibrated (80% coverage) and beat historical quantiles at every horizon (p < 0.05) | rolling-origin backtest, Diebold–Mariano, conformal intervals |
 
 Walk-throughs with caveats: [`notebooks/02_analysis.ipynb`](notebooks/02_analysis.ipynb) ·
 [`notebooks/03_forecasting.ipynb`](notebooks/03_forecasting.ipynb) · [`MODEL_CARD.md`](MODEL_CARD.md)
@@ -133,7 +133,7 @@ unpredictable from history. Machine learning earns its place on the *range* inst
 |---|---|---|
 | Item's own past changes | 85.5 → 81.7% | too wide early |
 | ML quantiles, raw | 80.1 → 74.5% | overconfident |
-| **ML + conformal correction (shipped)** | **79.6 → 80.6%** | calibrated, best interval score |
+| **ML + conformal correction (shipped)** | **79–81% at every horizon** | calibrated, best interval score |
 
 So the product ships **today's price + an ML-built 80% range**, and publishes each
 item's own backtest coverage beside it. Shipping rules were fixed in code before the
