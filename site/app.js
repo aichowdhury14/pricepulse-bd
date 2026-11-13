@@ -786,7 +786,8 @@
         inp.setAttribute('aria-label', t('qty_of', { x: name(it) }));
         const c3 = el('td', 'num', taka(Math.round(row[1] * it.mid)));
         const set = (v) => {
-          row[1] = Math.max(0, Math.round((Number.isFinite(v) ? v : 0) * 2) / 2);
+          if (!Number.isFinite(v)) { inp.value = String(row[1]); return; }  // empty or invalid: keep old amount
+          row[1] = Math.max(0, Math.round(v * 2) / 2);
           inp.value = String(row[1]);
           c3.textContent = taka(Math.round(row[1] * it.mid));
           saveBasket();
@@ -1086,7 +1087,9 @@
       });
       host.replaceChildren(root);
     };
-    new ResizeObserver(draw).observe(host);
+    box._ro?.disconnect();
+    box._ro = new ResizeObserver(draw);
+    box._ro.observe(host);
     draw();
   }
 
@@ -1193,6 +1196,8 @@
     catch (err) { $('#d-chart').replaceChildren(el('p', 'empty', t('load_fail'))); }
   }
   dialog.addEventListener('close', () => {
+    // 'close' fires asynchronously: if another item was opened in the meantime, leave it alone
+    if (dialog.open) return;
     document.body.append(tip, toastEl); hideTip(); state.item = null; setUrlItem(null);
   });
   $('#d-share').addEventListener('click', async () => {
