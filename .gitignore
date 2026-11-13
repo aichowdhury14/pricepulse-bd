@@ -11,3 +11,6 @@ node_modules/
 
 # large and fully re-creatable by `python -m forecast.run`
 outputs/backtest_predictions.parquet
+
+.vercel
+.env*

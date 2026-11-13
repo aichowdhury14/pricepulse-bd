@@ -4,7 +4,14 @@
 61 commodities since 2020, with spike detection, Ramadan/Eid effects and short-term
 forecasts with uncertainty bands.
 
-> Status: **Stage 3 of 4 complete — data pipeline, analysis, forecasting.** The website is next (see roadmap).
+**Live site: [pricepulsebd.vercel.app](https://pricepulsebd.vercel.app)** · English / বাংলা · refreshed daily
+
+> Status: **all 4 stages complete** — data pipeline, analysis, forecasting, website.
+
+<p>
+<img src="reports/site_desktop.png" width="72%" alt="PricePulse BD website, desktop">
+<img src="reports/site_mobile_bn.png" width="24%" alt="Item detail with 4-week range, Bangla, mobile">
+</p>
 
 ## Key findings (May 2020 – Nov 2026)
 
@@ -147,12 +154,33 @@ python tests/test_no_leakage.py
 python notebooks/build_03_forecasting.py
 ```
 
+## Website
+
+A static page (`site/`: plain HTML, CSS and JavaScript, no framework, no build step)
+that reads two kinds of JSON written by `python -m analysis.site`:
+
+* `site/data/app.json` (~50 KB): today's prices, changes, spike alerts, basket index,
+  festival effects, forecasts and their backtest scores
+* `site/data/series/<item>.json`: full daily history, fetched when an item is opened
+
+Features: searchable price table with 6-month sparklines; item view with min–max band,
+4-week 80% range and that item's own backtest coverage; spike alerts; import vs
+domestic index; Ramadan/Eid effects with significance; forecast honesty panel.
+Bangla/English toggle, dark mode, keyboard-accessible charts with a data-table view,
+colour-blind-safe palette (validated), 390 px mobile layout. Shareable links:
+`?lang=bn`, `?item=onion_local`.
+
+**Daily refresh** (`.github/workflows/daily.yml`, 19:30 Dhaka time): scrape TCB →
+rebuild dataset → if prices changed: re-run analysis, re-run the forecast when a new
+Thursday is in (with the look-ahead test first), rebuild site data, commit, and deploy
+to Vercel. Days without a new TCB sheet cost one request and no deployment.
+
 ## Roadmap
 
 - [x] **1. Data** — scraper, parser, label mapping, validation, backfill, cleaning
 - [x] **2. Analysis** — EDA, spike detection, Ramadan/Eid event study, co-movement
 - [x] **3. Models** — seasonal-naive / ETS / gradient boosting, rolling-origin backtests, prediction intervals
-- [ ] **4. Product** — static site on Vercel (Bangla/English), daily GitHub Action refresh, model card
+- [x] **4. Product** — static site on Vercel (Bangla/English), daily GitHub Action refresh, model card
 
 ---
 Built by Atiqul Islam Chowdhury · Data: TCB (Government of Bangladesh), WFP via HDX

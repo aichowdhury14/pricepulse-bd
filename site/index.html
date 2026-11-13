@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PricePulse BD — Dhaka bazaar prices, at a glance</title>
+<meta name="description" content="Daily Dhaka retail prices for essential commodities: what moved, sudden jumps, festival effects and honest 4-week price ranges. Data: TCB.">
+<meta property="og:title" content="PricePulse BD">
+<meta property="og:description" content="Dhaka bazaar prices, at a glance — updated daily from TCB.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#17385a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2317385a'/%3E%3Cpath d='M4 18h6l3-9 5 15 3-9h7' fill='none' stroke='%23e0a06a' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#prices" data-i18n="skip">Skip to prices</a>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path d="M2 18h7l3-10 5 17 3-10h10" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>PricePulse <b>BD</b></span>
+      </div>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="bn" aria-pressed="false">বাং</button>
+      </div>
+    </div>
+    <h1 data-i18n="headline">Dhaka bazaar prices, at a glance</h1>
+    <p class="hero-sub" id="hero-sub"></p>
+    <div class="tiles" id="tiles" aria-live="polite"></div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Sections">
+  <div class="wrap tabs-row">
+    <a href="#prices" data-i18n="nav_prices">Prices</a>
+    <a href="#alerts" data-i18n="nav_alerts">Alerts</a>
+    <a href="#trends" data-i18n="nav_trends">Trends</a>
+    <a href="#festivals" data-i18n="nav_festivals">Festivals</a>
+    <a href="#forecast" data-i18n="nav_forecast">Forecast</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <div id="error" class="error" hidden></div>
+
+  <section id="prices">
+    <h2 data-i18n="prices_title">Today's prices</h2>
+    <div class="filters">
+      <input id="search" type="search" autocomplete="off" data-i18n-placeholder="search" placeholder="Search item" aria-label="Search item">
+      <label class="sort"><span data-i18n="sort">Sort</span>
+        <select id="sort">
+          <option value="cat" data-i18n="sort_cat">Category</option>
+          <option value="rise" data-i18n="sort_rise">Biggest rise (1 month)</option>
+          <option value="fall" data-i18n="sort_fall">Biggest fall (1 month)</option>
+          <option value="name" data-i18n="sort_name">Name</option>
+        </select>
+      </label>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Category"></div>
+    <div class="card table-card">
+      <table id="price-table">
+        <thead><tr>
+          <th scope="col" data-i18n="col_item">Item</th>
+          <th scope="col" class="num" data-i18n="col_price">Price (৳)</th>
+          <th scope="col" class="num hide-s" data-i18n="col_w1">1 week</th>
+          <th scope="col" class="num" data-i18n="col_m1">1 month</th>
+          <th scope="col" class="num hide-s" data-i18n="col_y1">1 year</th>
+          <th scope="col" class="hide-s" data-i18n="col_spark">6 months</th>
+        </tr></thead>
+        <tbody id="price-body"></tbody>
+      </table>
+      <p class="empty" id="price-empty" hidden data-i18n="no_match">No item matches.</p>
+    </div>
+    <button type="button" class="more" id="prices-more" hidden></button>
+    <p class="hint" data-i18n="tap_hint">Tap an item for its history and 4-week range.</p>
+  </section>
+
+  <section id="alerts">
+    <h2 data-i18n="alerts_title">Sudden price jumps</h2>
+    <p class="lede" id="alerts-sub"></p>
+    <div class="alert-grid" id="alert-grid"></div>
+    <button type="button" class="more" id="alerts-more" hidden></button>
+  </section>
+
+  <section id="trends">
+    <h2 data-i18n="trends_title">What got expensive</h2>
+    <div class="card">
+      <h3 id="basket-title"></h3>
+      <p class="sub" data-i18n="basket_sub">Core basket price index, 2020-21 = 100</p>
+      <div class="legend" id="basket-legend"></div>
+      <div class="chart" id="basket-chart"></div>
+      <details class="data"><summary data-i18n="show_data">Show data</summary><div class="table-scroll" id="basket-table"></div></details>
+    </div>
+    <div class="card">
+      <h3 data-i18n="items_title">Change since 2020-21, by item</h3>
+      <div class="legend" id="items-legend"></div>
+      <div class="lp" id="items-chart"></div>
+      <button type="button" class="more" id="items-more"></button>
+    </div>
+  </section>
+
+  <section id="festivals">
+    <h2 data-i18n="fest_title">Festival effect</h2>
+    <div class="countdown" id="countdown"></div>
+    <div class="card">
+      <div class="seg" id="fest-seg" role="group" aria-label="Festival"></div>
+      <p class="sub" data-i18n="fest_sub">Extra price change in the two weeks before, compared with normal times</p>
+      <div class="legend" id="fest-legend"></div>
+      <div class="lp" id="fest-chart"></div>
+      <p class="note" data-i18n="fest_note">Onion, garlic and potato fall mainly because recent Ramadans coincided with harvest season.</p>
+    </div>
+  </section>
+
+  <section id="forecast">
+    <h2 data-i18n="fc_title">How far can you trust a forecast?</h2>
+    <div class="card lead-card">
+      <p class="lead" data-i18n="fc_lead">Best guess for next month's price: today's price.</p>
+      <p class="sub" id="fc-sub"></p>
+    </div>
+    <div class="two">
+      <div class="card">
+        <h3 data-i18n="fc_models_title">Forecast error vs "no change", 4 weeks ahead</h3>
+        <div class="lp wide" id="models-chart"></div>
+      </div>
+      <div class="card">
+        <h3 data-i18n="fc_range_title">How often the 80% range held</h3>
+        <div class="mini-tiles" id="cov-tiles"></div>
+        <p class="note" id="fc-typical"></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p data-i18n="foot_data">Data: Trading Corporation of Bangladesh (TCB) daily retail prices, Dhaka; World Food Programme.</p>
+    <p data-i18n="foot_disc">Ranges are estimates, not guarantees.</p>
+    <p><span data-i18n="foot_by">Built by</span> Atiqul Islam Chowdhury · <span id="foot-updated"></span></p>
+  </div>
+</footer>
+
+<dialog id="detail" aria-labelledby="d-title">
+  <div class="d-head">
+    <div>
+      <h2 id="d-title"></h2>
+      <p class="sub" id="d-unit"></p>
+    </div>
+    <button type="button" class="close" id="d-close" aria-label="Close">×</button>
+  </div>
+  <div class="d-stats" id="d-stats"></div>
+  <div class="seg small" id="d-range" role="group" aria-label="Period"></div>
+  <div class="legend" id="d-legend"></div>
+  <div class="chart tall" id="d-chart"></div>
+  <div id="d-forecast"></div>
+  <details class="data"><summary data-i18n="show_data">Show data</summary><div class="table-scroll" id="d-table"></div></details>
+</dialog>
+
+<div id="tip" class="tip" role="status" hidden></div>
+<script src="app.js" defer></script>
+</body>
+</html>

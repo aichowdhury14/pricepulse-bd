@@ -1,0 +1,10 @@
+# the site is static: only site/ is served (leading slash = repo root only,
+# so site/data is NOT excluded)
+/data
+/outputs
+/notebooks
+/reports
+/analysis
+/forecast
+/pipeline
+/tests

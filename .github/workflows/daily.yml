@@ -1,0 +1,104 @@
+name: Daily data refresh
+
+on:
+  schedule:
+    - cron: "30 13 * * *"   # 19:30 in Dhaka, after TCB publishes the day's sheet
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rebuild analysis and site even if TCB has no new data"
+        type: boolean
+        default: false
+      force_forecast:
+        description: "Re-run the full backtest and forecast (~10 min)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Scrape, parse and rebuild the dataset
+        run: python pipeline/run_all.py
+
+      - name: Any new prices?
+        id: data
+        run: |
+          if git diff --quiet -- data/processed/tcb_daily.csv; then
+            echo "new=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "new=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Analysis (inflation, spikes, festivals, co-movement)
+        if: steps.data.outputs.new == 'true' || inputs.force || inputs.force_forecast
+        run: python -m analysis.run
+
+      - name: Is a new forecast due?
+        id: fc
+        if: steps.data.outputs.new == 'true' || inputs.force || inputs.force_forecast
+        run: python -m forecast.due >> "$GITHUB_OUTPUT"
+
+      - name: Look-ahead test
+        if: steps.fc.outputs.due == 'true' || inputs.force_forecast
+        run: python tests/test_no_leakage.py
+
+      - name: Backtest and forecast
+        if: steps.fc.outputs.due == 'true' || inputs.force_forecast
+        run: python -m forecast.run
+
+      - name: Build site data
+        if: steps.data.outputs.new == 'true' || inputs.force || inputs.force_forecast
+        run: python -m analysis.site
+
+      - name: Commit and push
+        id: commit
+        if: steps.data.outputs.new == 'true' || inputs.force || inputs.force_forecast
+        run: |
+          git config user.name "${{ vars.COMMIT_NAME || github.repository_owner }}"
+          git config user.email "${{ vars.COMMIT_EMAIL || format('{0}@users.noreply.github.com', github.repository_owner) }}"
+          # figures are not committed from CI (fonts differ; they would churn daily)
+          git add -A data outputs site/data
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            through=$(python -c "import json;print(json.load(open('site/data/app.json',encoding='utf-8'))['meta']['data_through'])")
+            git commit -m "data: automated refresh through ${through}"
+            git push
+          fi
+          echo "done=true" >> "$GITHUB_OUTPUT"
+
+      # The site is static, so deploy straight from here (only site/ is uploaded, see
+      # .vercelignore). Needs the VERCEL_TOKEN secret and the VERCEL_ORG_ID /
+      # VERCEL_PROJECT_ID repository variables; skipped with a warning if absent.
+      - name: Deploy to Vercel
+        if: steps.commit.outputs.done == 'true'
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "::warning::VERCEL_TOKEN secret not set - data committed but site not redeployed."
+            exit 0
+          fi
+          npx --yes vercel@62.1.0 deploy --prod --yes --token "$VERCEL_TOKEN"
