@@ -4210,7 +4210,7 @@
    "peak_date": "2026-08-12T00:00:00.000",
    "days_flagged": 8,
    "change_14d_pct": -58.33,
-   "z_peak": -4.23,
+   "z_peak": -4.42,
    "price_before": 360.0,
    "price_peak": 120.0
   },
@@ -4242,13 +4242,13 @@
    "commodity_id": "ginger_imported",
    "name_en": "Ginger, imported",
    "start": "2026-11-04T00:00:00.000",
-   "end": "2026-11-04T00:00:00.000",
-   "peak_date": "2026-11-04T00:00:00.000",
-   "days_flagged": 1,
-   "change_14d_pct": -15.0,
-   "z_peak": -3.67,
+   "end": "2026-11-15T00:00:00.000",
+   "peak_date": "2026-11-15T00:00:00.000",
+   "days_flagged": 3,
+   "change_14d_pct": -17.5,
+   "z_peak": -4.35,
    "price_before": 200.0,
-   "price_peak": 170.0
+   "price_peak": 165.0
   }
  ],
  "known_shock_recall": [
