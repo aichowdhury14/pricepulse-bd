@@ -2,7 +2,13 @@ name: Daily data refresh
 
 on:
   schedule:
-    - cron: "30 13 * * *"   # 19:30 in Dhaka, after TCB publishes the day's sheet
+    # GitHub starts scheduled runs late (often hours) and can drop them at busy times,
+    # so check several times a day at off-peak minutes. A run with no new TCB data
+    # stops after the scrape (~1 min) and commits/deploys nothing.
+    - cron: "13 13 * * *"   # 19:13 Dhaka, after TCB usually publishes
+    - cron: "43 15 * * *"   # 21:43 Dhaka
+    - cron: "17 18 * * *"   # 00:17 Dhaka
+    - cron: "7 3 * * *"     # 09:07 Dhaka, catches sheets posted late the day before
   workflow_dispatch:
     inputs:
       force:

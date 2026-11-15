@@ -182,7 +182,7 @@ Bangla/English, dark mode, keyboard-accessible charts with data-table views,
 colour-blind-safe palette (validated), 390 px mobile layout. Shareable links:
 `?lang=bn`, `?item=onion_local`.
 
-**Daily refresh** (`.github/workflows/daily.yml`, 19:30 Dhaka time): scrape TCB →
+**Daily refresh** (`.github/workflows/daily.yml`, four times a day, from 19:13 Dhaka time): scrape TCB →
 rebuild dataset → if prices changed: re-run analysis, re-run the forecast when a new
 Thursday is in (with the look-ahead test first), rebuild site data, commit, and deploy
 to Vercel. Days without a new TCB sheet cost one request and no deployment.
