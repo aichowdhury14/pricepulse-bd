@@ -123,14 +123,14 @@
    -0.031,
    0.113,
    0.084,
-   0.043,
+   0.044,
    0.101,
    0.174,
    0.003,
    -0.132,
    0.078,
    0.016,
-   0.048
+   0.047
   ],
   [
    0.052,
@@ -291,7 +291,7 @@
    0.0,
    -0.102,
    0.094,
-   0.043,
+   0.044,
    0.118,
    0.003,
    0.053,
@@ -306,7 +306,7 @@
    -0.015,
    0.058,
    0.052,
-   0.024
+   0.025
   ],
   [
    -0.031,
@@ -328,7 +328,7 @@
    -0.039,
    0.161,
    0.176,
-   0.203
+   0.204
   ],
   [
    0.039,
@@ -394,7 +394,7 @@
    1.0,
    0.08,
    0.056,
-   0.069
+   0.07
   ],
   [
    -0.026,
@@ -438,14 +438,14 @@
    0.056,
    0.61,
    1.0,
-   0.634
+   0.635
   ],
   [
    -0.077,
    0.06,
    0.028,
    0.026,
-   0.048,
+   0.047,
    0.028,
    -0.001,
    0.004,
@@ -453,13 +453,13 @@
    -0.009,
    0.009,
    -0.023,
-   0.024,
-   0.203,
+   0.025,
+   0.204,
    0.065,
    0.027,
-   0.069,
+   0.07,
    0.507,
-   0.634,
+   0.635,
    1.0
   ]
  ],
@@ -479,22 +479,22 @@
    "leader": "garlic_imported",
    "follower": "garlic_local",
    "weeks": 330,
-   "corr_same_week": 0.359,
+   "corr_same_week": 0.358,
    "corr_leader_1w_earlier": 0.138,
    "best_lag_weeks": 0,
-   "best_corr": 0.359,
-   "granger_p_leader_to_follower": 0.349,
-   "granger_p_follower_to_leader": 0.143
+   "best_corr": 0.358,
+   "granger_p_leader_to_follower": 0.351,
+   "granger_p_follower_to_leader": 0.142
   },
   {
    "leader": "ginger_imported",
    "follower": "ginger_local",
    "weeks": 309,
    "corr_same_week": 0.255,
-   "corr_leader_1w_earlier": 0.07,
+   "corr_leader_1w_earlier": 0.071,
    "best_lag_weeks": 0,
    "best_corr": 0.255,
-   "granger_p_leader_to_follower": 0.781,
+   "granger_p_leader_to_follower": 0.779,
    "granger_p_follower_to_leader": 0.134
   },
   {

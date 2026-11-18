@@ -3,7 +3,7 @@
   "n_import": 19,
   "n_domestic": 21,
   "median_change_import_pct": 70.86930919756836,
-  "median_change_domestic_pct": 38.74031605448569,
+  "median_change_domestic_pct": 38.740316054485696,
   "mean_log_diff": 0.15954055094878017,
   "p_permutation_one_sided": 0.0022498875056247186,
   "p_mannwhitney_one_sided": 0.00397449789959994
@@ -587,7 +587,7 @@
    "latest_price": 134.19,
    "change_pct": 18.47,
    "log_change": 0.17,
-   "weekly_vol_pct": 2.6,
+   "weekly_vol_pct": 2.7,
    "weekly_vol_p90_pct": 14.59,
    "name_en": "Ginger, local",
    "category": "Vegetables",
