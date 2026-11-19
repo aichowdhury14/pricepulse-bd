@@ -1,5 +1,5 @@
 {
- "origin": "2026-11-12",
+ "origin": "2026-11-19",
  "interval_method": "gbm_cqr",
  "point_model": {
   "1": "naive",
@@ -11,17 +11,17 @@
  "evaluation": {
   "period": [
    "2023-02-02",
-   "2026-11-05"
+   "2026-11-12"
   ],
-  "forecasts_scored": 39652,
+  "forecasts_scored": 39873,
   "commodities": 57,
   "point": [
    {
     "h": 1,
     "model": "naive",
-    "n": 10089,
-    "mae_pct": 1.532,
-    "rmse_pct": 4.333,
+    "n": 10145,
+    "mae_pct": 1.531,
+    "rmse_pct": 4.327,
     "rel_mae": 1.0,
     "rel_rmse": 1.0,
     "direction_hit": null,
@@ -30,53 +30,53 @@
    {
     "h": 1,
     "model": "drift",
-    "n": 10089,
-    "mae_pct": 1.712,
-    "rmse_pct": 4.381,
+    "n": 10145,
+    "mae_pct": 1.711,
+    "rmse_pct": 4.375,
     "rel_mae": 1.117,
     "rel_rmse": 1.011,
     "direction_hit": 0.492,
-    "share_called": 0.168
+    "share_called": 0.167
    },
    {
     "h": 1,
     "model": "seasonal",
-    "n": 10089,
-    "mae_pct": 2.802,
-    "rmse_pct": 6.172,
-    "rel_mae": 1.829,
+    "n": 10145,
+    "mae_pct": 2.795,
+    "rmse_pct": 6.16,
+    "rel_mae": 1.826,
     "rel_rmse": 1.424,
     "direction_hit": 0.528,
-    "share_called": 0.34
+    "share_called": 0.339
    },
    {
     "h": 1,
     "model": "ses",
-    "n": 10089,
-    "mae_pct": 1.586,
-    "rmse_pct": 4.347,
+    "n": 10145,
+    "mae_pct": 1.585,
+    "rmse_pct": 4.344,
     "rel_mae": 1.035,
-    "rel_rmse": 1.003,
-    "direction_hit": 0.59,
-    "share_called": 0.059
+    "rel_rmse": 1.004,
+    "direction_hit": 0.583,
+    "share_called": 0.06
    },
    {
     "h": 1,
     "model": "gbm",
-    "n": 10089,
-    "mae_pct": 1.97,
-    "rmse_pct": 4.487,
-    "rel_mae": 1.286,
-    "rel_rmse": 1.036,
-    "direction_hit": 0.56,
+    "n": 10145,
+    "mae_pct": 1.972,
+    "rmse_pct": 4.502,
+    "rel_mae": 1.288,
+    "rel_rmse": 1.04,
+    "direction_hit": 0.559,
     "share_called": 0.394
    },
    {
     "h": 1,
     "model": "gbm_median",
-    "n": 10089,
-    "mae_pct": 1.544,
-    "rmse_pct": 4.343,
+    "n": 10145,
+    "mae_pct": 1.543,
+    "rmse_pct": 4.337,
     "rel_mae": 1.008,
     "rel_rmse": 1.002,
     "direction_hit": 0.495,
@@ -85,9 +85,9 @@
    {
     "h": 2,
     "model": "naive",
-    "n": 9970,
-    "mae_pct": 2.479,
-    "rmse_pct": 6.128,
+    "n": 10024,
+    "mae_pct": 2.475,
+    "rmse_pct": 6.124,
     "rel_mae": 1.0,
     "rel_rmse": 1.0,
     "direction_hit": null,
@@ -96,64 +96,64 @@
    {
     "h": 2,
     "model": "drift",
-    "n": 9970,
-    "mae_pct": 2.771,
-    "rmse_pct": 6.262,
+    "n": 10024,
+    "mae_pct": 2.767,
+    "rmse_pct": 6.258,
     "rel_mae": 1.118,
     "rel_rmse": 1.022,
-    "direction_hit": 0.484,
-    "share_called": 0.368
+    "direction_hit": 0.483,
+    "share_called": 0.367
    },
    {
     "h": 2,
     "model": "seasonal",
-    "n": 9970,
-    "mae_pct": 4.296,
-    "rmse_pct": 8.624,
-    "rel_mae": 1.733,
-    "rel_rmse": 1.407,
+    "n": 10024,
+    "mae_pct": 4.284,
+    "rmse_pct": 8.61,
+    "rel_mae": 1.731,
+    "rel_rmse": 1.406,
     "direction_hit": 0.529,
-    "share_called": 0.472
+    "share_called": 0.471
    },
    {
     "h": 2,
     "model": "ses",
-    "n": 9970,
-    "mae_pct": 2.519,
-    "rmse_pct": 6.138,
+    "n": 10024,
+    "mae_pct": 2.514,
+    "rmse_pct": 6.135,
     "rel_mae": 1.016,
     "rel_rmse": 1.002,
-    "direction_hit": 0.574,
-    "share_called": 0.059
+    "direction_hit": 0.57,
+    "share_called": 0.06
    },
    {
     "h": 2,
     "model": "gbm",
-    "n": 9970,
+    "n": 10024,
     "mae_pct": 3.148,
-    "rmse_pct": 6.335,
-    "rel_mae": 1.27,
+    "rmse_pct": 6.331,
+    "rel_mae": 1.272,
     "rel_rmse": 1.034,
-    "direction_hit": 0.54,
-    "share_called": 0.599
+    "direction_hit": 0.541,
+    "share_called": 0.604
    },
    {
     "h": 2,
     "model": "gbm_median",
-    "n": 9970,
-    "mae_pct": 2.51,
+    "n": 10024,
+    "mae_pct": 2.506,
     "rmse_pct": 6.131,
     "rel_mae": 1.012,
-    "rel_rmse": 1.0,
-    "direction_hit": 0.538,
-    "share_called": 0.07
+    "rel_rmse": 1.001,
+    "direction_hit": 0.527,
+    "share_called": 0.069
    },
    {
     "h": 3,
     "model": "naive",
-    "n": 9854,
-    "mae_pct": 3.273,
-    "rmse_pct": 7.595,
+    "n": 9909,
+    "mae_pct": 3.27,
+    "rmse_pct": 7.6,
     "rel_mae": 1.0,
     "rel_rmse": 1.0,
     "direction_hit": null,
@@ -162,64 +162,64 @@
    {
     "h": 3,
     "model": "drift",
-    "n": 9854,
-    "mae_pct": 3.668,
-    "rmse_pct": 7.83,
+    "n": 9909,
+    "mae_pct": 3.666,
+    "rmse_pct": 7.834,
     "rel_mae": 1.121,
     "rel_rmse": 1.031,
-    "direction_hit": 0.49,
+    "direction_hit": 0.489,
     "share_called": 0.525
    },
    {
     "h": 3,
     "model": "seasonal",
-    "n": 9854,
-    "mae_pct": 5.457,
-    "rmse_pct": 10.48,
+    "n": 9909,
+    "mae_pct": 5.454,
+    "rmse_pct": 10.484,
     "rel_mae": 1.668,
-    "rel_rmse": 1.38,
-    "direction_hit": 0.538,
+    "rel_rmse": 1.379,
+    "direction_hit": 0.537,
     "share_called": 0.551
    },
    {
     "h": 3,
     "model": "ses",
-    "n": 9854,
-    "mae_pct": 3.3,
-    "rmse_pct": 7.596,
+    "n": 9909,
+    "mae_pct": 3.297,
+    "rmse_pct": 7.6,
     "rel_mae": 1.008,
     "rel_rmse": 1.0,
-    "direction_hit": 0.584,
+    "direction_hit": 0.582,
     "share_called": 0.059
    },
    {
     "h": 3,
     "model": "gbm",
-    "n": 9854,
-    "mae_pct": 3.996,
-    "rmse_pct": 7.713,
-    "rel_mae": 1.221,
+    "n": 9909,
+    "mae_pct": 3.985,
+    "rmse_pct": 7.72,
+    "rel_mae": 1.219,
     "rel_rmse": 1.016,
-    "direction_hit": 0.549,
-    "share_called": 0.713
+    "direction_hit": 0.551,
+    "share_called": 0.712
    },
    {
     "h": 3,
     "model": "gbm_median",
-    "n": 9854,
-    "mae_pct": 3.333,
-    "rmse_pct": 7.604,
+    "n": 9909,
+    "mae_pct": 3.332,
+    "rmse_pct": 7.607,
     "rel_mae": 1.019,
     "rel_rmse": 1.001,
-    "direction_hit": 0.529,
-    "share_called": 0.142
+    "direction_hit": 0.531,
+    "share_called": 0.14
    },
    {
     "h": 4,
     "model": "naive",
-    "n": 9739,
-    "mae_pct": 3.877,
-    "rmse_pct": 8.67,
+    "n": 9795,
+    "mae_pct": 3.872,
+    "rmse_pct": 8.671,
     "rel_mae": 1.0,
     "rel_rmse": 1.0,
     "direction_hit": null,
@@ -228,187 +228,187 @@
    {
     "h": 4,
     "model": "drift",
-    "n": 9739,
-    "mae_pct": 4.37,
+    "n": 9795,
+    "mae_pct": 4.365,
     "rmse_pct": 9.01,
     "rel_mae": 1.127,
     "rel_rmse": 1.039,
-    "direction_hit": 0.492,
-    "share_called": 0.622
+    "direction_hit": 0.491,
+    "share_called": 0.621
    },
    {
     "h": 4,
     "model": "seasonal",
-    "n": 9739,
-    "mae_pct": 6.315,
-    "rmse_pct": 11.837,
-    "rel_mae": 1.629,
-    "rel_rmse": 1.365,
+    "n": 9795,
+    "mae_pct": 6.304,
+    "rmse_pct": 11.828,
+    "rel_mae": 1.628,
+    "rel_rmse": 1.364,
     "direction_hit": 0.546,
-    "share_called": 0.606
+    "share_called": 0.605
    },
    {
     "h": 4,
     "model": "ses",
-    "n": 9739,
-    "mae_pct": 3.899,
-    "rmse_pct": 8.673,
+    "n": 9795,
+    "mae_pct": 3.894,
+    "rmse_pct": 8.674,
     "rel_mae": 1.006,
     "rel_rmse": 1.0,
-    "direction_hit": 0.577,
+    "direction_hit": 0.575,
     "share_called": 0.059
    },
    {
     "h": 4,
     "model": "gbm",
-    "n": 9739,
-    "mae_pct": 4.788,
-    "rmse_pct": 8.904,
+    "n": 9795,
+    "mae_pct": 4.781,
+    "rmse_pct": 8.902,
     "rel_mae": 1.235,
     "rel_rmse": 1.027,
-    "direction_hit": 0.559,
+    "direction_hit": 0.558,
     "share_called": 0.792
    },
    {
     "h": 4,
     "model": "gbm_median",
-    "n": 9739,
-    "mae_pct": 4.022,
-    "rmse_pct": 8.699,
+    "n": 9795,
+    "mae_pct": 4.017,
+    "rmse_pct": 8.698,
     "rel_mae": 1.037,
     "rel_rmse": 1.003,
-    "direction_hit": 0.536,
-    "share_called": 0.268
+    "direction_hit": 0.531,
+    "share_called": 0.266
    }
   ],
   "intervals": [
    {
     "h": 1,
     "method": "empirical",
-    "n": 10089,
+    "n": 10145,
     "coverage": 0.855,
-    "mean_width_pct": 5.657,
-    "interval_score_pct": 11.857
+    "mean_width_pct": 5.647,
+    "interval_score_pct": 11.83
    },
    {
     "h": 1,
     "method": "gbm_q",
-    "n": 10089,
-    "coverage": 0.801,
-    "mean_width_pct": 5.578,
-    "interval_score_pct": 11.673
+    "n": 10145,
+    "coverage": 0.803,
+    "mean_width_pct": 5.562,
+    "interval_score_pct": 11.636
    },
    {
     "h": 1,
     "method": "gbm_cqr",
-    "n": 10089,
-    "coverage": 0.789,
-    "mean_width_pct": 5.717,
-    "interval_score_pct": 11.67
+    "n": 10145,
+    "coverage": 0.791,
+    "mean_width_pct": 5.7,
+    "interval_score_pct": 11.633
    },
    {
     "h": 1,
     "method": "gbm_cqr_item",
-    "n": 10089,
-    "coverage": 0.789,
-    "mean_width_pct": 6.436,
-    "interval_score_pct": 11.892
+    "n": 10145,
+    "coverage": 0.786,
+    "mean_width_pct": 6.425,
+    "interval_score_pct": 11.861
    },
    {
     "h": 2,
     "method": "empirical",
-    "n": 9970,
-    "coverage": 0.834,
-    "mean_width_pct": 9.254,
-    "interval_score_pct": 17.518
+    "n": 10024,
+    "coverage": 0.835,
+    "mean_width_pct": 9.241,
+    "interval_score_pct": 17.479
    },
    {
     "h": 2,
     "method": "gbm_q",
-    "n": 9970,
-    "coverage": 0.79,
-    "mean_width_pct": 8.326,
-    "interval_score_pct": 16.944
+    "n": 10024,
+    "coverage": 0.788,
+    "mean_width_pct": 8.311,
+    "interval_score_pct": 16.922
    },
    {
     "h": 2,
     "method": "gbm_cqr",
-    "n": 9970,
-    "coverage": 0.806,
-    "mean_width_pct": 8.793,
-    "interval_score_pct": 16.952
+    "n": 10024,
+    "coverage": 0.805,
+    "mean_width_pct": 8.775,
+    "interval_score_pct": 16.93
    },
    {
     "h": 2,
     "method": "gbm_cqr_item",
-    "n": 9970,
-    "coverage": 0.795,
-    "mean_width_pct": 10.159,
-    "interval_score_pct": 17.504
+    "n": 10024,
+    "coverage": 0.796,
+    "mean_width_pct": 10.156,
+    "interval_score_pct": 17.499
    },
    {
     "h": 3,
     "method": "empirical",
-    "n": 9854,
+    "n": 9909,
     "coverage": 0.82,
-    "mean_width_pct": 12.223,
-    "interval_score_pct": 22.001
+    "mean_width_pct": 12.21,
+    "interval_score_pct": 21.979
    },
    {
     "h": 3,
     "method": "gbm_q",
-    "n": 9854,
-    "coverage": 0.763,
-    "mean_width_pct": 10.455,
+    "n": 9909,
+    "coverage": 0.766,
+    "mean_width_pct": 10.433,
     "interval_score_pct": 21.388
    },
    {
     "h": 3,
     "method": "gbm_cqr",
-    "n": 9854,
-    "coverage": 0.804,
-    "mean_width_pct": 11.531,
-    "interval_score_pct": 21.342
+    "n": 9909,
+    "coverage": 0.806,
+    "mean_width_pct": 11.499,
+    "interval_score_pct": 21.34
    },
    {
     "h": 3,
     "method": "gbm_cqr_item",
-    "n": 9854,
-    "coverage": 0.791,
-    "mean_width_pct": 13.431,
-    "interval_score_pct": 22.316
+    "n": 9909,
+    "coverage": 0.793,
+    "mean_width_pct": 13.443,
+    "interval_score_pct": 22.308
    },
    {
     "h": 4,
     "method": "empirical",
-    "n": 9739,
+    "n": 9795,
     "coverage": 0.817,
-    "mean_width_pct": 14.701,
-    "interval_score_pct": 25.387
+    "mean_width_pct": 14.682,
+    "interval_score_pct": 25.355
    },
    {
     "h": 4,
     "method": "gbm_q",
-    "n": 9739,
+    "n": 9795,
     "coverage": 0.742,
-    "mean_width_pct": 11.95,
-    "interval_score_pct": 24.83
+    "mean_width_pct": 11.884,
+    "interval_score_pct": 24.794
    },
    {
     "h": 4,
     "method": "gbm_cqr",
-    "n": 9739,
+    "n": 9795,
     "coverage": 0.808,
-    "mean_width_pct": 14.236,
-    "interval_score_pct": 24.541
+    "mean_width_pct": 14.185,
+    "interval_score_pct": 24.496
    },
    {
     "h": 4,
     "method": "gbm_cqr_item",
-    "n": 9739,
-    "coverage": 0.793,
-    "mean_width_pct": 16.326,
-    "interval_score_pct": 25.997
+    "n": 9795,
+    "coverage": 0.79,
+    "mean_width_pct": 16.285,
+    "interval_score_pct": 25.897
    }
   ]
  },
@@ -423,38 +423,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 67.5,
-     "hi": 67.5,
-     "lo_pct": 0.0,
-     "hi_pct": 0.0,
-     "backtest_coverage": 0.75
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 67.03,
+     "hi": 67.55,
+     "lo_pct": -0.7,
+     "hi_pct": 0.08,
+     "backtest_coverage": 0.85
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 65.82,
-     "hi": 67.74,
-     "lo_pct": -2.48,
-     "hi_pct": 0.36,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 65.72,
+     "hi": 67.72,
+     "lo_pct": -2.64,
+     "hi_pct": 0.33,
+     "backtest_coverage": 0.8
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 63.52,
-     "hi": 67.57,
-     "lo_pct": -5.9,
-     "hi_pct": 0.11,
-     "backtest_coverage": 0.76
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 62.46,
+     "hi": 67.71,
+     "lo_pct": -7.46,
+     "hi_pct": 0.31,
+     "backtest_coverage": 0.77
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 63.36,
-     "hi": 68.89,
-     "lo_pct": -6.14,
-     "hi_pct": 2.06,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 63.27,
+     "hi": 68.51,
+     "lo_pct": -6.26,
+     "hi_pct": 1.49,
      "backtest_coverage": 0.77
     }
    ]
@@ -465,42 +465,42 @@
    "name_bn": "আটা সাদা (খোলা)",
    "unit": "kg",
    "category": "Flour",
-   "price_now": 49.0,
+   "price_now": 50.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 48.28,
-     "hi": 49.69,
-     "lo_pct": -1.46,
-     "hi_pct": 1.41,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 49.21,
+     "hi": 50.94,
+     "lo_pct": -1.58,
+     "hi_pct": 1.89,
      "backtest_coverage": 0.83
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 47.78,
-     "hi": 50.58,
-     "lo_pct": -2.48,
-     "hi_pct": 3.22,
-     "backtest_coverage": 0.77
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 48.55,
+     "hi": 51.75,
+     "lo_pct": -2.89,
+     "hi_pct": 3.51,
+     "backtest_coverage": 0.79
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 47.44,
-     "hi": 51.02,
-     "lo_pct": -3.17,
-     "hi_pct": 4.13,
-     "backtest_coverage": 0.77
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 48.44,
+     "hi": 51.99,
+     "lo_pct": -3.12,
+     "hi_pct": 3.98,
+     "backtest_coverage": 0.76
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 47.47,
-     "hi": 52.1,
-     "lo_pct": -3.12,
-     "hi_pct": 6.33,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 48.3,
+     "hi": 53.14,
+     "lo_pct": -3.41,
+     "hi_pct": 6.28,
      "backtest_coverage": 0.75
     }
    ]
@@ -515,38 +515,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 67.41,
-     "hi": 67.69,
-     "lo_pct": -0.14,
-     "hi_pct": 0.28,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 67.46,
+     "hi": 67.62,
+     "lo_pct": -0.06,
+     "hi_pct": 0.18,
      "backtest_coverage": 0.79
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 66.75,
-     "hi": 69.42,
-     "lo_pct": -1.12,
-     "hi_pct": 2.85,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 66.76,
+     "hi": 69.13,
+     "lo_pct": -1.09,
+     "hi_pct": 2.42,
      "backtest_coverage": 0.76
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 65.98,
-     "hi": 69.81,
-     "lo_pct": -2.25,
-     "hi_pct": 3.42,
-     "backtest_coverage": 0.74
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 66.19,
+     "hi": 69.85,
+     "lo_pct": -1.95,
+     "hi_pct": 3.49,
+     "backtest_coverage": 0.75
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 65.59,
-     "hi": 71.02,
-     "lo_pct": -2.83,
-     "hi_pct": 5.22,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 65.76,
+     "hi": 71.2,
+     "lo_pct": -2.58,
+     "hi_pct": 5.48,
      "backtest_coverage": 0.71
     }
    ]
@@ -561,38 +561,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 263.41,
-     "hi": 267.04,
-     "lo_pct": -0.6,
-     "hi_pct": 0.77,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 247.4,
+     "hi": 267.74,
+     "lo_pct": -6.64,
+     "hi_pct": 1.03,
      "backtest_coverage": 0.88
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 258.25,
-     "hi": 277.77,
-     "lo_pct": -2.55,
-     "hi_pct": 4.82,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 255.58,
+     "hi": 275.63,
+     "lo_pct": -3.56,
+     "hi_pct": 4.01,
      "backtest_coverage": 0.85
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 249.26,
-     "hi": 277.42,
-     "lo_pct": -5.94,
-     "hi_pct": 4.69,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 251.97,
+     "hi": 281.18,
+     "lo_pct": -4.92,
+     "hi_pct": 6.1,
+     "backtest_coverage": 0.82
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 248.83,
-     "hi": 275.19,
-     "lo_pct": -6.1,
-     "hi_pct": 3.85,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 247.16,
+     "hi": 279.54,
+     "lo_pct": -6.73,
+     "hi_pct": 5.49,
      "backtest_coverage": 0.81
     }
    ]
@@ -607,39 +607,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 824.78,
-     "hi": 829.45,
-     "lo_pct": -0.03,
-     "hi_pct": 0.54,
-     "backtest_coverage": 0.81
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 824.38,
+     "hi": 825.94,
+     "lo_pct": -0.07,
+     "hi_pct": 0.11,
+     "backtest_coverage": 0.82
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 824.32,
-     "hi": 828.27,
-     "lo_pct": -0.08,
-     "hi_pct": 0.4,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 824.41,
+     "hi": 828.72,
+     "lo_pct": -0.07,
+     "hi_pct": 0.45,
      "backtest_coverage": 0.82
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 821.67,
-     "hi": 827.78,
-     "lo_pct": -0.4,
-     "hi_pct": 0.34,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 822.44,
+     "hi": 828.98,
+     "lo_pct": -0.31,
+     "hi_pct": 0.48,
      "backtest_coverage": 0.86
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 822.75,
-     "hi": 832.57,
-     "lo_pct": -0.27,
-     "hi_pct": 0.92,
-     "backtest_coverage": 0.89
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 822.27,
+     "hi": 835.26,
+     "lo_pct": -0.33,
+     "hi_pct": 1.24,
+     "backtest_coverage": 0.88
     }
    ]
   },
@@ -649,42 +649,42 @@
    "name_bn": "এলাচ(ছোট)",
    "unit": "kg",
    "category": "Spices",
-   "price_now": 5100.0,
+   "price_now": 5050.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 5099.39,
-     "hi": 5102.71,
-     "lo_pct": -0.01,
-     "hi_pct": 0.05,
-     "backtest_coverage": 0.84
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 5014.6,
+     "hi": 5093.33,
+     "lo_pct": -0.7,
+     "hi_pct": 0.86,
+     "backtest_coverage": 0.85
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 5070.01,
-     "hi": 5102.19,
-     "lo_pct": -0.59,
-     "hi_pct": 0.04,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 4991.11,
+     "hi": 5078.21,
+     "lo_pct": -1.17,
+     "hi_pct": 0.56,
+     "backtest_coverage": 0.81
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 5047.84,
-     "hi": 5146.91,
-     "lo_pct": -1.02,
-     "hi_pct": 0.92,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 4984.13,
+     "hi": 5100.56,
+     "lo_pct": -1.3,
+     "hi_pct": 1.0,
+     "backtest_coverage": 0.81
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 5056.87,
-     "hi": 5139.39,
-     "lo_pct": -0.85,
-     "hi_pct": 0.77,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 4964.82,
+     "hi": 5093.77,
+     "lo_pct": -1.69,
+     "hi_pct": 0.87,
      "backtest_coverage": 0.84
     }
    ]
@@ -699,38 +699,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 180.85,
-     "hi": 189.92,
-     "lo_pct": -2.24,
-     "hi_pct": 2.66,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 174.06,
+     "hi": 187.54,
+     "lo_pct": -5.91,
+     "hi_pct": 1.37,
      "backtest_coverage": 0.76
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 176.07,
-     "hi": 192.49,
-     "lo_pct": -4.82,
-     "hi_pct": 4.05,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 179.14,
+     "hi": 192.0,
+     "lo_pct": -3.17,
+     "hi_pct": 3.78,
      "backtest_coverage": 0.77
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 172.95,
-     "hi": 194.24,
-     "lo_pct": -6.51,
-     "hi_pct": 4.99,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 173.29,
+     "hi": 194.73,
+     "lo_pct": -6.33,
+     "hi_pct": 5.26,
+     "backtest_coverage": 0.81
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 170.3,
-     "hi": 196.49,
-     "lo_pct": -7.95,
-     "hi_pct": 6.21,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 170.51,
+     "hi": 196.38,
+     "lo_pct": -7.83,
+     "hi_pct": 6.15,
      "backtest_coverage": 0.8
     }
    ]
@@ -745,38 +745,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 654.53,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 672.99,
      "hi": 675.0,
-     "lo_pct": -3.03,
+     "lo_pct": -0.3,
      "hi_pct": 0.0,
-     "backtest_coverage": 0.8
+     "backtest_coverage": 0.79
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 669.63,
-     "hi": 686.64,
-     "lo_pct": -0.79,
-     "hi_pct": 1.72,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 669.0,
+     "hi": 676.8,
+     "lo_pct": -0.89,
+     "hi_pct": 0.27,
+     "backtest_coverage": 0.77
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 661.15,
-     "hi": 680.15,
-     "lo_pct": -2.05,
-     "hi_pct": 0.76,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 664.77,
+     "hi": 678.58,
+     "lo_pct": -1.52,
+     "hi_pct": 0.53,
      "backtest_coverage": 0.84
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 662.19,
-     "hi": 683.89,
-     "lo_pct": -1.9,
-     "hi_pct": 1.32,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 660.65,
+     "hi": 694.17,
+     "lo_pct": -2.13,
+     "hi_pct": 2.84,
      "backtest_coverage": 0.84
     }
    ]
@@ -791,39 +791,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 112.25,
-     "hi": 118.56,
-     "lo_pct": -2.4,
-     "hi_pct": 3.09,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 111.94,
+     "hi": 117.66,
+     "lo_pct": -2.66,
+     "hi_pct": 2.31,
      "backtest_coverage": 0.79
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 110.14,
-     "hi": 118.6,
-     "lo_pct": -4.22,
-     "hi_pct": 3.13,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 110.34,
+     "hi": 119.0,
+     "lo_pct": -4.05,
+     "hi_pct": 3.48,
      "backtest_coverage": 0.82
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 109.7,
-     "hi": 120.26,
-     "lo_pct": -4.61,
-     "hi_pct": 4.57,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 108.67,
+     "hi": 119.79,
+     "lo_pct": -5.51,
+     "hi_pct": 4.17,
      "backtest_coverage": 0.78
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 109.64,
-     "hi": 120.62,
-     "lo_pct": -4.66,
-     "hi_pct": 4.89,
-     "backtest_coverage": 0.75
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 108.62,
+     "hi": 120.08,
+     "lo_pct": -5.55,
+     "hi_pct": 4.41,
+     "backtest_coverage": 0.76
     }
    ]
   },
@@ -837,38 +837,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 388.43,
-     "hi": 415.84,
-     "lo_pct": -6.4,
-     "hi_pct": 0.2,
-     "backtest_coverage": 0.83
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 408.82,
+     "hi": 418.55,
+     "lo_pct": -1.49,
+     "hi_pct": 0.86,
+     "backtest_coverage": 0.84
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 403.38,
-     "hi": 418.04,
-     "lo_pct": -2.8,
-     "hi_pct": 0.73,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 399.36,
+     "hi": 426.27,
+     "lo_pct": -3.77,
+     "hi_pct": 2.72,
      "backtest_coverage": 0.82
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 376.45,
-     "hi": 425.77,
-     "lo_pct": -9.29,
-     "hi_pct": 2.6,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 343.32,
+     "hi": 432.84,
+     "lo_pct": -17.27,
+     "hi_pct": 4.3,
      "backtest_coverage": 0.8
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 368.01,
-     "hi": 433.41,
-     "lo_pct": -11.32,
-     "hi_pct": 4.44,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 350.82,
+     "hi": 429.35,
+     "lo_pct": -15.46,
+     "hi_pct": 3.46,
      "backtest_coverage": 0.8
     }
    ]
@@ -883,39 +883,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 348.37,
-     "hi": 351.04,
-     "lo_pct": -0.47,
-     "hi_pct": 0.3,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 348.17,
+     "hi": 351.52,
+     "lo_pct": -0.52,
+     "hi_pct": 0.43,
      "backtest_coverage": 0.84
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 343.64,
-     "hi": 359.94,
-     "lo_pct": -1.82,
-     "hi_pct": 2.84,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 341.2,
+     "hi": 367.14,
+     "lo_pct": -2.51,
+     "hi_pct": 4.9,
+     "backtest_coverage": 0.81
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 330.41,
-     "hi": 361.96,
-     "lo_pct": -5.6,
-     "hi_pct": 3.42,
-     "backtest_coverage": 0.79
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 332.41,
+     "hi": 366.3,
+     "lo_pct": -5.02,
+     "hi_pct": 4.66,
+     "backtest_coverage": 0.78
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 329.86,
-     "hi": 372.11,
-     "lo_pct": -5.76,
-     "hi_pct": 6.32,
-     "backtest_coverage": 0.83
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 318.24,
+     "hi": 367.9,
+     "lo_pct": -9.08,
+     "hi_pct": 5.11,
+     "backtest_coverage": 0.82
     }
    ]
   },
@@ -925,42 +925,42 @@
    "name_bn": "দারুচিনি",
    "unit": "kg",
    "category": "Spices",
-   "price_now": 540.0,
+   "price_now": 550.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 533.25,
-     "hi": 544.87,
-     "lo_pct": -1.25,
-     "hi_pct": 0.9,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 541.97,
+     "hi": 558.19,
+     "lo_pct": -1.46,
+     "hi_pct": 1.49,
      "backtest_coverage": 0.81
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 530.68,
-     "hi": 545.65,
-     "lo_pct": -1.73,
-     "hi_pct": 1.05,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 539.93,
+     "hi": 561.42,
+     "lo_pct": -1.83,
+     "hi_pct": 2.08,
+     "backtest_coverage": 0.79
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 524.6,
-     "hi": 549.32,
-     "lo_pct": -2.85,
-     "hi_pct": 1.73,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 537.62,
+     "hi": 562.44,
+     "lo_pct": -2.25,
+     "hi_pct": 2.26,
      "backtest_coverage": 0.8
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 524.51,
-     "hi": 557.61,
-     "lo_pct": -2.87,
-     "hi_pct": 3.26,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 536.5,
+     "hi": 563.51,
+     "lo_pct": -2.45,
+     "hi_pct": 2.46,
      "backtest_coverage": 0.82
     }
    ]
@@ -975,39 +975,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 1521.37,
-     "hi": 1527.4,
-     "lo_pct": -0.24,
-     "hi_pct": 0.16,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 1524.01,
+     "hi": 1534.98,
+     "lo_pct": -0.07,
+     "hi_pct": 0.65,
      "backtest_coverage": 0.79
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 1513.16,
-     "hi": 1538.33,
-     "lo_pct": -0.78,
-     "hi_pct": 0.87,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 1513.96,
+     "hi": 1537.3,
+     "lo_pct": -0.72,
+     "hi_pct": 0.81,
+     "backtest_coverage": 0.8
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 1504.33,
-     "hi": 1546.13,
-     "lo_pct": -1.36,
-     "hi_pct": 1.39,
-     "backtest_coverage": 0.79
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 1509.68,
+     "hi": 1548.91,
+     "lo_pct": -1.0,
+     "hi_pct": 1.57,
+     "backtest_coverage": 0.8
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 1507.44,
-     "hi": 1579.63,
-     "lo_pct": -1.15,
-     "hi_pct": 3.58,
-     "backtest_coverage": 0.87
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 1504.84,
+     "hi": 1574.43,
+     "lo_pct": -1.32,
+     "hi_pct": 3.24,
+     "backtest_coverage": 0.86
     }
    ]
   },
@@ -1021,39 +1021,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 223.51,
-     "hi": 225.81,
-     "lo_pct": -0.66,
-     "hi_pct": 0.36,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 224.73,
+     "hi": 227.03,
+     "lo_pct": -0.12,
+     "hi_pct": 0.9,
      "backtest_coverage": 0.82
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 223.53,
-     "hi": 228.38,
-     "lo_pct": -0.66,
-     "hi_pct": 1.5,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 223.86,
+     "hi": 228.41,
+     "lo_pct": -0.51,
+     "hi_pct": 1.52,
      "backtest_coverage": 0.83
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 220.53,
-     "hi": 228.39,
-     "lo_pct": -1.99,
-     "hi_pct": 1.51,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 221.39,
+     "hi": 228.2,
+     "lo_pct": -1.6,
+     "hi_pct": 1.42,
      "backtest_coverage": 0.83
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 221.27,
-     "hi": 228.35,
-     "lo_pct": -1.66,
-     "hi_pct": 1.49,
-     "backtest_coverage": 0.86
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 220.95,
+     "hi": 230.71,
+     "lo_pct": -1.8,
+     "hi_pct": 2.54,
+     "backtest_coverage": 0.85
     }
    ]
   },
@@ -1063,43 +1063,43 @@
    "name_bn": "জিরা",
    "unit": "kg",
    "category": "Spices",
-   "price_now": 600.0,
+   "price_now": 615.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 597.57,
-     "hi": 600.65,
-     "lo_pct": -0.41,
-     "hi_pct": 0.11,
-     "backtest_coverage": 0.79
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 607.71,
+     "hi": 623.56,
+     "lo_pct": -1.19,
+     "hi_pct": 1.39,
+     "backtest_coverage": 0.78
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 590.39,
-     "hi": 603.19,
-     "lo_pct": -1.6,
-     "hi_pct": 0.53,
-     "backtest_coverage": 0.73
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 603.62,
+     "hi": 629.18,
+     "lo_pct": -1.85,
+     "hi_pct": 2.31,
+     "backtest_coverage": 0.72
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 586.12,
-     "hi": 602.95,
-     "lo_pct": -2.31,
-     "hi_pct": 0.49,
-     "backtest_coverage": 0.72
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 603.62,
+     "hi": 628.13,
+     "lo_pct": -1.85,
+     "hi_pct": 2.13,
+     "backtest_coverage": 0.73
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 584.01,
-     "hi": 608.31,
-     "lo_pct": -2.66,
-     "hi_pct": 1.38,
-     "backtest_coverage": 0.72
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 599.23,
+     "hi": 625.38,
+     "lo_pct": -2.56,
+     "hi_pct": 1.69,
+     "backtest_coverage": 0.7
     }
    ]
   },
@@ -1113,38 +1113,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 450.0,
-     "hi": 453.27,
+     "hi": 450.86,
      "lo_pct": 0.0,
-     "hi_pct": 0.73,
-     "backtest_coverage": 0.68
+     "hi_pct": 0.19,
+     "backtest_coverage": 0.69
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 443.16,
-     "hi": 467.93,
-     "lo_pct": -1.52,
-     "hi_pct": 3.98,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 443.74,
+     "hi": 464.05,
+     "lo_pct": -1.39,
+     "hi_pct": 3.12,
+     "backtest_coverage": 0.8
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 434.5,
-     "hi": 467.7,
-     "lo_pct": -3.44,
-     "hi_pct": 3.93,
-     "backtest_coverage": 0.79
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 425.08,
+     "hi": 459.82,
+     "lo_pct": -5.54,
+     "hi_pct": 2.18,
+     "backtest_coverage": 0.8
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 418.82,
-     "hi": 480.34,
-     "lo_pct": -6.93,
-     "hi_pct": 6.74,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 421.69,
+     "hi": 470.65,
+     "lo_pct": -6.29,
+     "hi_pct": 4.59,
      "backtest_coverage": 0.8
     }
    ]
@@ -1155,43 +1155,43 @@
    "name_bn": "ডিম (ফার্ম)",
    "unit": "hali (4 pcs)",
    "category": "Eggs & dairy",
-   "price_now": 46.0,
+   "price_now": 45.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 44.17,
-     "hi": 47.66,
-     "lo_pct": -3.98,
-     "hi_pct": 3.6,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 43.26,
+     "hi": 46.81,
+     "lo_pct": -3.87,
+     "hi_pct": 4.01,
      "backtest_coverage": 0.77
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 43.19,
-     "hi": 48.59,
-     "lo_pct": -6.11,
-     "hi_pct": 5.64,
-     "backtest_coverage": 0.79
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 42.12,
+     "hi": 47.88,
+     "lo_pct": -6.41,
+     "hi_pct": 6.4,
+     "backtest_coverage": 0.8
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 41.69,
-     "hi": 49.1,
-     "lo_pct": -9.36,
-     "hi_pct": 6.74,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 40.62,
+     "hi": 48.2,
+     "lo_pct": -9.72,
+     "hi_pct": 7.11,
      "backtest_coverage": 0.76
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 40.55,
-     "hi": 49.34,
-     "lo_pct": -11.85,
-     "hi_pct": 7.26,
-     "backtest_coverage": 0.76
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 40.57,
+     "hi": 49.15,
+     "lo_pct": -9.85,
+     "hi_pct": 9.22,
+     "backtest_coverage": 0.77
     }
    ]
   },
@@ -1205,39 +1205,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 181.16,
-     "hi": 200.62,
-     "lo_pct": -4.65,
-     "hi_pct": 5.59,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 181.32,
+     "hi": 199.61,
+     "lo_pct": -4.57,
+     "hi_pct": 5.06,
      "backtest_coverage": 0.79
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 176.38,
-     "hi": 203.14,
-     "lo_pct": -7.17,
-     "hi_pct": 6.91,
-     "backtest_coverage": 0.77
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 176.83,
+     "hi": 204.76,
+     "lo_pct": -6.93,
+     "hi_pct": 7.77,
+     "backtest_coverage": 0.78
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 168.66,
-     "hi": 207.56,
-     "lo_pct": -11.23,
-     "hi_pct": 9.24,
-     "backtest_coverage": 0.77
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 173.07,
+     "hi": 208.67,
+     "lo_pct": -8.91,
+     "hi_pct": 9.83,
+     "backtest_coverage": 0.76
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 167.08,
-     "hi": 213.07,
-     "lo_pct": -12.06,
-     "hi_pct": 12.14,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 172.55,
+     "hi": 215.73,
+     "lo_pct": -9.18,
+     "hi_pct": 13.54,
+     "backtest_coverage": 0.82
     }
    ]
   },
@@ -1247,42 +1247,42 @@
    "name_bn": "রসুন (দেশী)",
    "unit": "kg",
    "category": "Vegetables",
-   "price_now": 110.0,
+   "price_now": 120.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 103.81,
-     "hi": 116.16,
-     "lo_pct": -5.63,
-     "hi_pct": 5.6,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 108.26,
+     "hi": 127.93,
+     "lo_pct": -9.78,
+     "hi_pct": 6.61,
      "backtest_coverage": 0.81
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 99.5,
-     "hi": 116.02,
-     "lo_pct": -9.55,
-     "hi_pct": 5.47,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 106.7,
+     "hi": 129.36,
+     "lo_pct": -11.08,
+     "hi_pct": 7.8,
      "backtest_coverage": 0.82
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 95.85,
-     "hi": 119.97,
-     "lo_pct": -12.86,
-     "hi_pct": 9.06,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 97.93,
+     "hi": 136.07,
+     "lo_pct": -18.39,
+     "hi_pct": 13.39,
+     "backtest_coverage": 0.81
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 90.72,
-     "hi": 117.89,
-     "lo_pct": -17.53,
-     "hi_pct": 7.17,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 100.75,
+     "hi": 137.99,
+     "lo_pct": -16.04,
+     "hi_pct": 14.99,
      "backtest_coverage": 0.81
     }
    ]
@@ -1293,42 +1293,42 @@
    "name_bn": "আদা (আমদানি)",
    "unit": "kg",
    "category": "Vegetables",
-   "price_now": 170.0,
+   "price_now": 180.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 157.98,
-     "hi": 179.13,
-     "lo_pct": -7.07,
-     "hi_pct": 5.37,
-     "backtest_coverage": 0.74
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 166.23,
+     "hi": 190.34,
+     "lo_pct": -7.65,
+     "hi_pct": 5.74,
+     "backtest_coverage": 0.73
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 150.01,
-     "hi": 177.69,
-     "lo_pct": -11.76,
-     "hi_pct": 4.53,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 159.53,
+     "hi": 194.05,
+     "lo_pct": -11.37,
+     "hi_pct": 7.81,
      "backtest_coverage": 0.72
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 150.44,
-     "hi": 186.19,
-     "lo_pct": -11.51,
-     "hi_pct": 9.52,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 160.22,
+     "hi": 198.65,
+     "lo_pct": -10.99,
+     "hi_pct": 10.36,
      "backtest_coverage": 0.73
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 146.97,
-     "hi": 190.27,
-     "lo_pct": -13.55,
-     "hi_pct": 11.93,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 156.01,
+     "hi": 205.79,
+     "lo_pct": -13.33,
+     "hi_pct": 14.33,
      "backtest_coverage": 0.73
     }
    ]
@@ -1339,42 +1339,42 @@
    "name_bn": "আদা (দেশী)",
    "unit": "kg",
    "category": "Vegetables",
-   "price_now": 135.0,
+   "price_now": 125.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 126.33,
-     "hi": 143.44,
-     "lo_pct": -6.42,
-     "hi_pct": 6.25,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 117.32,
+     "hi": 134.94,
+     "lo_pct": -6.14,
+     "hi_pct": 7.95,
      "backtest_coverage": 0.82
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 122.05,
-     "hi": 144.1,
-     "lo_pct": -9.59,
-     "hi_pct": 6.74,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 111.75,
+     "hi": 146.0,
+     "lo_pct": -10.6,
+     "hi_pct": 16.8,
      "backtest_coverage": 0.8
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 116.38,
-     "hi": 152.38,
-     "lo_pct": -13.79,
-     "hi_pct": 12.87,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 109.24,
+     "hi": 148.58,
+     "lo_pct": -12.61,
+     "hi_pct": 18.87,
      "backtest_coverage": 0.8
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 122.33,
-     "hi": 153.15,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 113.27,
+     "hi": 156.7,
      "lo_pct": -9.38,
-     "hi_pct": 13.45,
+     "hi_pct": 25.36,
      "backtest_coverage": 0.78
     }
    ]
@@ -1389,38 +1389,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 1295.65,
-     "hi": 1414.88,
-     "lo_pct": -4.03,
-     "hi_pct": 4.81,
-     "backtest_coverage": 0.85
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 1315.63,
+     "hi": 1370.97,
+     "lo_pct": -2.55,
+     "hi_pct": 1.55,
+     "backtest_coverage": 0.84
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 1320.33,
-     "hi": 1467.99,
-     "lo_pct": -2.2,
-     "hi_pct": 8.74,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 1299.78,
+     "hi": 1434.79,
+     "lo_pct": -3.72,
+     "hi_pct": 6.28,
      "backtest_coverage": 0.79
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 1241.79,
-     "hi": 1429.33,
-     "lo_pct": -8.02,
-     "hi_pct": 5.88,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 1243.69,
+     "hi": 1518.69,
+     "lo_pct": -7.87,
+     "hi_pct": 12.5,
      "backtest_coverage": 0.73
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 1183.21,
-     "hi": 1516.07,
-     "lo_pct": -12.35,
-     "hi_pct": 12.3,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 1173.61,
+     "hi": 1532.31,
+     "lo_pct": -13.07,
+     "hi_pct": 13.5,
      "backtest_coverage": 0.76
     }
    ]
@@ -1435,39 +1435,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 94.69,
-     "hi": 95.37,
-     "lo_pct": -0.33,
-     "hi_pct": 0.39,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 94.59,
+     "hi": 95.04,
+     "lo_pct": -0.43,
+     "hi_pct": 0.04,
      "backtest_coverage": 0.84
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 93.59,
-     "hi": 95.71,
-     "lo_pct": -1.49,
-     "hi_pct": 0.75,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 93.98,
+     "hi": 95.8,
+     "lo_pct": -1.07,
+     "hi_pct": 0.84,
      "backtest_coverage": 0.8
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 92.59,
-     "hi": 96.64,
-     "lo_pct": -2.54,
-     "hi_pct": 1.73,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 92.96,
+     "hi": 95.89,
+     "lo_pct": -2.15,
+     "hi_pct": 0.94,
+     "backtest_coverage": 0.81
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 92.56,
-     "hi": 96.71,
-     "lo_pct": -2.57,
-     "hi_pct": 1.8,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 91.97,
+     "hi": 96.6,
+     "lo_pct": -3.18,
+     "hi_pct": 1.69,
+     "backtest_coverage": 0.78
     }
    ]
   },
@@ -1481,38 +1481,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 150.58,
-     "hi": 156.18,
-     "lo_pct": -2.85,
-     "hi_pct": 0.76,
-     "backtest_coverage": 0.83
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 153.78,
+     "hi": 155.27,
+     "lo_pct": -0.79,
+     "hi_pct": 0.18,
+     "backtest_coverage": 0.87
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 152.9,
-     "hi": 157.86,
-     "lo_pct": -1.35,
-     "hi_pct": 1.85,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 150.8,
+     "hi": 156.94,
+     "lo_pct": -2.71,
+     "hi_pct": 1.25,
      "backtest_coverage": 0.82
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 150.34,
-     "hi": 157.95,
-     "lo_pct": -3.0,
-     "hi_pct": 1.9,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 152.22,
+     "hi": 157.7,
+     "lo_pct": -1.79,
+     "hi_pct": 1.74,
      "backtest_coverage": 0.81
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 148.49,
-     "hi": 158.87,
-     "lo_pct": -4.2,
-     "hi_pct": 2.5,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 150.62,
+     "hi": 158.7,
+     "lo_pct": -2.83,
+     "hi_pct": 2.39,
      "backtest_coverage": 0.81
     }
    ]
@@ -1527,38 +1527,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 115.36,
-     "hi": 117.84,
-     "lo_pct": -1.82,
-     "hi_pct": 0.29,
-     "backtest_coverage": 0.82
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 116.89,
+     "hi": 117.68,
+     "lo_pct": -0.52,
+     "hi_pct": 0.16,
+     "backtest_coverage": 0.83
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 115.61,
-     "hi": 117.48,
-     "lo_pct": -1.61,
-     "hi_pct": -0.02,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 116.0,
+     "hi": 117.72,
+     "lo_pct": -1.27,
+     "hi_pct": 0.18,
      "backtest_coverage": 0.85
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 115.11,
-     "hi": 118.42,
-     "lo_pct": -2.03,
-     "hi_pct": 0.79,
-     "backtest_coverage": 0.84
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 116.02,
+     "hi": 118.34,
+     "lo_pct": -1.26,
+     "hi_pct": 0.71,
+     "backtest_coverage": 0.85
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 114.67,
-     "hi": 118.89,
-     "lo_pct": -2.41,
-     "hi_pct": 1.18,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 114.79,
+     "hi": 120.03,
+     "lo_pct": -2.3,
+     "hi_pct": 2.15,
      "backtest_coverage": 0.83
     }
    ]
@@ -1569,42 +1569,42 @@
    "name_bn": "ময়দা (খোলা)",
    "unit": "kg",
    "category": "Flour",
-   "price_now": 67.5,
+   "price_now": 70.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 66.86,
-     "hi": 68.64,
-     "lo_pct": -0.95,
-     "hi_pct": 1.69,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 68.94,
+     "hi": 71.74,
+     "lo_pct": -1.51,
+     "hi_pct": 2.48,
      "backtest_coverage": 0.76
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 66.19,
-     "hi": 69.41,
-     "lo_pct": -1.95,
-     "hi_pct": 2.84,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 68.32,
+     "hi": 72.9,
+     "lo_pct": -2.4,
+     "hi_pct": 4.15,
      "backtest_coverage": 0.73
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 65.56,
-     "hi": 69.99,
-     "lo_pct": -2.87,
-     "hi_pct": 3.69,
-     "backtest_coverage": 0.74
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 67.78,
+     "hi": 72.42,
+     "lo_pct": -3.17,
+     "hi_pct": 3.46,
+     "backtest_coverage": 0.75
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 65.4,
-     "hi": 70.47,
-     "lo_pct": -3.1,
-     "hi_pct": 4.4,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 67.63,
+     "hi": 74.06,
+     "lo_pct": -3.38,
+     "hi_pct": 5.8,
      "backtest_coverage": 0.74
     }
    ]
@@ -1619,38 +1619,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 86.62,
-     "hi": 89.2,
-     "lo_pct": -1.0,
-     "hi_pct": 1.94,
-     "backtest_coverage": 0.83
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 86.3,
+     "hi": 88.72,
+     "lo_pct": -1.37,
+     "hi_pct": 1.39,
+     "backtest_coverage": 0.81
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 85.68,
-     "hi": 90.21,
-     "lo_pct": -2.07,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 86.1,
+     "hi": 90.2,
+     "lo_pct": -1.6,
      "hi_pct": 3.09,
      "backtest_coverage": 0.79
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 85.57,
-     "hi": 91.11,
-     "lo_pct": -2.2,
-     "hi_pct": 4.13,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 85.04,
+     "hi": 92.34,
+     "lo_pct": -2.81,
+     "hi_pct": 5.54,
      "backtest_coverage": 0.76
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 84.77,
-     "hi": 91.1,
-     "lo_pct": -3.12,
-     "hi_pct": 4.11,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 84.8,
+     "hi": 91.07,
+     "lo_pct": -3.08,
+     "hi_pct": 4.08,
      "backtest_coverage": 0.76
     }
    ]
@@ -1665,38 +1665,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 900.0,
-     "hi": 900.0,
+     "hi": 900.08,
      "lo_pct": 0.0,
-     "hi_pct": 0.0,
-     "backtest_coverage": 0.82
+     "hi_pct": 0.01,
+     "backtest_coverage": 0.78
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 892.22,
-     "hi": 914.79,
-     "lo_pct": -0.86,
-     "hi_pct": 1.64,
-     "backtest_coverage": 0.87
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 891.6,
+     "hi": 916.48,
+     "lo_pct": -0.93,
+     "hi_pct": 1.83,
+     "backtest_coverage": 0.88
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 882.63,
-     "hi": 911.65,
-     "lo_pct": -1.93,
-     "hi_pct": 1.29,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 887.02,
+     "hi": 917.12,
+     "lo_pct": -1.44,
+     "hi_pct": 1.9,
      "backtest_coverage": 0.89
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 872.22,
-     "hi": 944.96,
-     "lo_pct": -3.09,
-     "hi_pct": 5.0,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 871.56,
+     "hi": 927.54,
+     "lo_pct": -3.16,
+     "hi_pct": 3.06,
      "backtest_coverage": 0.88
     }
    ]
@@ -1711,38 +1711,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 923.61,
-     "hi": 925.51,
-     "lo_pct": -0.15,
-     "hi_pct": 0.06,
-     "backtest_coverage": 0.74
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 925.0,
+     "hi": 925.6,
+     "lo_pct": 0.0,
+     "hi_pct": 0.07,
+     "backtest_coverage": 0.76
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 924.23,
-     "hi": 925.34,
-     "lo_pct": -0.08,
-     "hi_pct": 0.04,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 922.87,
+     "hi": 925.13,
+     "lo_pct": -0.23,
+     "hi_pct": 0.01,
      "backtest_coverage": 0.9
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 922.4,
-     "hi": 925.26,
-     "lo_pct": -0.28,
-     "hi_pct": 0.03,
-     "backtest_coverage": 0.9
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 923.96,
+     "hi": 924.73,
+     "lo_pct": -0.11,
+     "hi_pct": -0.03,
+     "backtest_coverage": 0.89
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 921.68,
-     "hi": 925.95,
-     "lo_pct": -0.36,
-     "hi_pct": 0.1,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 920.77,
+     "hi": 925.21,
+     "lo_pct": -0.46,
+     "hi_pct": 0.02,
      "backtest_coverage": 0.89
     }
    ]
@@ -1757,38 +1757,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 910.0,
-     "hi": 910.81,
+     "hi": 910.0,
      "lo_pct": 0.0,
-     "hi_pct": 0.09,
+     "hi_pct": 0.0,
      "backtest_coverage": 0.72
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 909.38,
-     "hi": 912.94,
-     "lo_pct": -0.07,
-     "hi_pct": 0.32,
-     "backtest_coverage": 0.85
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 909.19,
+     "hi": 912.11,
+     "lo_pct": -0.09,
+     "hi_pct": 0.23,
+     "backtest_coverage": 0.88
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 911.68,
-     "hi": 916.12,
-     "lo_pct": 0.19,
-     "hi_pct": 0.67,
-     "backtest_coverage": 0.9
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 906.14,
+     "hi": 913.37,
+     "lo_pct": -0.42,
+     "hi_pct": 0.37,
+     "backtest_coverage": 0.91
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 909.05,
-     "hi": 925.52,
-     "lo_pct": -0.1,
-     "hi_pct": 1.71,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 908.78,
+     "hi": 927.47,
+     "lo_pct": -0.13,
+     "hi_pct": 1.92,
      "backtest_coverage": 0.88
     }
    ]
@@ -1803,38 +1803,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 915.0,
-     "hi": 915.02,
+     "hi": 915.5,
      "lo_pct": 0.0,
-     "hi_pct": 0.0,
-     "backtest_coverage": 0.76
+     "hi_pct": 0.06,
+     "backtest_coverage": 0.75
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 913.67,
-     "hi": 922.87,
-     "lo_pct": -0.15,
-     "hi_pct": 0.86,
-     "backtest_coverage": 0.87
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 911.55,
+     "hi": 925.03,
+     "lo_pct": -0.38,
+     "hi_pct": 1.1,
+     "backtest_coverage": 0.89
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 914.13,
-     "hi": 920.4,
-     "lo_pct": -0.1,
-     "hi_pct": 0.59,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 914.52,
+     "hi": 923.53,
+     "lo_pct": -0.05,
+     "hi_pct": 0.93,
      "backtest_coverage": 0.89
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 913.93,
-     "hi": 937.8,
-     "lo_pct": -0.12,
-     "hi_pct": 2.49,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 911.03,
+     "hi": 935.73,
+     "lo_pct": -0.43,
+     "hi_pct": 2.27,
      "backtest_coverage": 0.88
     }
    ]
@@ -1849,39 +1849,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 149.94,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 149.91,
      "hi": 150.0,
-     "lo_pct": -0.04,
+     "lo_pct": -0.06,
      "hi_pct": 0.0,
-     "backtest_coverage": 0.75
+     "backtest_coverage": 0.76
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 149.06,
-     "hi": 150.79,
-     "lo_pct": -0.63,
-     "hi_pct": 0.53,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 149.39,
+     "hi": 150.6,
+     "lo_pct": -0.41,
+     "hi_pct": 0.4,
+     "backtest_coverage": 0.78
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 147.77,
-     "hi": 151.01,
-     "lo_pct": -1.49,
-     "hi_pct": 0.68,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 148.32,
+     "hi": 150.54,
+     "lo_pct": -1.12,
+     "hi_pct": 0.36,
      "backtest_coverage": 0.78
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 147.73,
-     "hi": 152.23,
-     "lo_pct": -1.52,
-     "hi_pct": 1.48,
-     "backtest_coverage": 0.78
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 147.61,
+     "hi": 152.45,
+     "lo_pct": -1.59,
+     "hi_pct": 1.64,
+     "backtest_coverage": 0.77
     }
    ]
   },
@@ -1895,39 +1895,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 1275.0,
-     "hi": 1282.54,
+     "hi": 1275.92,
      "lo_pct": 0.0,
-     "hi_pct": 0.59,
-     "backtest_coverage": 0.76
+     "hi_pct": 0.07,
+     "backtest_coverage": 0.73
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 1274.76,
-     "hi": 1282.45,
-     "lo_pct": -0.02,
-     "hi_pct": 0.58,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 1272.08,
+     "hi": 1281.32,
+     "lo_pct": -0.23,
+     "hi_pct": 0.5,
      "backtest_coverage": 0.84
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 1260.2,
-     "hi": 1293.12,
-     "lo_pct": -1.16,
-     "hi_pct": 1.42,
-     "backtest_coverage": 0.85
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 1249.06,
+     "hi": 1292.37,
+     "lo_pct": -2.03,
+     "hi_pct": 1.36,
+     "backtest_coverage": 0.84
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 1262.33,
-     "hi": 1300.76,
-     "lo_pct": -0.99,
-     "hi_pct": 2.02,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 1246.19,
+     "hi": 1298.67,
+     "lo_pct": -2.26,
+     "hi_pct": 1.86,
+     "backtest_coverage": 0.82
     }
    ]
   },
@@ -1937,43 +1937,43 @@
    "name_bn": "পিঁয়াজ (দেশী)",
    "unit": "kg",
    "category": "Vegetables",
-   "price_now": 47.5,
+   "price_now": 50.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 43.64,
-     "hi": 54.08,
-     "lo_pct": -8.12,
-     "hi_pct": 13.84,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 45.63,
+     "hi": 55.57,
+     "lo_pct": -8.74,
+     "hi_pct": 11.14,
      "backtest_coverage": 0.76
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 39.97,
-     "hi": 56.05,
-     "lo_pct": -15.85,
-     "hi_pct": 18.01,
-     "backtest_coverage": 0.77
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 43.51,
+     "hi": 58.79,
+     "lo_pct": -12.98,
+     "hi_pct": 17.59,
+     "backtest_coverage": 0.78
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 39.37,
-     "hi": 57.96,
-     "lo_pct": -17.11,
-     "hi_pct": 22.01,
-     "backtest_coverage": 0.72
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 41.97,
+     "hi": 60.94,
+     "lo_pct": -16.05,
+     "hi_pct": 21.88,
+     "backtest_coverage": 0.74
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 39.27,
-     "hi": 60.67,
-     "lo_pct": -17.32,
-     "hi_pct": 27.73,
-     "backtest_coverage": 0.74
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 39.09,
+     "hi": 62.14,
+     "lo_pct": -21.82,
+     "hi_pct": 24.27,
+     "backtest_coverage": 0.72
     }
    ]
   },
@@ -1987,38 +1987,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 170.68,
-     "hi": 172.43,
-     "lo_pct": -0.48,
-     "hi_pct": 0.54,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 171.23,
+     "hi": 171.94,
+     "lo_pct": -0.16,
+     "hi_pct": 0.26,
      "backtest_coverage": 0.82
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 169.69,
-     "hi": 173.7,
-     "lo_pct": -1.05,
-     "hi_pct": 1.28,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 170.7,
+     "hi": 173.78,
+     "lo_pct": -0.47,
+     "hi_pct": 1.33,
+     "backtest_coverage": 0.8
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 169.62,
-     "hi": 175.06,
-     "lo_pct": -1.09,
-     "hi_pct": 2.07,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 170.2,
+     "hi": 174.74,
+     "lo_pct": -0.76,
+     "hi_pct": 1.89,
      "backtest_coverage": 0.87
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 170.2,
-     "hi": 174.95,
-     "lo_pct": -0.76,
-     "hi_pct": 2.01,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 170.24,
+     "hi": 175.44,
+     "lo_pct": -0.74,
+     "hi_pct": 2.3,
      "backtest_coverage": 0.89
     }
    ]
@@ -2033,39 +2033,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 177.21,
-     "hi": 179.22,
-     "lo_pct": -0.45,
-     "hi_pct": 0.69,
-     "backtest_coverage": 0.84
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 177.22,
+     "hi": 179.02,
+     "lo_pct": -0.44,
+     "hi_pct": 0.57,
+     "backtest_coverage": 0.85
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 176.88,
-     "hi": 179.82,
-     "lo_pct": -0.63,
-     "hi_pct": 1.02,
-     "backtest_coverage": 0.83
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 176.59,
+     "hi": 179.85,
+     "lo_pct": -0.79,
+     "hi_pct": 1.04,
+     "backtest_coverage": 0.84
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 176.36,
-     "hi": 180.31,
-     "lo_pct": -0.92,
-     "hi_pct": 1.3,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 176.65,
+     "hi": 180.51,
+     "lo_pct": -0.76,
+     "hi_pct": 1.41,
      "backtest_coverage": 0.92
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 176.84,
-     "hi": 180.54,
-     "lo_pct": -0.65,
-     "hi_pct": 1.43,
-     "backtest_coverage": 0.92
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 176.76,
+     "hi": 181.05,
+     "lo_pct": -0.7,
+     "hi_pct": 1.72,
+     "backtest_coverage": 0.96
     }
    ]
   },
@@ -2079,38 +2079,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 37.0,
      "hi": 37.0,
      "lo_pct": 0.0,
      "hi_pct": 0.0,
-     "backtest_coverage": 0.69
+     "backtest_coverage": 0.71
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 36.99,
-     "hi": 37.0,
-     "lo_pct": -0.02,
-     "hi_pct": 0.0,
-     "backtest_coverage": 0.85
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 37.0,
+     "hi": 37.02,
+     "lo_pct": 0.0,
+     "hi_pct": 0.05,
+     "backtest_coverage": 0.84
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 36.95,
-     "hi": 37.01,
-     "lo_pct": -0.13,
-     "hi_pct": 0.03,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 36.99,
+     "hi": 37.07,
+     "lo_pct": -0.02,
+     "hi_pct": 0.19,
      "backtest_coverage": 0.96
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 36.95,
-     "hi": 37.04,
-     "lo_pct": -0.15,
-     "hi_pct": 0.1,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 36.96,
+     "hi": 37.02,
+     "lo_pct": -0.12,
+     "hi_pct": 0.06,
      "backtest_coverage": 0.98
     }
    ]
@@ -2125,39 +2125,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 23.62,
-     "hi": 29.14,
-     "lo_pct": -14.13,
-     "hi_pct": 5.98,
-     "backtest_coverage": 0.74
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 23.69,
+     "hi": 28.9,
+     "lo_pct": -13.87,
+     "hi_pct": 5.08,
+     "backtest_coverage": 0.75
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 25.61,
-     "hi": 30.88,
-     "lo_pct": -6.87,
-     "hi_pct": 12.3,
-     "backtest_coverage": 0.72
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 25.17,
+     "hi": 29.94,
+     "lo_pct": -8.47,
+     "hi_pct": 8.86,
+     "backtest_coverage": 0.73
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 21.6,
-     "hi": 30.37,
-     "lo_pct": -21.45,
-     "hi_pct": 10.43,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 20.34,
+     "hi": 31.09,
+     "lo_pct": -26.02,
+     "hi_pct": 13.06,
      "backtest_coverage": 0.72
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 19.33,
-     "hi": 30.98,
-     "lo_pct": -29.72,
-     "hi_pct": 12.64,
-     "backtest_coverage": 0.72
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 19.98,
+     "hi": 32.64,
+     "lo_pct": -27.34,
+     "hi_pct": 18.68,
+     "backtest_coverage": 0.71
     }
    ]
   },
@@ -2167,43 +2167,43 @@
    "name_bn": "চাল (মোটা)/স্বর্ণা/চায়না ইরি",
    "unit": "kg",
    "category": "Rice",
-   "price_now": 54.0,
+   "price_now": 52.5,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 53.01,
-     "hi": 55.12,
-     "lo_pct": -1.83,
-     "hi_pct": 2.07,
-     "backtest_coverage": 0.81
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 51.62,
+     "hi": 53.5,
+     "lo_pct": -1.68,
+     "hi_pct": 1.9,
+     "backtest_coverage": 0.8
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 52.76,
-     "hi": 55.64,
-     "lo_pct": -2.29,
-     "hi_pct": 3.03,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 51.39,
+     "hi": 53.79,
+     "lo_pct": -2.12,
+     "hi_pct": 2.45,
+     "backtest_coverage": 0.82
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 52.53,
-     "hi": 55.3,
-     "lo_pct": -2.72,
-     "hi_pct": 2.4,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 51.32,
+     "hi": 53.96,
+     "lo_pct": -2.25,
+     "hi_pct": 2.79,
      "backtest_coverage": 0.8
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 52.91,
-     "hi": 55.27,
-     "lo_pct": -2.02,
-     "hi_pct": 2.35,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 51.29,
+     "hi": 54.47,
+     "lo_pct": -2.31,
+     "hi_pct": 3.75,
+     "backtest_coverage": 0.81
     }
    ]
   },
@@ -2217,39 +2217,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 79.34,
-     "hi": 80.77,
-     "lo_pct": -0.82,
-     "hi_pct": 0.96,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 79.39,
+     "hi": 80.58,
+     "lo_pct": -0.77,
+     "hi_pct": 0.72,
      "backtest_coverage": 0.85
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 78.85,
-     "hi": 81.84,
-     "lo_pct": -1.44,
-     "hi_pct": 2.3,
-     "backtest_coverage": 0.84
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 78.95,
+     "hi": 81.65,
+     "lo_pct": -1.31,
+     "hi_pct": 2.06,
+     "backtest_coverage": 0.85
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 77.54,
-     "hi": 82.03,
-     "lo_pct": -3.07,
-     "hi_pct": 2.54,
-     "backtest_coverage": 0.87
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 77.71,
+     "hi": 81.52,
+     "lo_pct": -2.87,
+     "hi_pct": 1.9,
+     "backtest_coverage": 0.88
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 78.41,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 78.74,
      "hi": 81.79,
-     "lo_pct": -1.99,
+     "lo_pct": -1.58,
      "hi_pct": 2.24,
-     "backtest_coverage": 0.9
+     "backtest_coverage": 0.89
     }
    ]
   },
@@ -2263,39 +2263,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 60.1,
-     "hi": 61.18,
-     "lo_pct": -0.66,
-     "hi_pct": 1.12,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 59.73,
+     "hi": 60.67,
+     "lo_pct": -1.27,
+     "hi_pct": 0.28,
      "backtest_coverage": 0.79
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 59.62,
-     "hi": 61.5,
-     "lo_pct": -1.45,
-     "hi_pct": 1.66,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 59.37,
+     "hi": 61.76,
+     "lo_pct": -1.86,
+     "hi_pct": 2.09,
      "backtest_coverage": 0.77
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 59.65,
-     "hi": 61.72,
-     "lo_pct": -1.41,
-     "hi_pct": 2.02,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 59.48,
+     "hi": 61.92,
+     "lo_pct": -1.69,
+     "hi_pct": 2.35,
      "backtest_coverage": 0.77
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 59.48,
-     "hi": 61.96,
-     "lo_pct": -1.69,
-     "hi_pct": 2.41,
-     "backtest_coverage": 0.78
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 59.23,
+     "hi": 62.53,
+     "lo_pct": -2.09,
+     "hi_pct": 3.35,
+     "backtest_coverage": 0.79
     }
    ]
   },
@@ -2309,39 +2309,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 1116.99,
-     "hi": 1117.5,
-     "lo_pct": -0.05,
-     "hi_pct": 0.0,
-     "backtest_coverage": 0.4
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 1117.11,
+     "hi": 1117.82,
+     "lo_pct": -0.03,
+     "hi_pct": 0.03,
+     "backtest_coverage": 0.34
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 1117.68,
-     "hi": 1123.3,
-     "lo_pct": 0.02,
-     "hi_pct": 0.52,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 1117.18,
+     "hi": 1122.86,
+     "lo_pct": -0.03,
+     "hi_pct": 0.48,
+     "backtest_coverage": 0.84
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 1117.16,
-     "hi": 1128.14,
-     "lo_pct": -0.03,
-     "hi_pct": 0.95,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 1117.32,
+     "hi": 1128.37,
+     "lo_pct": -0.02,
+     "hi_pct": 0.97,
+     "backtest_coverage": 0.89
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 1114.24,
-     "hi": 1135.78,
-     "lo_pct": -0.29,
-     "hi_pct": 1.64,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 1116.84,
+     "hi": 1134.72,
+     "lo_pct": -0.06,
+     "hi_pct": 1.54,
+     "backtest_coverage": 0.83
     }
    ]
   },
@@ -2355,39 +2355,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 86583.6,
-     "hi": 87828.99,
-     "lo_pct": -0.48,
-     "hi_pct": 0.95,
-     "backtest_coverage": 0.83
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 86465.88,
+     "hi": 88247.38,
+     "lo_pct": -0.61,
+     "hi_pct": 1.43,
+     "backtest_coverage": 0.84
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 85562.49,
-     "hi": 88463.64,
-     "lo_pct": -1.65,
-     "hi_pct": 1.68,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 85602.79,
+     "hi": 89334.34,
+     "lo_pct": -1.61,
+     "hi_pct": 2.68,
      "backtest_coverage": 0.83
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 84039.91,
-     "hi": 89797.44,
-     "lo_pct": -3.4,
-     "hi_pct": 3.22,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 84519.53,
+     "hi": 89525.38,
+     "lo_pct": -2.85,
+     "hi_pct": 2.9,
      "backtest_coverage": 0.81
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 82849.09,
-     "hi": 91035.61,
-     "lo_pct": -4.77,
-     "hi_pct": 4.64,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 82752.28,
+     "hi": 91888.93,
+     "lo_pct": -4.88,
+     "hi_pct": 5.62,
+     "backtest_coverage": 0.82
     }
    ]
   },
@@ -2401,39 +2401,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 90629.63,
-     "hi": 92082.11,
-     "lo_pct": -0.68,
-     "hi_pct": 0.91,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 90742.18,
+     "hi": 92158.13,
+     "lo_pct": -0.56,
+     "hi_pct": 1.0,
      "backtest_coverage": 0.83
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 90109.49,
-     "hi": 92723.38,
-     "lo_pct": -1.25,
-     "hi_pct": 1.61,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 90321.05,
+     "hi": 93261.65,
+     "lo_pct": -1.02,
+     "hi_pct": 2.2,
+     "backtest_coverage": 0.81
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 89047.76,
-     "hi": 93922.24,
-     "lo_pct": -2.41,
-     "hi_pct": 2.93,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 89007.47,
+     "hi": 94489.01,
+     "lo_pct": -2.46,
+     "hi_pct": 3.55,
      "backtest_coverage": 0.79
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 89659.95,
-     "hi": 94081.29,
-     "lo_pct": -1.74,
-     "hi_pct": 3.1,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 88951.72,
+     "hi": 94684.35,
+     "lo_pct": -2.52,
+     "hi_pct": 3.76,
+     "backtest_coverage": 0.83
     }
    ]
   },
@@ -2447,38 +2447,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 375.0,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 374.92,
      "hi": 375.0,
-     "lo_pct": 0.0,
+     "lo_pct": -0.02,
      "hi_pct": 0.0,
-     "backtest_coverage": 0.71
+     "backtest_coverage": 0.74
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 373.99,
-     "hi": 376.08,
-     "lo_pct": -0.27,
-     "hi_pct": 0.29,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 374.9,
+     "hi": 374.98,
+     "lo_pct": -0.03,
+     "hi_pct": 0.0,
+     "backtest_coverage": 0.79
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 373.14,
-     "hi": 375.28,
-     "lo_pct": -0.5,
-     "hi_pct": 0.07,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 373.19,
+     "hi": 375.6,
+     "lo_pct": -0.48,
+     "hi_pct": 0.16,
+     "backtest_coverage": 0.81
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 372.86,
-     "hi": 375.95,
-     "lo_pct": -0.57,
-     "hi_pct": 0.25,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 373.95,
+     "hi": 379.02,
+     "lo_pct": -0.28,
+     "hi_pct": 1.07,
      "backtest_coverage": 0.78
     }
    ]
@@ -2493,7 +2493,7 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 41.0,
      "hi": 41.0,
      "lo_pct": 0.0,
@@ -2502,28 +2502,28 @@
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 41.0,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 40.99,
      "hi": 41.05,
-     "lo_pct": 0.0,
+     "lo_pct": -0.02,
      "hi_pct": 0.12,
-     "backtest_coverage": 0.86
+     "backtest_coverage": 0.88
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
+     "target_date": "2026-12-10T00:00:00.000",
      "lo": 40.99,
-     "hi": 41.01,
-     "lo_pct": -0.03,
-     "hi_pct": 0.03,
-     "backtest_coverage": 0.93
+     "hi": 41.06,
+     "lo_pct": -0.02,
+     "hi_pct": 0.14,
+     "backtest_coverage": 0.92
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 40.97,
-     "hi": 41.02,
-     "lo_pct": -0.08,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 40.93,
+     "hi": 41.03,
+     "lo_pct": -0.17,
      "hi_pct": 0.06,
      "backtest_coverage": 0.91
     }
@@ -2539,38 +2539,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 204.0,
-     "hi": 205.13,
-     "lo_pct": 0.0,
-     "hi_pct": 0.56,
-     "backtest_coverage": 0.83
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 203.94,
+     "hi": 204.67,
+     "lo_pct": -0.03,
+     "hi_pct": 0.33,
+     "backtest_coverage": 0.84
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 203.52,
-     "hi": 206.55,
-     "lo_pct": -0.24,
-     "hi_pct": 1.25,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 203.47,
+     "hi": 207.22,
+     "lo_pct": -0.26,
+     "hi_pct": 1.58,
      "backtest_coverage": 0.85
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 202.41,
-     "hi": 207.91,
-     "lo_pct": -0.78,
-     "hi_pct": 1.92,
-     "backtest_coverage": 0.87
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 202.51,
+     "hi": 211.19,
+     "lo_pct": -0.73,
+     "hi_pct": 3.53,
+     "backtest_coverage": 0.86
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 202.74,
-     "hi": 207.75,
-     "lo_pct": -0.62,
-     "hi_pct": 1.84,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 203.19,
+     "hi": 210.12,
+     "lo_pct": -0.4,
+     "hi_pct": 3.0,
      "backtest_coverage": 0.86
     }
    ]
@@ -2585,39 +2585,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 409.88,
-     "hi": 412.23,
-     "lo_pct": -0.03,
-     "hi_pct": 0.54,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 409.98,
+     "hi": 411.88,
+     "lo_pct": 0.0,
+     "hi_pct": 0.46,
      "backtest_coverage": 0.84
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 410.11,
-     "hi": 415.35,
-     "lo_pct": 0.03,
-     "hi_pct": 1.3,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 409.69,
+     "hi": 416.92,
+     "lo_pct": -0.08,
+     "hi_pct": 1.69,
+     "backtest_coverage": 0.82
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 409.83,
-     "hi": 417.41,
-     "lo_pct": -0.04,
-     "hi_pct": 1.81,
-     "backtest_coverage": 0.78
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 410.05,
+     "hi": 420.63,
+     "lo_pct": 0.01,
+     "hi_pct": 2.59,
+     "backtest_coverage": 0.84
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 409.92,
-     "hi": 418.73,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 409.9,
+     "hi": 420.02,
      "lo_pct": -0.02,
-     "hi_pct": 2.13,
-     "backtest_coverage": 0.79
+     "hi_pct": 2.44,
+     "backtest_coverage": 0.82
     }
    ]
   },
@@ -2631,38 +2631,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 999.39,
-     "hi": 1005.86,
-     "lo_pct": -0.06,
-     "hi_pct": 0.59,
-     "backtest_coverage": 0.8
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 995.99,
+     "hi": 1003.94,
+     "lo_pct": -0.4,
+     "hi_pct": 0.39,
+     "backtest_coverage": 0.81
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 998.28,
-     "hi": 1010.68,
-     "lo_pct": -0.17,
-     "hi_pct": 1.07,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 998.19,
+     "hi": 1016.22,
+     "lo_pct": -0.18,
+     "hi_pct": 1.62,
      "backtest_coverage": 0.79
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 995.02,
-     "hi": 1022.17,
-     "lo_pct": -0.5,
-     "hi_pct": 2.22,
-     "backtest_coverage": 0.78
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 995.74,
+     "hi": 1033.95,
+     "lo_pct": -0.43,
+     "hi_pct": 3.4,
+     "backtest_coverage": 0.79
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 995.38,
-     "hi": 1028.27,
-     "lo_pct": -0.46,
-     "hi_pct": 2.83,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 995.21,
+     "hi": 1034.07,
+     "lo_pct": -0.48,
+     "hi_pct": 3.41,
      "backtest_coverage": 0.81
     }
    ]
@@ -2673,42 +2673,42 @@
    "name_bn": "সয়াবিন তেল (লুজ)",
    "unit": "litre",
    "category": "Edible oil",
-   "price_now": 194.5,
+   "price_now": 193.0,
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 194.12,
-     "hi": 195.3,
-     "lo_pct": -0.19,
-     "hi_pct": 0.41,
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 191.84,
+     "hi": 194.79,
+     "lo_pct": -0.6,
+     "hi_pct": 0.93,
      "backtest_coverage": 0.81
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 193.09,
-     "hi": 196.33,
-     "lo_pct": -0.73,
-     "hi_pct": 0.94,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 191.74,
+     "hi": 196.36,
+     "lo_pct": -0.66,
+     "hi_pct": 1.74,
      "backtest_coverage": 0.82
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 192.98,
-     "hi": 198.01,
-     "lo_pct": -0.78,
-     "hi_pct": 1.81,
-     "backtest_coverage": 0.81
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 191.32,
+     "hi": 197.33,
+     "lo_pct": -0.87,
+     "hi_pct": 2.24,
+     "backtest_coverage": 0.8
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 193.13,
-     "hi": 199.25,
-     "lo_pct": -0.7,
-     "hi_pct": 2.44,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 190.54,
+     "hi": 196.78,
+     "lo_pct": -1.27,
+     "hi_pct": 1.96,
      "backtest_coverage": 0.8
     }
    ]
@@ -2723,39 +2723,39 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
-     "lo": 111.02,
-     "hi": 114.55,
-     "lo_pct": -1.31,
-     "hi_pct": 1.82,
-     "backtest_coverage": 0.76
+     "target_date": "2026-11-26T00:00:00.000",
+     "lo": 111.0,
+     "hi": 114.14,
+     "lo_pct": -1.34,
+     "hi_pct": 1.46,
+     "backtest_coverage": 0.77
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 110.0,
-     "hi": 115.06,
-     "lo_pct": -2.22,
-     "hi_pct": 2.27,
-     "backtest_coverage": 0.74
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 110.1,
+     "hi": 115.16,
+     "lo_pct": -2.13,
+     "hi_pct": 2.36,
+     "backtest_coverage": 0.75
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 109.06,
-     "hi": 115.55,
-     "lo_pct": -3.06,
-     "hi_pct": 2.72,
-     "backtest_coverage": 0.71
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 110.0,
+     "hi": 115.45,
+     "lo_pct": -2.22,
+     "hi_pct": 2.63,
+     "backtest_coverage": 0.72
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 109.21,
-     "hi": 116.8,
-     "lo_pct": -2.92,
-     "hi_pct": 3.82,
-     "backtest_coverage": 0.7
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 109.42,
+     "hi": 116.31,
+     "lo_pct": -2.74,
+     "hi_pct": 3.38,
+     "backtest_coverage": 0.71
     }
    ]
   },
@@ -2769,38 +2769,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 325.0,
-     "hi": 326.74,
+     "hi": 328.29,
      "lo_pct": 0.0,
-     "hi_pct": 0.53,
-     "backtest_coverage": 0.83
+     "hi_pct": 1.01,
+     "backtest_coverage": 0.82
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 324.62,
-     "hi": 326.01,
-     "lo_pct": -0.12,
-     "hi_pct": 0.31,
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 323.85,
+     "hi": 326.28,
+     "lo_pct": -0.35,
+     "hi_pct": 0.39,
      "backtest_coverage": 0.83
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 319.28,
-     "hi": 331.52,
-     "lo_pct": -1.76,
-     "hi_pct": 2.0,
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 320.02,
+     "hi": 328.81,
+     "lo_pct": -1.53,
+     "hi_pct": 1.17,
      "backtest_coverage": 0.79
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 321.02,
-     "hi": 328.8,
-     "lo_pct": -1.22,
-     "hi_pct": 1.17,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 319.81,
+     "hi": 326.62,
+     "lo_pct": -1.6,
+     "hi_pct": 0.5,
      "backtest_coverage": 0.78
     }
    ]
@@ -2815,38 +2815,38 @@
    "horizons": [
     {
      "h": 1,
-     "target_date": "2026-11-19T00:00:00.000",
+     "target_date": "2026-11-26T00:00:00.000",
      "lo": 334.91,
-     "hi": 335.07,
+     "hi": 336.26,
      "lo_pct": -0.03,
-     "hi_pct": 0.02,
+     "hi_pct": 0.38,
      "backtest_coverage": 0.85
     },
     {
      "h": 2,
-     "target_date": "2026-11-26T00:00:00.000",
-     "lo": 334.84,
-     "hi": 335.51,
-     "lo_pct": -0.05,
-     "hi_pct": 0.15,
-     "backtest_coverage": 0.82
+     "target_date": "2026-12-03T00:00:00.000",
+     "lo": 334.58,
+     "hi": 337.13,
+     "lo_pct": -0.12,
+     "hi_pct": 0.64,
+     "backtest_coverage": 0.81
     },
     {
      "h": 3,
-     "target_date": "2026-12-03T00:00:00.000",
-     "lo": 331.85,
-     "hi": 337.27,
-     "lo_pct": -0.94,
-     "hi_pct": 0.68,
-     "backtest_coverage": 0.8
+     "target_date": "2026-12-10T00:00:00.000",
+     "lo": 328.55,
+     "hi": 337.61,
+     "lo_pct": -1.92,
+     "hi_pct": 0.78,
+     "backtest_coverage": 0.81
     },
     {
      "h": 4,
-     "target_date": "2026-12-10T00:00:00.000",
-     "lo": 332.01,
-     "hi": 337.33,
-     "lo_pct": -0.89,
-     "hi_pct": 0.7,
+     "target_date": "2026-12-17T00:00:00.000",
+     "lo": 332.15,
+     "hi": 337.26,
+     "lo_pct": -0.85,
+     "hi_pct": 0.67,
      "backtest_coverage": 0.81
     }
    ]

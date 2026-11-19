@@ -145,7 +145,7 @@
    0.07,
    0.014,
    0.066,
-   0.118,
+   0.117,
    0.11,
    0.153,
    0.172,
@@ -174,7 +174,7 @@
    -0.129,
    -0.042,
    0.019,
-   -0.001
+   -0.0
   ],
   [
    0.039,
@@ -292,7 +292,7 @@
    -0.102,
    0.094,
    0.044,
-   0.118,
+   0.117,
    0.003,
    0.053,
    -0.025,
@@ -447,7 +447,7 @@
    0.026,
    0.047,
    0.028,
-   -0.001,
+   -0.0,
    0.004,
    0.018,
    -0.009,
@@ -483,7 +483,7 @@
    "corr_leader_1w_earlier": 0.138,
    "best_lag_weeks": 0,
    "best_corr": 0.358,
-   "granger_p_leader_to_follower": 0.351,
+   "granger_p_leader_to_follower": 0.352,
    "granger_p_follower_to_leader": 0.142
   },
   {
@@ -494,8 +494,8 @@
    "corr_leader_1w_earlier": 0.071,
    "best_lag_weeks": 0,
    "best_corr": 0.255,
-   "granger_p_leader_to_follower": 0.779,
-   "granger_p_follower_to_leader": 0.134
+   "granger_p_leader_to_follower": 0.777,
+   "granger_p_follower_to_leader": 0.133
   },
   {
    "leader": "chili_dry_imported",

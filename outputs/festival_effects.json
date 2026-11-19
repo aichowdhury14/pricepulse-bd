@@ -6,8 +6,8 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 4.569,
-  "placebo_pct": -2.813,
-  "abnormal_pct": 7.596,
+  "placebo_pct": -2.79,
+  "abnormal_pct": 7.57,
   "years_above_placebo": 6,
   "p_value": 0.0,
   "q_value": 0.005
@@ -19,11 +19,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -3.094,
-  "placebo_pct": 2.358,
-  "abnormal_pct": -5.326,
+  "placebo_pct": 2.341,
+  "abnormal_pct": -5.31,
   "years_above_placebo": 0,
   "p_value": 0.0,
-  "q_value": 0.005
+  "q_value": 0.008
  },
  {
   "festival": "Eid-ul-Adha",
@@ -32,24 +32,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -8.297,
-  "placebo_pct": 1.568,
-  "abnormal_pct": -9.713,
+  "placebo_pct": 1.553,
+  "abnormal_pct": -9.699,
   "years_above_placebo": 0,
   "p_value": 0.001,
   "q_value": 0.01
- },
- {
-  "festival": "Eid-ul-Adha",
-  "commodity_id": "garlic_imported",
-  "name_en": "Garlic, imported",
-  "n_years": 7,
-  "years": "2020,2021,2022,2023,2024,2025,2026",
-  "runup_pct": -8.037,
-  "placebo_pct": 3.408,
-  "abnormal_pct": -11.068,
-  "years_above_placebo": 3,
-  "p_value": 0.001,
-  "q_value": 0.016
  },
  {
   "festival": "Eid-ul-Adha",
@@ -58,11 +45,24 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 7.62,
-  "placebo_pct": -2.326,
-  "abnormal_pct": 10.183,
+  "placebo_pct": -2.399,
+  "abnormal_pct": 10.266,
   "years_above_placebo": 5,
-  "p_value": 0.003,
-  "q_value": 0.027
+  "p_value": 0.002,
+  "q_value": 0.019
+ },
+ {
+  "festival": "Eid-ul-Adha",
+  "commodity_id": "garlic_imported",
+  "name_en": "Garlic, imported",
+  "n_years": 7,
+  "years": "2020,2021,2022,2023,2024,2025,2026",
+  "runup_pct": -8.037,
+  "placebo_pct": 3.416,
+  "abnormal_pct": -11.075,
+  "years_above_placebo": 3,
+  "p_value": 0.002,
+  "q_value": 0.019
  },
  {
   "festival": "Eid-ul-Adha",
@@ -71,11 +71,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 2.232,
-  "placebo_pct": 0.666,
-  "abnormal_pct": 1.556,
+  "placebo_pct": 0.661,
+  "abnormal_pct": 1.561,
   "years_above_placebo": 4,
   "p_value": 0.011,
-  "q_value": 0.094
+  "q_value": 0.091
  },
  {
   "festival": "Eid-ul-Adha",
@@ -84,11 +84,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -2.647,
-  "placebo_pct": 2.381,
-  "abnormal_pct": -4.911,
+  "placebo_pct": 2.359,
+  "abnormal_pct": -4.89,
   "years_above_placebo": 0,
-  "p_value": 0.013,
-  "q_value": 0.094
+  "p_value": 0.012,
+  "q_value": 0.091
  },
  {
   "festival": "Eid-ul-Adha",
@@ -97,11 +97,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -7.784,
-  "placebo_pct": 0.561,
-  "abnormal_pct": -8.298,
+  "placebo_pct": 0.568,
+  "abnormal_pct": -8.305,
   "years_above_placebo": 1,
-  "p_value": 0.018,
-  "q_value": 0.116
+  "p_value": 0.02,
+  "q_value": 0.129
  },
  {
   "festival": "Eid-ul-Adha",
@@ -110,11 +110,11 @@
   "n_years": 6,
   "years": "2020,2021,2022,2024,2025,2026",
   "runup_pct": -1.722,
-  "placebo_pct": 2.72,
-  "abnormal_pct": -4.324,
+  "placebo_pct": 2.702,
+  "abnormal_pct": -4.308,
   "years_above_placebo": 1,
-  "p_value": 0.032,
-  "q_value": 0.183
+  "p_value": 0.031,
+  "q_value": 0.179
  },
  {
   "festival": "Eid-ul-Adha",
@@ -123,11 +123,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -1.563,
-  "placebo_pct": 2.307,
-  "abnormal_pct": -3.783,
+  "placebo_pct": 2.274,
+  "abnormal_pct": -3.751,
   "years_above_placebo": 0,
-  "p_value": 0.039,
-  "q_value": 0.191
+  "p_value": 0.04,
+  "q_value": 0.207
  },
  {
   "festival": "Eid-ul-Adha",
@@ -136,11 +136,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -2.696,
-  "placebo_pct": 0.434,
-  "abnormal_pct": -3.116,
+  "placebo_pct": 0.402,
+  "abnormal_pct": -3.085,
   "years_above_placebo": 3,
-  "p_value": 0.04,
-  "q_value": 0.191
+  "p_value": 0.044,
+  "q_value": 0.209
  },
  {
   "festival": "Eid-ul-Adha",
@@ -149,24 +149,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -0.403,
-  "placebo_pct": 0.977,
-  "abnormal_pct": -1.367,
+  "placebo_pct": 0.969,
+  "abnormal_pct": -1.359,
   "years_above_placebo": 1,
-  "p_value": 0.055,
-  "q_value": 0.224
- },
- {
-  "festival": "Eid-ul-Adha",
-  "commodity_id": "maida_loose",
-  "name_en": "Maida, loose",
-  "n_years": 7,
-  "years": "2020,2021,2022,2023,2024,2025,2026",
-  "runup_pct": -0.133,
-  "placebo_pct": 3.461,
-  "abnormal_pct": -3.474,
-  "years_above_placebo": 3,
-  "p_value": 0.056,
-  "q_value": 0.224
+  "p_value": 0.054,
+  "q_value": 0.225
  },
  {
   "festival": "Eid-ul-Adha",
@@ -175,10 +162,23 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 3.84,
-  "placebo_pct": 0.452,
-  "abnormal_pct": 3.373,
+  "placebo_pct": 0.448,
+  "abnormal_pct": 3.377,
   "years_above_placebo": 4,
-  "p_value": 0.061,
+  "p_value": 0.059,
+  "q_value": 0.225
+ },
+ {
+  "festival": "Eid-ul-Adha",
+  "commodity_id": "maida_loose",
+  "name_en": "Maida, loose",
+  "n_years": 7,
+  "years": "2020,2021,2022,2023,2024,2025,2026",
+  "runup_pct": -0.133,
+  "placebo_pct": 3.408,
+  "abnormal_pct": -3.424,
+  "years_above_placebo": 3,
+  "p_value": 0.06,
   "q_value": 0.225
  },
  {
@@ -188,11 +188,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -1.594,
-  "placebo_pct": 0.863,
-  "abnormal_pct": -2.436,
+  "placebo_pct": 0.856,
+  "abnormal_pct": -2.429,
   "years_above_placebo": 2,
-  "p_value": 0.068,
-  "q_value": 0.23
+  "p_value": 0.067,
+  "q_value": 0.234
  },
  {
   "festival": "Eid-ul-Adha",
@@ -201,11 +201,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 1.533,
-  "placebo_pct": -0.205,
-  "abnormal_pct": 1.742,
+  "placebo_pct": -0.195,
+  "abnormal_pct": 1.731,
   "years_above_placebo": 5,
-  "p_value": 0.071,
-  "q_value": 0.23
+  "p_value": 0.075,
+  "q_value": 0.244
  },
  {
   "festival": "Eid-ul-Adha",
@@ -214,11 +214,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -2.028,
-  "placebo_pct": 0.512,
-  "abnormal_pct": -2.527,
+  "placebo_pct": 0.508,
+  "abnormal_pct": -2.523,
   "years_above_placebo": 2,
-  "p_value": 0.096,
-  "q_value": 0.287
+  "p_value": 0.097,
+  "q_value": 0.286
  },
  {
   "festival": "Eid-ul-Adha",
@@ -227,11 +227,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 0.692,
-  "placebo_pct": 3.527,
-  "abnormal_pct": -2.739,
+  "placebo_pct": 3.564,
+  "abnormal_pct": -2.773,
   "years_above_placebo": 2,
   "p_value": 0.099,
-  "q_value": 0.287
+  "q_value": 0.286
  },
  {
   "festival": "Eid-ul-Adha",
@@ -240,24 +240,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -0.9,
-  "placebo_pct": 3.446,
-  "abnormal_pct": -4.201,
+  "placebo_pct": 3.417,
+  "abnormal_pct": -4.174,
   "years_above_placebo": 2,
-  "p_value": 0.116,
-  "q_value": 0.302
- },
- {
-  "festival": "Eid-ul-Adha",
-  "commodity_id": "turmeric_local",
-  "name_en": "Turmeric, local",
-  "n_years": 7,
-  "years": "2020,2021,2022,2023,2024,2025,2026",
-  "runup_pct": 4.038,
-  "placebo_pct": 0.905,
-  "abnormal_pct": 3.105,
-  "years_above_placebo": 5,
-  "p_value": 0.12,
-  "q_value": 0.302
+  "p_value": 0.118,
+  "q_value": 0.299
  },
  {
   "festival": "Eid-ul-Adha",
@@ -266,11 +253,24 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -2.07,
-  "placebo_pct": -0.302,
-  "abnormal_pct": -1.773,
+  "placebo_pct": -0.3,
+  "abnormal_pct": -1.775,
   "years_above_placebo": 1,
-  "p_value": 0.122,
-  "q_value": 0.302
+  "p_value": 0.118,
+  "q_value": 0.299
+ },
+ {
+  "festival": "Eid-ul-Adha",
+  "commodity_id": "turmeric_local",
+  "name_en": "Turmeric, local",
+  "n_years": 7,
+  "years": "2020,2021,2022,2023,2024,2025,2026",
+  "runup_pct": 4.038,
+  "placebo_pct": 0.897,
+  "abnormal_pct": 3.113,
+  "years_above_placebo": 5,
+  "p_value": 0.121,
+  "q_value": 0.299
  },
  {
   "festival": "Eid-ul-Adha",
@@ -279,11 +279,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 2.729,
-  "placebo_pct": 1.045,
-  "abnormal_pct": 1.666,
+  "placebo_pct": 1.036,
+  "abnormal_pct": 1.675,
   "years_above_placebo": 3,
-  "p_value": 0.163,
-  "q_value": 0.385
+  "p_value": 0.161,
+  "q_value": 0.381
  },
  {
   "festival": "Eid-ul-Adha",
@@ -292,11 +292,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 1.922,
-  "placebo_pct": -0.553,
-  "abnormal_pct": 2.488,
+  "placebo_pct": -0.548,
+  "abnormal_pct": 2.484,
   "years_above_placebo": 4,
-  "p_value": 0.184,
-  "q_value": 0.399
+  "p_value": 0.18,
+  "q_value": 0.403
  },
  {
   "festival": "Eid-ul-Adha",
@@ -305,11 +305,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -2.667,
-  "placebo_pct": -0.364,
-  "abnormal_pct": -2.311,
+  "placebo_pct": -0.361,
+  "abnormal_pct": -2.314,
   "years_above_placebo": 2,
-  "p_value": 0.199,
-  "q_value": 0.399
+  "p_value": 0.197,
+  "q_value": 0.403
  },
  {
   "festival": "Eid-ul-Adha",
@@ -318,24 +318,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 6.521,
-  "placebo_pct": 1.728,
-  "abnormal_pct": 4.712,
+  "placebo_pct": 1.701,
+  "abnormal_pct": 4.74,
   "years_above_placebo": 5,
-  "p_value": 0.207,
-  "q_value": 0.399
- },
- {
-  "festival": "Eid-ul-Adha",
-  "commodity_id": "ginger_imported",
-  "name_en": "Ginger, imported",
-  "n_years": 7,
-  "years": "2020,2021,2022,2023,2024,2025,2026",
-  "runup_pct": 7.162,
-  "placebo_pct": -3.574,
-  "abnormal_pct": 11.135,
-  "years_above_placebo": 5,
-  "p_value": 0.217,
-  "q_value": 0.399
+  "p_value": 0.199,
+  "q_value": 0.403
  },
  {
   "festival": "Eid-ul-Adha",
@@ -347,8 +334,8 @@
   "placebo_pct": 0.004,
   "abnormal_pct": 8.404,
   "years_above_placebo": 4,
-  "p_value": 0.219,
-  "q_value": 0.399
+  "p_value": 0.214,
+  "q_value": 0.403
  },
  {
   "festival": "Eid-ul-Adha",
@@ -357,11 +344,24 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 0.61,
-  "placebo_pct": 2.964,
-  "abnormal_pct": -2.287,
+  "placebo_pct": 2.944,
+  "abnormal_pct": -2.267,
   "years_above_placebo": 1,
-  "p_value": 0.221,
-  "q_value": 0.399
+  "p_value": 0.223,
+  "q_value": 0.403
+ },
+ {
+  "festival": "Eid-ul-Adha",
+  "commodity_id": "ginger_imported",
+  "name_en": "Ginger, imported",
+  "n_years": 7,
+  "years": "2020,2021,2022,2023,2024,2025,2026",
+  "runup_pct": 7.162,
+  "placebo_pct": -3.412,
+  "abnormal_pct": 10.948,
+  "years_above_placebo": 5,
+  "p_value": 0.223,
+  "q_value": 0.403
  },
  {
   "festival": "Eid-ul-Adha",
@@ -370,11 +370,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -0.116,
-  "placebo_pct": 1.242,
-  "abnormal_pct": -1.341,
+  "placebo_pct": 1.232,
+  "abnormal_pct": -1.331,
   "years_above_placebo": 2,
-  "p_value": 0.223,
-  "q_value": 0.399
+  "p_value": 0.225,
+  "q_value": 0.403
  },
  {
   "festival": "Eid-ul-Adha",
@@ -383,11 +383,11 @@
   "n_years": 6,
   "years": "2020,2021,2022,2023,2024,2026",
   "runup_pct": 4.525,
-  "placebo_pct": -5.938,
-  "abnormal_pct": 11.124,
+  "placebo_pct": -5.814,
+  "abnormal_pct": 10.977,
   "years_above_placebo": 4,
-  "p_value": 0.245,
-  "q_value": 0.424
+  "p_value": 0.248,
+  "q_value": 0.429
  },
  {
   "festival": "Eid-ul-Adha",
@@ -396,11 +396,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -3.874,
-  "placebo_pct": -1.614,
-  "abnormal_pct": -2.297,
+  "placebo_pct": -1.601,
+  "abnormal_pct": -2.31,
   "years_above_placebo": 2,
-  "p_value": 0.273,
-  "q_value": 0.447
+  "p_value": 0.269,
+  "q_value": 0.445
  },
  {
   "festival": "Eid-ul-Adha",
@@ -409,11 +409,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -0.604,
-  "placebo_pct": 1.374,
-  "abnormal_pct": -1.951,
+  "placebo_pct": 1.363,
+  "abnormal_pct": -1.941,
   "years_above_placebo": 3,
-  "p_value": 0.275,
-  "q_value": 0.447
+  "p_value": 0.274,
+  "q_value": 0.445
  },
  {
   "festival": "Eid-ul-Adha",
@@ -422,11 +422,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 0.575,
-  "placebo_pct": -0.264,
-  "abnormal_pct": 0.841,
+  "placebo_pct": -0.262,
+  "abnormal_pct": 0.839,
   "years_above_placebo": 2,
-  "p_value": 0.292,
-  "q_value": 0.461
+  "p_value": 0.289,
+  "q_value": 0.456
  },
  {
   "festival": "Eid-ul-Adha",
@@ -435,11 +435,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -1.015,
-  "placebo_pct": 0.523,
-  "abnormal_pct": -1.53,
+  "placebo_pct": 0.51,
+  "abnormal_pct": -1.517,
   "years_above_placebo": 2,
-  "p_value": 0.345,
-  "q_value": 0.525
+  "p_value": 0.347,
+  "q_value": 0.531
  },
  {
   "festival": "Eid-ul-Adha",
@@ -448,11 +448,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -0.943,
-  "placebo_pct": 0.364,
-  "abnormal_pct": -1.302,
+  "placebo_pct": 0.34,
+  "abnormal_pct": -1.279,
   "years_above_placebo": 2,
-  "p_value": 0.353,
-  "q_value": 0.525
+  "p_value": 0.361,
+  "q_value": 0.536
  },
  {
   "festival": "Eid-ul-Adha",
@@ -461,11 +461,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 1.306,
-  "placebo_pct": 0.524,
-  "abnormal_pct": 0.778,
+  "placebo_pct": 0.522,
+  "abnormal_pct": 0.78,
   "years_above_placebo": 4,
-  "p_value": 0.37,
-  "q_value": 0.534
+  "p_value": 0.371,
+  "q_value": 0.536
  },
  {
   "festival": "Eid-ul-Adha",
@@ -474,11 +474,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 0.428,
-  "placebo_pct": 1.402,
-  "abnormal_pct": -0.96,
+  "placebo_pct": 1.39,
+  "abnormal_pct": -0.949,
   "years_above_placebo": 2,
-  "p_value": 0.408,
-  "q_value": 0.574
+  "p_value": 0.416,
+  "q_value": 0.571
  },
  {
   "festival": "Eid-ul-Adha",
@@ -487,11 +487,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 9.464,
-  "placebo_pct": 2.025,
-  "abnormal_pct": 7.291,
+  "placebo_pct": 1.961,
+  "abnormal_pct": 7.359,
   "years_above_placebo": 5,
-  "p_value": 0.429,
-  "q_value": 0.587
+  "p_value": 0.417,
+  "q_value": 0.571
  },
  {
   "festival": "Eid-ul-Adha",
@@ -500,11 +500,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -1.594,
-  "placebo_pct": 0.242,
-  "abnormal_pct": -1.832,
-  "years_above_placebo": 2,
-  "p_value": 0.466,
-  "q_value": 0.621
+  "placebo_pct": 0.24,
+  "abnormal_pct": -1.83,
+  "years_above_placebo": 1,
+  "p_value": 0.47,
+  "q_value": 0.627
  },
  {
   "festival": "Eid-ul-Adha",
@@ -513,11 +513,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 2.126,
-  "placebo_pct": 3.239,
-  "abnormal_pct": -1.078,
+  "placebo_pct": 3.218,
+  "abnormal_pct": -1.058,
   "years_above_placebo": 3,
-  "p_value": 0.57,
-  "q_value": 0.741
+  "p_value": 0.58,
+  "q_value": 0.754
  },
  {
   "festival": "Eid-ul-Adha",
@@ -526,11 +526,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 0.771,
-  "placebo_pct": -0.019,
-  "abnormal_pct": 0.79,
+  "placebo_pct": -0.027,
+  "abnormal_pct": 0.799,
   "years_above_placebo": 4,
-  "p_value": 0.634,
-  "q_value": 0.805
+  "p_value": 0.625,
+  "q_value": 0.793
  },
  {
   "festival": "Eid-ul-Adha",
@@ -539,11 +539,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -0.01,
-  "placebo_pct": -0.533,
-  "abnormal_pct": 0.526,
+  "placebo_pct": -0.526,
+  "abnormal_pct": 0.519,
   "years_above_placebo": 3,
-  "p_value": 0.69,
-  "q_value": 0.817
+  "p_value": 0.688,
+  "q_value": 0.819
  },
  {
   "festival": "Eid-ul-Adha",
@@ -552,11 +552,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 0.4,
-  "placebo_pct": 0.818,
-  "abnormal_pct": -0.415,
+  "placebo_pct": 0.803,
+  "abnormal_pct": -0.4,
   "years_above_placebo": 4,
-  "p_value": 0.696,
-  "q_value": 0.817
+  "p_value": 0.705,
+  "q_value": 0.819
  },
  {
   "festival": "Eid-ul-Adha",
@@ -565,11 +565,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -0.19,
-  "placebo_pct": 0.475,
-  "abnormal_pct": -0.662,
+  "placebo_pct": 0.471,
+  "abnormal_pct": -0.658,
   "years_above_placebo": 3,
-  "p_value": 0.726,
-  "q_value": 0.817
+  "p_value": 0.722,
+  "q_value": 0.819
  },
  {
   "festival": "Eid-ul-Adha",
@@ -582,20 +582,7 @@
   "abnormal_pct": -3.887,
   "years_above_placebo": 2,
   "p_value": 0.727,
-  "q_value": 0.817
- },
- {
-  "festival": "Eid-ul-Adha",
-  "commodity_id": "rice_fine",
-  "name_en": "Rice, fine (Nazirshail/Miniket)",
-  "n_years": 7,
-  "years": "2020,2021,2022,2023,2024,2025,2026",
-  "runup_pct": 0.659,
-  "placebo_pct": 0.403,
-  "abnormal_pct": 0.255,
-  "years_above_placebo": 2,
-  "p_value": 0.75,
-  "q_value": 0.817
+  "q_value": 0.819
  },
  {
   "festival": "Eid-ul-Adha",
@@ -604,11 +591,24 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 0.202,
-  "placebo_pct": 0.616,
-  "abnormal_pct": -0.411,
+  "placebo_pct": 0.611,
+  "abnormal_pct": -0.406,
   "years_above_placebo": 3,
-  "p_value": 0.761,
-  "q_value": 0.817
+  "p_value": 0.759,
+  "q_value": 0.819
+ },
+ {
+  "festival": "Eid-ul-Adha",
+  "commodity_id": "rice_fine",
+  "name_en": "Rice, fine (Nazirshail/Miniket)",
+  "n_years": 7,
+  "years": "2020,2021,2022,2023,2024,2025,2026",
+  "runup_pct": 0.659,
+  "placebo_pct": 0.423,
+  "abnormal_pct": 0.235,
+  "years_above_placebo": 2,
+  "p_value": 0.765,
+  "q_value": 0.819
  },
  {
   "festival": "Eid-ul-Adha",
@@ -617,11 +617,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": -0.552,
-  "placebo_pct": -0.133,
-  "abnormal_pct": -0.419,
+  "placebo_pct": -0.128,
+  "abnormal_pct": -0.425,
   "years_above_placebo": 3,
-  "p_value": 0.774,
-  "q_value": 0.817
+  "p_value": 0.77,
+  "q_value": 0.819
  },
  {
   "festival": "Eid-ul-Adha",
@@ -633,8 +633,8 @@
   "placebo_pct": -0.014,
   "abnormal_pct": -0.382,
   "years_above_placebo": 3,
-  "p_value": 0.786,
-  "q_value": 0.817
+  "p_value": 0.787,
+  "q_value": 0.819
  },
  {
   "festival": "Eid-ul-Adha",
@@ -643,11 +643,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 0.652,
-  "placebo_pct": 1.079,
-  "abnormal_pct": -0.423,
+  "placebo_pct": 1.07,
+  "abnormal_pct": -0.414,
   "years_above_placebo": 3,
-  "p_value": 0.786,
-  "q_value": 0.817
+  "p_value": 0.787,
+  "q_value": 0.819
  },
  {
   "festival": "Eid-ul-Adha",
@@ -669,11 +669,11 @@
   "n_years": 7,
   "years": "2020,2021,2022,2023,2024,2025,2026",
   "runup_pct": 1.052,
-  "placebo_pct": 1.074,
-  "abnormal_pct": -0.022,
+  "placebo_pct": 1.065,
+  "abnormal_pct": -0.013,
   "years_above_placebo": 4,
-  "p_value": 0.982,
-  "q_value": 0.982
+  "p_value": 0.987,
+  "q_value": 0.987
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -682,8 +682,8 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -17.724,
-  "placebo_pct": 0.561,
-  "abnormal_pct": -18.183,
+  "placebo_pct": 0.568,
+  "abnormal_pct": -18.189,
   "years_above_placebo": 1,
   "p_value": 0.0,
   "q_value": 0.005
@@ -695,8 +695,8 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 3.231,
-  "placebo_pct": -2.813,
-  "abnormal_pct": 6.219,
+  "placebo_pct": -2.79,
+  "abnormal_pct": 6.194,
   "years_above_placebo": 5,
   "p_value": 0.0,
   "q_value": 0.005
@@ -708,11 +708,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -3.901,
-  "placebo_pct": 3.527,
-  "abnormal_pct": -7.175,
+  "placebo_pct": 3.564,
+  "abnormal_pct": -7.207,
   "years_above_placebo": 0,
   "p_value": 0.0,
-  "q_value": 0.007
+  "q_value": 0.005
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -721,11 +721,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 5.666,
-  "placebo_pct": -0.302,
-  "abnormal_pct": 5.986,
+  "placebo_pct": -0.3,
+  "abnormal_pct": 5.984,
   "years_above_placebo": 3,
   "p_value": 0.001,
-  "q_value": 0.013
+  "q_value": 0.015
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -734,11 +734,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -26.058,
-  "placebo_pct": 2.025,
-  "abnormal_pct": -27.525,
+  "placebo_pct": 1.961,
+  "abnormal_pct": -27.48,
   "years_above_placebo": 1,
   "p_value": 0.001,
-  "q_value": 0.013
+  "q_value": 0.015
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -747,11 +747,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -3.559,
-  "placebo_pct": 2.307,
-  "abnormal_pct": -5.733,
+  "placebo_pct": 2.274,
+  "abnormal_pct": -5.703,
   "years_above_placebo": 0,
-  "p_value": 0.006,
-  "q_value": 0.055
+  "p_value": 0.007,
+  "q_value": 0.059
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -760,11 +760,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 2.469,
-  "placebo_pct": -0.264,
-  "abnormal_pct": 2.74,
+  "placebo_pct": -0.262,
+  "abnormal_pct": 2.738,
   "years_above_placebo": 3,
   "p_value": 0.01,
-  "q_value": 0.071
+  "q_value": 0.072
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -773,11 +773,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 5.172,
-  "placebo_pct": 0.434,
-  "abnormal_pct": 4.718,
+  "placebo_pct": 0.402,
+  "abnormal_pct": 4.751,
   "years_above_placebo": 4,
   "p_value": 0.014,
-  "q_value": 0.089
+  "q_value": 0.088
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -786,11 +786,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -4.55,
-  "placebo_pct": -0.019,
-  "abnormal_pct": -4.531,
+  "placebo_pct": -0.027,
+  "abnormal_pct": -4.524,
   "years_above_placebo": 1,
-  "p_value": 0.017,
-  "q_value": 0.099
+  "p_value": 0.018,
+  "q_value": 0.101
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -799,11 +799,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -2.012,
-  "placebo_pct": 3.239,
-  "abnormal_pct": -5.086,
+  "placebo_pct": 3.218,
+  "abnormal_pct": -5.067,
   "years_above_placebo": 0,
   "p_value": 0.022,
-  "q_value": 0.113
+  "q_value": 0.111
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -812,11 +812,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 4.534,
-  "placebo_pct": -0.553,
-  "abnormal_pct": 5.115,
+  "placebo_pct": -0.548,
+  "abnormal_pct": 5.11,
   "years_above_placebo": 4,
   "p_value": 0.031,
-  "q_value": 0.134
+  "q_value": 0.133
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -828,21 +828,8 @@
   "placebo_pct": -0.014,
   "abnormal_pct": 3.77,
   "years_above_placebo": 3,
-  "p_value": 0.032,
-  "q_value": 0.134
- },
- {
-  "festival": "Eid-ul-Fitr",
-  "commodity_id": "maida_loose",
-  "name_en": "Maida, loose",
-  "n_years": 5,
-  "years": "2022,2023,2024,2025,2026",
-  "runup_pct": -0.918,
-  "placebo_pct": 3.461,
-  "abnormal_pct": -4.232,
-  "years_above_placebo": 1,
-  "p_value": 0.048,
-  "q_value": 0.177
+  "p_value": 0.031,
+  "q_value": 0.133
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -851,11 +838,24 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.026,
-  "placebo_pct": 2.358,
-  "abnormal_pct": -3.307,
+  "placebo_pct": 2.341,
+  "abnormal_pct": -3.29,
   "years_above_placebo": 2,
   "p_value": 0.048,
-  "q_value": 0.177
+  "q_value": 0.176
+ },
+ {
+  "festival": "Eid-ul-Fitr",
+  "commodity_id": "maida_loose",
+  "name_en": "Maida, loose",
+  "n_years": 5,
+  "years": "2022,2023,2024,2025,2026",
+  "runup_pct": -0.918,
+  "placebo_pct": 3.408,
+  "abnormal_pct": -4.183,
+  "years_above_placebo": 1,
+  "p_value": 0.048,
+  "q_value": 0.176
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -864,11 +864,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.188,
-  "placebo_pct": 1.242,
-  "abnormal_pct": -2.401,
+  "placebo_pct": 1.232,
+  "abnormal_pct": -2.391,
   "years_above_placebo": 1,
-  "p_value": 0.074,
-  "q_value": 0.252
+  "p_value": 0.073,
+  "q_value": 0.246
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -877,11 +877,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.013,
-  "placebo_pct": 1.402,
-  "abnormal_pct": -2.381,
+  "placebo_pct": 1.39,
+  "abnormal_pct": -2.37,
   "years_above_placebo": 0,
-  "p_value": 0.083,
-  "q_value": 0.252
+  "p_value": 0.081,
+  "q_value": 0.246
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -890,11 +890,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.82,
-  "placebo_pct": 2.964,
-  "abnormal_pct": -3.675,
+  "placebo_pct": 2.944,
+  "abnormal_pct": -3.656,
   "years_above_placebo": 1,
   "p_value": 0.087,
-  "q_value": 0.252
+  "q_value": 0.246
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -903,11 +903,24 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 4.995,
-  "placebo_pct": 0.905,
-  "abnormal_pct": 4.054,
+  "placebo_pct": 0.897,
+  "abnormal_pct": 4.061,
   "years_above_placebo": 3,
-  "p_value": 0.091,
-  "q_value": 0.252
+  "p_value": 0.09,
+  "q_value": 0.246
+ },
+ {
+  "festival": "Eid-ul-Fitr",
+  "commodity_id": "rod_60",
+  "name_en": "MS rod, 60 grade",
+  "n_years": 5,
+  "years": "2022,2023,2024,2025,2026",
+  "runup_pct": 3.228,
+  "placebo_pct": 0.34,
+  "abnormal_pct": 2.878,
+  "years_above_placebo": 4,
+  "p_value": 0.092,
+  "q_value": 0.246
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -920,20 +933,7 @@
   "abnormal_pct": -5.299,
   "years_above_placebo": 2,
   "p_value": 0.098,
-  "q_value": 0.252
- },
- {
-  "festival": "Eid-ul-Fitr",
-  "commodity_id": "rod_60",
-  "name_en": "MS rod, 60 grade",
-  "n_years": 5,
-  "years": "2022,2023,2024,2025,2026",
-  "runup_pct": 3.228,
-  "placebo_pct": 0.364,
-  "abnormal_pct": 2.854,
-  "years_above_placebo": 4,
-  "p_value": 0.099,
-  "q_value": 0.252
+  "q_value": 0.25
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -942,11 +942,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 2.405,
-  "placebo_pct": -1.614,
-  "abnormal_pct": 4.085,
+  "placebo_pct": -1.601,
+  "abnormal_pct": 4.071,
   "years_above_placebo": 4,
-  "p_value": 0.117,
-  "q_value": 0.283
+  "p_value": 0.116,
+  "q_value": 0.282
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -955,11 +955,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 1.589,
-  "placebo_pct": -0.533,
-  "abnormal_pct": 2.134,
+  "placebo_pct": -0.526,
+  "abnormal_pct": 2.126,
   "years_above_placebo": 3,
-  "p_value": 0.128,
-  "q_value": 0.298
+  "p_value": 0.13,
+  "q_value": 0.301
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -968,11 +968,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 7.36,
-  "placebo_pct": -5.938,
-  "abnormal_pct": 14.138,
+  "placebo_pct": -5.814,
+  "abnormal_pct": 13.987,
   "years_above_placebo": 3,
-  "p_value": 0.189,
-  "q_value": 0.414
+  "p_value": 0.19,
+  "q_value": 0.416
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -981,11 +981,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.341,
-  "placebo_pct": 1.374,
-  "abnormal_pct": -2.678,
+  "placebo_pct": 1.363,
+  "abnormal_pct": -2.667,
   "years_above_placebo": 2,
-  "p_value": 0.195,
-  "q_value": 0.414
+  "p_value": 0.196,
+  "q_value": 0.416
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -994,11 +994,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.631,
-  "placebo_pct": 0.818,
-  "abnormal_pct": -1.438,
+  "placebo_pct": 0.803,
+  "abnormal_pct": -1.423,
   "years_above_placebo": 2,
-  "p_value": 0.25,
-  "q_value": 0.509
+  "p_value": 0.252,
+  "q_value": 0.515
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1007,11 +1007,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 1.806,
-  "placebo_pct": -0.133,
-  "abnormal_pct": 1.941,
+  "placebo_pct": -0.128,
+  "abnormal_pct": 1.936,
   "years_above_placebo": 4,
-  "p_value": 0.271,
-  "q_value": 0.532
+  "p_value": 0.276,
+  "q_value": 0.542
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1023,8 +1023,8 @@
   "placebo_pct": 0.004,
   "abnormal_pct": 7.778,
   "years_above_placebo": 2,
-  "p_value": 0.322,
-  "q_value": 0.591
+  "p_value": 0.323,
+  "q_value": 0.589
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1033,11 +1033,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.0,
-  "placebo_pct": 0.977,
-  "abnormal_pct": -0.968,
+  "placebo_pct": 0.969,
+  "abnormal_pct": -0.96,
   "years_above_placebo": 1,
-  "p_value": 0.325,
-  "q_value": 0.591
+  "p_value": 0.326,
+  "q_value": 0.589
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1046,11 +1046,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.71,
-  "placebo_pct": 0.863,
-  "abnormal_pct": -1.56,
+  "placebo_pct": 0.856,
+  "abnormal_pct": -1.553,
   "years_above_placebo": 4,
-  "p_value": 0.336,
-  "q_value": 0.591
+  "p_value": 0.335,
+  "q_value": 0.589
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1059,11 +1059,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.509,
-  "placebo_pct": 0.452,
-  "abnormal_pct": -1.952,
+  "placebo_pct": 0.448,
+  "abnormal_pct": -1.948,
   "years_above_placebo": 2,
-  "p_value": 0.358,
-  "q_value": 0.609
+  "p_value": 0.359,
+  "q_value": 0.61
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1072,11 +1072,11 @@
   "n_years": 4,
   "years": "2022,2024,2025,2026",
   "runup_pct": 0.591,
-  "placebo_pct": 2.72,
-  "abnormal_pct": -2.073,
+  "placebo_pct": 2.702,
+  "abnormal_pct": -2.056,
   "years_above_placebo": 2,
   "p_value": 0.382,
-  "q_value": 0.622
+  "q_value": 0.628
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1085,11 +1085,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 2.087,
-  "placebo_pct": 0.512,
-  "abnormal_pct": 1.567,
+  "placebo_pct": 0.508,
+  "abnormal_pct": 1.572,
   "years_above_placebo": 3,
-  "p_value": 0.4,
-  "q_value": 0.622
+  "p_value": 0.397,
+  "q_value": 0.633
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1098,11 +1098,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -5.454,
-  "placebo_pct": -2.326,
-  "abnormal_pct": -3.202,
+  "placebo_pct": -2.399,
+  "abnormal_pct": -3.129,
   "years_above_placebo": 0,
-  "p_value": 0.403,
-  "q_value": 0.622
+  "p_value": 0.414,
+  "q_value": 0.636
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1111,11 +1111,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 4.489,
-  "placebo_pct": 1.568,
-  "abnormal_pct": 2.876,
+  "placebo_pct": 1.553,
+  "abnormal_pct": 2.892,
   "years_above_placebo": 4,
-  "p_value": 0.427,
-  "q_value": 0.641
+  "p_value": 0.424,
+  "q_value": 0.636
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1124,11 +1124,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.0,
-  "placebo_pct": 1.079,
-  "abnormal_pct": -1.068,
+  "placebo_pct": 1.07,
+  "abnormal_pct": -1.059,
   "years_above_placebo": 2,
-  "p_value": 0.456,
-  "q_value": 0.664
+  "p_value": 0.457,
+  "q_value": 0.667
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1137,11 +1137,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.297,
-  "placebo_pct": 0.666,
-  "abnormal_pct": -0.367,
+  "placebo_pct": 0.661,
+  "abnormal_pct": -0.361,
   "years_above_placebo": 1,
-  "p_value": 0.597,
-  "q_value": 0.842
+  "p_value": 0.604,
+  "q_value": 0.851
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1150,11 +1150,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.521,
-  "placebo_pct": 1.074,
-  "abnormal_pct": -0.548,
+  "placebo_pct": 1.065,
+  "abnormal_pct": -0.539,
   "years_above_placebo": 2,
-  "p_value": 0.611,
-  "q_value": 0.842
+  "p_value": 0.618,
+  "q_value": 0.851
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1163,24 +1163,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.983,
-  "placebo_pct": 0.242,
-  "abnormal_pct": -1.223,
+  "placebo_pct": 0.24,
+  "abnormal_pct": -1.221,
   "years_above_placebo": 1,
-  "p_value": 0.657,
-  "q_value": 0.845
- },
- {
-  "festival": "Eid-ul-Fitr",
-  "commodity_id": "milk_fresh",
-  "name_en": "Milk powder, Fresh",
-  "n_years": 5,
-  "years": "2022,2023,2024,2025,2026",
-  "runup_pct": 0.351,
-  "placebo_pct": 1.045,
-  "abnormal_pct": -0.687,
-  "years_above_placebo": 1,
-  "p_value": 0.66,
-  "q_value": 0.845
+  "p_value": 0.658,
+  "q_value": 0.851
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1189,11 +1176,24 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.174,
-  "placebo_pct": 1.728,
-  "abnormal_pct": -1.87,
+  "placebo_pct": 1.701,
+  "abnormal_pct": -1.844,
   "years_above_placebo": 1,
   "p_value": 0.663,
-  "q_value": 0.845
+  "q_value": 0.851
+ },
+ {
+  "festival": "Eid-ul-Fitr",
+  "commodity_id": "milk_fresh",
+  "name_en": "Milk powder, Fresh",
+  "n_years": 5,
+  "years": "2022,2023,2024,2025,2026",
+  "runup_pct": 0.351,
+  "placebo_pct": 1.036,
+  "abnormal_pct": -0.678,
+  "years_above_placebo": 1,
+  "p_value": 0.667,
+  "q_value": 0.851
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1202,11 +1202,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.503,
-  "placebo_pct": -0.364,
-  "abnormal_pct": 0.87,
+  "placebo_pct": -0.361,
+  "abnormal_pct": 0.867,
   "years_above_placebo": 3,
-  "p_value": 0.682,
-  "q_value": 0.848
+  "p_value": 0.685,
+  "q_value": 0.852
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1215,11 +1215,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.228,
-  "placebo_pct": 0.524,
-  "abnormal_pct": -0.294,
+  "placebo_pct": 0.522,
+  "abnormal_pct": -0.293,
   "years_above_placebo": 2,
-  "p_value": 0.762,
-  "q_value": 0.92
+  "p_value": 0.76,
+  "q_value": 0.923
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1228,11 +1228,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 2.389,
-  "placebo_pct": 3.408,
-  "abnormal_pct": -0.985,
+  "placebo_pct": 3.416,
+  "abnormal_pct": -0.993,
   "years_above_placebo": 2,
-  "p_value": 0.82,
-  "q_value": 0.92
+  "p_value": 0.824,
+  "q_value": 0.933
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1241,11 +1241,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 1.859,
-  "placebo_pct": 2.381,
-  "abnormal_pct": -0.51,
+  "placebo_pct": 2.359,
+  "abnormal_pct": -0.489,
   "years_above_placebo": 2,
-  "p_value": 0.824,
-  "q_value": 0.92
+  "p_value": 0.834,
+  "q_value": 0.933
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1254,11 +1254,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.036,
-  "placebo_pct": -0.205,
-  "abnormal_pct": 0.242,
+  "placebo_pct": -0.195,
+  "abnormal_pct": 0.232,
   "years_above_placebo": 1,
-  "p_value": 0.828,
-  "q_value": 0.92
+  "p_value": 0.836,
+  "q_value": 0.933
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1267,11 +1267,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 2.646,
-  "placebo_pct": 3.446,
-  "abnormal_pct": -0.774,
+  "placebo_pct": 3.417,
+  "abnormal_pct": -0.746,
   "years_above_placebo": 3,
-  "p_value": 0.83,
-  "q_value": 0.92
+  "p_value": 0.842,
+  "q_value": 0.933
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1280,11 +1280,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.114,
-  "placebo_pct": 0.475,
-  "abnormal_pct": -0.359,
+  "placebo_pct": 0.471,
+  "abnormal_pct": -0.355,
   "years_above_placebo": 2,
-  "p_value": 0.867,
-  "q_value": 0.94
+  "p_value": 0.869,
+  "q_value": 0.943
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1293,11 +1293,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.545,
-  "placebo_pct": 0.403,
-  "abnormal_pct": 0.141,
+  "placebo_pct": 0.423,
+  "abnormal_pct": 0.121,
   "years_above_placebo": 2,
-  "p_value": 0.885,
-  "q_value": 0.94
+  "p_value": 0.898,
+  "q_value": 0.954
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1306,11 +1306,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.45,
-  "placebo_pct": 0.616,
-  "abnormal_pct": -0.165,
+  "placebo_pct": 0.611,
+  "abnormal_pct": -0.16,
   "years_above_placebo": 3,
   "p_value": 0.924,
-  "q_value": 0.961
+  "q_value": 0.955
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1319,11 +1319,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.667,
-  "placebo_pct": 0.523,
-  "abnormal_pct": 0.142,
+  "placebo_pct": 0.51,
+  "abnormal_pct": 0.156,
   "years_above_placebo": 2,
-  "p_value": 0.942,
-  "q_value": 0.961
+  "p_value": 0.936,
+  "q_value": 0.955
  },
  {
   "festival": "Eid-ul-Fitr",
@@ -1332,11 +1332,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -3.522,
-  "placebo_pct": -3.574,
-  "abnormal_pct": 0.054,
-  "years_above_placebo": 2,
-  "p_value": 0.995,
-  "q_value": 0.995
+  "placebo_pct": -3.412,
+  "abnormal_pct": -0.114,
+  "years_above_placebo": 1,
+  "p_value": 0.991,
+  "q_value": 0.991
  },
  {
   "festival": "Ramadan",
@@ -1345,11 +1345,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -13.543,
-  "placebo_pct": 0.561,
-  "abnormal_pct": -14.026,
+  "placebo_pct": 0.568,
+  "abnormal_pct": -14.032,
   "years_above_placebo": 2,
-  "p_value": 0.0,
-  "q_value": 0.005
+  "p_value": 0.001,
+  "q_value": 0.036
  },
  {
   "festival": "Ramadan",
@@ -1358,11 +1358,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -2.247,
-  "placebo_pct": 3.527,
-  "abnormal_pct": -5.578,
+  "placebo_pct": 3.564,
+  "abnormal_pct": -5.611,
   "years_above_placebo": 1,
   "p_value": 0.003,
-  "q_value": 0.044
+  "q_value": 0.047
  },
  {
   "festival": "Ramadan",
@@ -1371,11 +1371,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 3.125,
-  "placebo_pct": -0.264,
-  "abnormal_pct": 3.398,
+  "placebo_pct": -0.262,
+  "abnormal_pct": 3.396,
   "years_above_placebo": 4,
   "p_value": 0.003,
-  "q_value": 0.044
+  "q_value": 0.047
  },
  {
   "festival": "Ramadan",
@@ -1384,11 +1384,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -3.067,
-  "placebo_pct": 3.461,
-  "abnormal_pct": -6.31,
+  "placebo_pct": 3.408,
+  "abnormal_pct": -6.262,
   "years_above_placebo": 0,
-  "p_value": 0.003,
-  "q_value": 0.044
+  "p_value": 0.004,
+  "q_value": 0.047
  },
  {
   "festival": "Ramadan",
@@ -1400,8 +1400,8 @@
   "placebo_pct": -0.014,
   "abnormal_pct": 5.232,
   "years_above_placebo": 4,
-  "p_value": 0.004,
-  "q_value": 0.046
+  "p_value": 0.005,
+  "q_value": 0.048
  },
  {
   "festival": "Ramadan",
@@ -1410,11 +1410,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 4.299,
-  "placebo_pct": -0.533,
-  "abnormal_pct": 4.858,
+  "placebo_pct": -0.526,
+  "abnormal_pct": 4.85,
   "years_above_placebo": 3,
   "p_value": 0.006,
-  "q_value": 0.049
+  "q_value": 0.048
  },
  {
   "festival": "Ramadan",
@@ -1423,11 +1423,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 1.698,
-  "placebo_pct": -2.813,
-  "abnormal_pct": 4.642,
+  "placebo_pct": -2.79,
+  "abnormal_pct": 4.617,
   "years_above_placebo": 4,
-  "p_value": 0.007,
-  "q_value": 0.049
+  "p_value": 0.006,
+  "q_value": 0.048
  },
  {
   "festival": "Ramadan",
@@ -1436,11 +1436,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 11.225,
-  "placebo_pct": 1.568,
-  "abnormal_pct": 9.508,
+  "placebo_pct": 1.553,
+  "abnormal_pct": 9.524,
   "years_above_placebo": 4,
-  "p_value": 0.012,
-  "q_value": 0.08
+  "p_value": 0.013,
+  "q_value": 0.081
  },
  {
   "festival": "Ramadan",
@@ -1453,7 +1453,7 @@
   "abnormal_pct": -19.047,
   "years_above_placebo": 1,
   "p_value": 0.014,
-  "q_value": 0.08
+  "q_value": 0.081
  },
  {
   "festival": "Ramadan",
@@ -1462,11 +1462,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -2.863,
-  "placebo_pct": -0.205,
-  "abnormal_pct": -2.664,
+  "placebo_pct": -0.195,
+  "abnormal_pct": -2.674,
   "years_above_placebo": 0,
-  "p_value": 0.019,
-  "q_value": 0.098
+  "p_value": 0.021,
+  "q_value": 0.107
  },
  {
   "festival": "Ramadan",
@@ -1475,24 +1475,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.481,
-  "placebo_pct": 3.239,
-  "abnormal_pct": -4.572,
+  "placebo_pct": 3.218,
+  "abnormal_pct": -4.552,
   "years_above_placebo": 0,
   "p_value": 0.039,
-  "q_value": 0.182
- },
- {
-  "festival": "Ramadan",
-  "commodity_id": "milk_diploma",
-  "name_en": "Milk powder, Diploma",
-  "n_years": 5,
-  "years": "2022,2023,2024,2025,2026",
-  "runup_pct": -0.7,
-  "placebo_pct": 0.666,
-  "abnormal_pct": -1.357,
-  "years_above_placebo": 1,
-  "p_value": 0.049,
-  "q_value": 0.198
+  "q_value": 0.184
  },
  {
   "festival": "Ramadan",
@@ -1501,11 +1488,24 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.615,
-  "placebo_pct": 0.818,
-  "abnormal_pct": -2.414,
+  "placebo_pct": 0.803,
+  "abnormal_pct": -2.4,
   "years_above_placebo": 0,
-  "p_value": 0.049,
-  "q_value": 0.198
+  "p_value": 0.051,
+  "q_value": 0.208
+ },
+ {
+  "festival": "Ramadan",
+  "commodity_id": "milk_diploma",
+  "name_en": "Milk powder, Diploma",
+  "n_years": 5,
+  "years": "2022,2023,2024,2025,2026",
+  "runup_pct": -0.7,
+  "placebo_pct": 0.661,
+  "abnormal_pct": -1.351,
+  "years_above_placebo": 1,
+  "p_value": 0.052,
+  "q_value": 0.208
  },
  {
   "festival": "Ramadan",
@@ -1514,11 +1514,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -2.864,
-  "placebo_pct": -0.302,
-  "abnormal_pct": -2.569,
+  "placebo_pct": -0.3,
+  "abnormal_pct": -2.572,
   "years_above_placebo": 2,
   "p_value": 0.07,
-  "q_value": 0.259
+  "q_value": 0.258
  },
  {
   "festival": "Ramadan",
@@ -1527,11 +1527,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 3.047,
-  "placebo_pct": -1.614,
-  "abnormal_pct": 4.737,
+  "placebo_pct": -1.601,
+  "abnormal_pct": 4.723,
   "years_above_placebo": 4,
-  "p_value": 0.075,
-  "q_value": 0.26
+  "p_value": 0.074,
+  "q_value": 0.258
  },
  {
   "festival": "Ramadan",
@@ -1540,11 +1540,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -3.184,
-  "placebo_pct": 0.905,
-  "abnormal_pct": -4.052,
+  "placebo_pct": 0.897,
+  "abnormal_pct": -4.044,
   "years_above_placebo": 1,
-  "p_value": 0.084,
-  "q_value": 0.273
+  "p_value": 0.082,
+  "q_value": 0.266
  },
  {
   "festival": "Ramadan",
@@ -1553,11 +1553,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -2.899,
-  "placebo_pct": -0.133,
-  "abnormal_pct": -2.77,
+  "placebo_pct": -0.128,
+  "abnormal_pct": -2.775,
   "years_above_placebo": 1,
-  "p_value": 0.108,
-  "q_value": 0.332
+  "p_value": 0.103,
+  "q_value": 0.315
  },
  {
   "festival": "Ramadan",
@@ -1566,10 +1566,10 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.605,
-  "placebo_pct": 1.402,
-  "abnormal_pct": -1.979,
+  "placebo_pct": 1.39,
+  "abnormal_pct": -1.967,
   "years_above_placebo": 1,
-  "p_value": 0.135,
+  "p_value": 0.136,
   "q_value": 0.391
  },
  {
@@ -1579,10 +1579,10 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -2.63,
-  "placebo_pct": 0.475,
-  "abnormal_pct": -3.09,
+  "placebo_pct": 0.471,
+  "abnormal_pct": -3.086,
   "years_above_placebo": 1,
-  "p_value": 0.152,
+  "p_value": 0.148,
   "q_value": 0.391
  },
  {
@@ -1592,10 +1592,10 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.7,
-  "placebo_pct": 1.242,
-  "abnormal_pct": -1.918,
+  "placebo_pct": 1.232,
+  "abnormal_pct": -1.908,
   "years_above_placebo": 0,
-  "p_value": 0.156,
+  "p_value": 0.152,
   "q_value": 0.391
  },
  {
@@ -1605,10 +1605,10 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.151,
-  "placebo_pct": 2.964,
-  "abnormal_pct": -3.025,
+  "placebo_pct": 2.944,
+  "abnormal_pct": -3.006,
   "years_above_placebo": 1,
-  "p_value": 0.161,
+  "p_value": 0.164,
   "q_value": 0.391
  },
  {
@@ -1618,8 +1618,8 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.339,
-  "placebo_pct": 1.074,
-  "abnormal_pct": -1.398,
+  "placebo_pct": 1.065,
+  "abnormal_pct": -1.389,
   "years_above_placebo": 2,
   "p_value": 0.165,
   "q_value": 0.391
@@ -1631,11 +1631,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -2.474,
-  "placebo_pct": 3.408,
-  "abnormal_pct": -5.688,
+  "placebo_pct": 3.416,
+  "abnormal_pct": -5.695,
   "years_above_placebo": 2,
-  "p_value": 0.174,
-  "q_value": 0.393
+  "p_value": 0.176,
+  "q_value": 0.399
  },
  {
   "festival": "Ramadan",
@@ -1644,11 +1644,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 2.964,
-  "placebo_pct": 0.512,
-  "abnormal_pct": 2.44,
+  "placebo_pct": 0.508,
+  "abnormal_pct": 2.444,
   "years_above_placebo": 3,
-  "p_value": 0.188,
-  "q_value": 0.407
+  "p_value": 0.185,
+  "q_value": 0.401
  },
  {
   "festival": "Ramadan",
@@ -1657,11 +1657,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.745,
-  "placebo_pct": 0.524,
-  "abnormal_pct": -1.262,
+  "placebo_pct": 0.522,
+  "abnormal_pct": -1.26,
   "years_above_placebo": 1,
   "p_value": 0.219,
-  "q_value": 0.455
+  "q_value": 0.453
  },
  {
   "festival": "Ramadan",
@@ -1670,11 +1670,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 2.417,
-  "placebo_pct": 0.364,
-  "abnormal_pct": 2.046,
+  "placebo_pct": 0.34,
+  "abnormal_pct": 2.07,
   "years_above_placebo": 4,
-  "p_value": 0.229,
-  "q_value": 0.456
+  "p_value": 0.227,
+  "q_value": 0.453
  },
  {
   "festival": "Ramadan",
@@ -1683,11 +1683,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.612,
-  "placebo_pct": 1.045,
-  "abnormal_pct": -1.639,
+  "placebo_pct": 1.036,
+  "abnormal_pct": -1.631,
   "years_above_placebo": 1,
-  "p_value": 0.238,
-  "q_value": 0.456
+  "p_value": 0.241,
+  "q_value": 0.46
  },
  {
   "festival": "Ramadan",
@@ -1696,11 +1696,11 @@
   "n_years": 4,
   "years": "2022,2024,2025,2026",
   "runup_pct": -0.145,
-  "placebo_pct": 2.72,
-  "abnormal_pct": -2.789,
+  "placebo_pct": 2.702,
+  "abnormal_pct": -2.772,
   "years_above_placebo": 0,
-  "p_value": 0.245,
-  "q_value": 0.456
+  "p_value": 0.248,
+  "q_value": 0.46
  },
  {
   "festival": "Ramadan",
@@ -1709,23 +1709,10 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.252,
-  "placebo_pct": 2.381,
-  "abnormal_pct": -2.572,
+  "placebo_pct": 2.359,
+  "abnormal_pct": -2.551,
   "years_above_placebo": 1,
-  "p_value": 0.276,
-  "q_value": 0.474
- },
- {
-  "festival": "Ramadan",
-  "commodity_id": "onion_local",
-  "name_en": "Onion, local",
-  "n_years": 5,
-  "years": "2022,2023,2024,2025,2026",
-  "runup_pct": -8.687,
-  "placebo_pct": 2.025,
-  "abnormal_pct": -10.499,
-  "years_above_placebo": 1,
-  "p_value": 0.281,
+  "p_value": 0.279,
   "q_value": 0.474
  },
  {
@@ -1735,10 +1722,23 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.908,
-  "placebo_pct": 0.863,
-  "abnormal_pct": -1.756,
+  "placebo_pct": 0.856,
+  "abnormal_pct": -1.749,
   "years_above_placebo": 2,
-  "p_value": 0.288,
+  "p_value": 0.286,
+  "q_value": 0.474
+ },
+ {
+  "festival": "Ramadan",
+  "commodity_id": "onion_local",
+  "name_en": "Onion, local",
+  "n_years": 5,
+  "years": "2022,2023,2024,2025,2026",
+  "runup_pct": -8.687,
+  "placebo_pct": 1.961,
+  "abnormal_pct": -10.443,
+  "years_above_placebo": 1,
+  "p_value": 0.287,
   "q_value": 0.474
  },
  {
@@ -1748,23 +1748,10 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.546,
-  "placebo_pct": 2.358,
-  "abnormal_pct": -1.771,
+  "placebo_pct": 2.341,
+  "abnormal_pct": -1.754,
   "years_above_placebo": 1,
-  "p_value": 0.299,
-  "q_value": 0.474
- },
- {
-  "festival": "Ramadan",
-  "commodity_id": "atta_loose",
-  "name_en": "Atta, loose",
-  "n_years": 5,
-  "years": "2022,2023,2024,2025,2026",
-  "runup_pct": 0.054,
-  "placebo_pct": 2.307,
-  "abnormal_pct": -2.202,
-  "years_above_placebo": 1,
-  "p_value": 0.312,
+  "p_value": 0.3,
   "q_value": 0.474
  },
  {
@@ -1774,10 +1761,23 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -2.501,
-  "placebo_pct": -0.364,
-  "abnormal_pct": -2.145,
+  "placebo_pct": -0.361,
+  "abnormal_pct": -2.148,
   "years_above_placebo": 3,
-  "p_value": 0.316,
+  "p_value": 0.312,
+  "q_value": 0.474
+ },
+ {
+  "festival": "Ramadan",
+  "commodity_id": "atta_loose",
+  "name_en": "Atta, loose",
+  "n_years": 5,
+  "years": "2022,2023,2024,2025,2026",
+  "runup_pct": 0.054,
+  "placebo_pct": 2.274,
+  "abnormal_pct": -2.171,
+  "years_above_placebo": 1,
+  "p_value": 0.317,
   "q_value": 0.474
  },
  {
@@ -1787,8 +1787,8 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.0,
-  "placebo_pct": 0.977,
-  "abnormal_pct": -0.968,
+  "placebo_pct": 0.969,
+  "abnormal_pct": -0.96,
   "years_above_placebo": 1,
   "p_value": 0.319,
   "q_value": 0.474
@@ -1821,29 +1821,29 @@
  },
  {
   "festival": "Ramadan",
-  "commodity_id": "eggs",
-  "name_en": "Eggs, farm",
-  "n_years": 5,
-  "years": "2022,2023,2024,2025,2026",
-  "runup_pct": -5.405,
-  "placebo_pct": -2.326,
-  "abnormal_pct": -3.152,
-  "years_above_placebo": 0,
-  "p_value": 0.416,
-  "q_value": 0.561
- },
- {
-  "festival": "Ramadan",
   "commodity_id": "rod_40",
   "name_en": "MS rod, 40 grade",
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 1.992,
-  "placebo_pct": 0.434,
-  "abnormal_pct": 1.552,
+  "placebo_pct": 0.402,
+  "abnormal_pct": 1.584,
   "years_above_placebo": 3,
-  "p_value": 0.421,
-  "q_value": 0.561
+  "p_value": 0.414,
+  "q_value": 0.56
+ },
+ {
+  "festival": "Ramadan",
+  "commodity_id": "eggs",
+  "name_en": "Eggs, farm",
+  "n_years": 5,
+  "years": "2022,2023,2024,2025,2026",
+  "runup_pct": -5.405,
+  "placebo_pct": -2.399,
+  "abnormal_pct": -3.08,
+  "years_above_placebo": 0,
+  "p_value": 0.42,
+  "q_value": 0.56
  },
  {
   "festival": "Ramadan",
@@ -1852,11 +1852,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 1.857,
-  "placebo_pct": 0.452,
-  "abnormal_pct": 1.399,
+  "placebo_pct": 0.448,
+  "abnormal_pct": 1.403,
   "years_above_placebo": 2,
-  "p_value": 0.529,
-  "q_value": 0.688
+  "p_value": 0.522,
+  "q_value": 0.679
  },
  {
   "festival": "Ramadan",
@@ -1865,11 +1865,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 1.054,
-  "placebo_pct": -0.019,
-  "abnormal_pct": 1.073,
+  "placebo_pct": -0.027,
+  "abnormal_pct": 1.082,
   "years_above_placebo": 2,
-  "p_value": 0.583,
-  "q_value": 0.739
+  "p_value": 0.581,
+  "q_value": 0.737
  },
  {
   "festival": "Ramadan",
@@ -1878,11 +1878,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.045,
-  "placebo_pct": 0.242,
-  "abnormal_pct": -1.284,
+  "placebo_pct": 0.24,
+  "abnormal_pct": -1.282,
   "years_above_placebo": 2,
-  "p_value": 0.658,
-  "q_value": 0.815
+  "p_value": 0.66,
+  "q_value": 0.817
  },
  {
   "festival": "Ramadan",
@@ -1891,11 +1891,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -0.252,
-  "placebo_pct": 0.523,
-  "abnormal_pct": -0.771,
+  "placebo_pct": 0.51,
+  "abnormal_pct": -0.758,
   "years_above_placebo": 2,
-  "p_value": 0.701,
-  "q_value": 0.839
+  "p_value": 0.705,
+  "q_value": 0.85
  },
  {
   "festival": "Ramadan",
@@ -1904,11 +1904,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.096,
-  "placebo_pct": 1.728,
-  "abnormal_pct": -1.604,
+  "placebo_pct": 1.701,
+  "abnormal_pct": -1.578,
   "years_above_placebo": 2,
-  "p_value": 0.71,
-  "q_value": 0.839
+  "p_value": 0.719,
+  "q_value": 0.85
  },
  {
   "festival": "Ramadan",
@@ -1917,11 +1917,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.614,
-  "placebo_pct": 1.374,
-  "abnormal_pct": -0.749,
+  "placebo_pct": 1.363,
+  "abnormal_pct": -0.739,
   "years_above_placebo": 3,
-  "p_value": 0.734,
-  "q_value": 0.848
+  "p_value": 0.738,
+  "q_value": 0.852
  },
  {
   "festival": "Ramadan",
@@ -1930,11 +1930,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.052,
-  "placebo_pct": -3.574,
-  "abnormal_pct": 2.616,
+  "placebo_pct": -3.412,
+  "abnormal_pct": 2.444,
   "years_above_placebo": 2,
-  "p_value": 0.789,
-  "q_value": 0.885
+  "p_value": 0.797,
+  "q_value": 0.89
  },
  {
   "festival": "Ramadan",
@@ -1943,11 +1943,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 2.477,
-  "placebo_pct": 3.446,
-  "abnormal_pct": -0.936,
+  "placebo_pct": 3.417,
+  "abnormal_pct": -0.908,
   "years_above_placebo": 5,
-  "p_value": 0.8,
-  "q_value": 0.885
+  "p_value": 0.804,
+  "q_value": 0.89
  },
  {
   "festival": "Ramadan",
@@ -1956,11 +1956,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -1.024,
-  "placebo_pct": -0.553,
-  "abnormal_pct": -0.474,
+  "placebo_pct": -0.548,
+  "abnormal_pct": -0.478,
   "years_above_placebo": 2,
-  "p_value": 0.828,
-  "q_value": 0.897
+  "p_value": 0.823,
+  "q_value": 0.892
  },
  {
   "festival": "Ramadan",
@@ -1969,11 +1969,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.865,
-  "placebo_pct": 0.616,
-  "abnormal_pct": 0.248,
+  "placebo_pct": 0.611,
+  "abnormal_pct": 0.253,
   "years_above_placebo": 4,
-  "p_value": 0.875,
-  "q_value": 0.929
+  "p_value": 0.874,
+  "q_value": 0.928
  },
  {
   "festival": "Ramadan",
@@ -1982,11 +1982,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 0.361,
-  "placebo_pct": 0.403,
-  "abnormal_pct": -0.042,
+  "placebo_pct": 0.423,
+  "abnormal_pct": -0.062,
   "years_above_placebo": 4,
-  "p_value": 0.964,
-  "q_value": 1.0
+  "p_value": 0.945,
+  "q_value": 0.983
  },
  {
   "festival": "Ramadan",
@@ -1995,11 +1995,11 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": -6.127,
-  "placebo_pct": -5.938,
-  "abnormal_pct": -0.201,
+  "placebo_pct": -5.814,
+  "abnormal_pct": -0.332,
   "years_above_placebo": 4,
-  "p_value": 0.985,
-  "q_value": 1.0
+  "p_value": 0.974,
+  "q_value": 0.993
  },
  {
   "festival": "Ramadan",
@@ -2008,10 +2008,10 @@
   "n_years": 5,
   "years": "2022,2023,2024,2025,2026",
   "runup_pct": 1.08,
-  "placebo_pct": 1.079,
-  "abnormal_pct": 0.001,
+  "placebo_pct": 1.07,
+  "abnormal_pct": 0.01,
   "years_above_placebo": 3,
-  "p_value": 1.0,
-  "q_value": 1.0
+  "p_value": 0.998,
+  "q_value": 0.998
  }
 ]
