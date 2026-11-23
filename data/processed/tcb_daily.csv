@@ -1974,6 +1974,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,anchor_dal,60.00,75.00,67.50,report,1
 2026-11-21,anchor_dal,60.00,75.00,67.50,report,1
 2026-11-22,anchor_dal,60.00,75.00,67.50,report,1
+2026-11-23,anchor_dal,60.00,75.00,67.50,report,1
 2020-05-17,atta_loose,28.00,32.00,30.00,backfill_year,1
 2020-05-18,atta_loose,28.00,32.00,30.00,backfill_year,1
 2020-05-20,atta_loose,28.00,32.00,30.00,backfill_year,1
@@ -3949,6 +3950,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,atta_loose,50.00,50.00,50.00,report,1
 2026-11-21,atta_loose,50.00,50.00,50.00,report,1
 2026-11-22,atta_loose,50.00,50.00,50.00,report,1
+2026-11-23,atta_loose,50.00,50.00,50.00,report,1
 2020-05-17,atta_pkt,35.00,42.00,38.50,backfill_year,1
 2020-05-18,atta_pkt,35.00,42.00,38.50,backfill_year,1
 2020-05-20,atta_pkt,35.00,42.00,38.50,backfill_year,1
@@ -5924,6 +5926,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,atta_pkt,65.00,70.00,67.50,report,1
 2026-11-21,atta_pkt,65.00,70.00,67.50,report,1
 2026-11-22,atta_pkt,65.00,70.00,67.50,report,1
+2026-11-23,atta_pkt,65.00,70.00,67.50,report,1
 2020-05-17,bay_leaf,120.00,150.00,135.00,backfill_year,1
 2020-05-18,bay_leaf,120.00,150.00,135.00,backfill_year,1
 2020-05-20,bay_leaf,120.00,150.00,135.00,backfill_year,1
@@ -7897,6 +7900,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,bay_leaf,250.00,280.00,265.00,report,1
 2026-11-21,bay_leaf,250.00,280.00,265.00,report,1
 2026-11-22,bay_leaf,250.00,280.00,265.00,report,1
+2026-11-23,bay_leaf,250.00,280.00,265.00,report,1
 2020-05-17,beef,580.00,600.00,590.00,backfill_year,1
 2020-05-18,beef,580.00,600.00,590.00,backfill_year,1
 2020-05-20,beef,580.00,600.00,590.00,backfill_year,1
@@ -9856,6 +9860,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,beef,800.00,850.00,825.00,report,1
 2026-11-21,beef,800.00,850.00,825.00,report,1
 2026-11-22,beef,800.00,850.00,825.00,report,1
+2026-11-23,beef,800.00,850.00,825.00,report,1
 2025-02-18,brinjal,30.00,60.00,45.00,backfill_year,1
 2025-02-19,brinjal,30.00,60.00,45.00,backfill_year,1
 2025-02-20,brinjal,30.00,60.00,45.00,backfill_year,1
@@ -10086,6 +10091,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2025-11-20,brinjal,60.00,100.00,80.00,backfill_year,1
 2025-11-21,brinjal,60.00,100.00,80.00,backfill_year,1
 2025-11-22,brinjal,60.00,100.00,80.00,backfill_year,1
+2025-11-23,brinjal,60.00,100.00,80.00,backfill_year,1
 2026-01-18,brinjal,50.00,120.00,85.00,backfill_month,1
 2026-01-19,brinjal,30.00,120.00,75.00,backfill_month,1
 2026-01-20,brinjal,50.00,120.00,85.00,backfill_month,1
@@ -10362,6 +10368,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,brinjal,50.00,100.00,75.00,report,1
 2026-11-21,brinjal,50.00,100.00,75.00,report,1
 2026-11-22,brinjal,50.00,100.00,75.00,report,1
+2026-11-23,brinjal,50.00,110.00,80.00,report,1
 2020-05-17,cardamom,3600.00,4200.00,3900.00,backfill_year,1
 2020-05-18,cardamom,3600.00,4200.00,3900.00,backfill_year,1
 2020-05-20,cardamom,3600.00,4200.00,3900.00,backfill_year,1
@@ -12337,6 +12344,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,cardamom,4500.00,5600.00,5050.00,report,1
 2026-11-21,cardamom,4500.00,5600.00,5050.00,report,1
 2026-11-22,cardamom,4500.00,5600.00,5050.00,report,1
+2026-11-23,cardamom,4500.00,5600.00,5050.00,report,1
 2020-05-17,chicken_broiler,140.00,160.00,150.00,backfill_year,1
 2020-05-18,chicken_broiler,150.00,160.00,155.00,backfill_year,1
 2020-05-20,chicken_broiler,130.00,150.00,140.00,backfill_year,1
@@ -14312,6 +14320,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,chicken_broiler,170.00,190.00,180.00,report,1
 2026-11-21,chicken_broiler,170.00,190.00,180.00,report,1
 2026-11-22,chicken_broiler,170.00,190.00,180.00,report,1
+2026-11-23,chicken_broiler,170.00,190.00,180.00,report,1
 2020-05-17,chicken_local,450.00,500.00,475.00,backfill_year,1
 2020-05-18,chicken_local,450.00,500.00,475.00,backfill_year,1
 2020-05-20,chicken_local,450.00,500.00,475.00,backfill_year,1
@@ -16287,6 +16296,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,chicken_local,600.00,750.00,675.00,report,1
 2026-11-21,chicken_local,600.00,750.00,675.00,report,1
 2026-11-22,chicken_local,600.00,750.00,675.00,report,1
+2026-11-23,chicken_local,600.00,750.00,675.00,report,1
 2020-05-17,chickpea,70.00,75.00,72.50,backfill_year,1
 2020-05-18,chickpea,70.00,75.00,72.50,backfill_year,1
 2020-05-20,chickpea,70.00,75.00,72.50,backfill_year,1
@@ -18262,6 +18272,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,chickpea,110.00,120.00,115.00,report,1
 2026-11-21,chickpea,110.00,120.00,115.00,report,1
 2026-11-22,chickpea,110.00,120.00,115.00,report,1
+2026-11-23,chickpea,110.00,120.00,115.00,report,1
 2020-05-17,chili_dry_imported,350.00,400.00,375.00,backfill_year,1
 2020-05-18,chili_dry_imported,300.00,400.00,350.00,backfill_year,1
 2020-05-20,chili_dry_imported,300.00,400.00,350.00,backfill_year,1
@@ -20237,6 +20248,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,chili_dry_imported,380.00,450.00,415.00,report,1
 2026-11-21,chili_dry_imported,380.00,450.00,415.00,report,1
 2026-11-22,chili_dry_imported,380.00,450.00,415.00,report,1
+2026-11-23,chili_dry_imported,380.00,450.00,415.00,report,1
 2020-05-17,chili_dry_local,300.00,350.00,325.00,backfill_year,1
 2020-05-18,chili_dry_local,250.00,300.00,275.00,backfill_year,1
 2020-05-20,chili_dry_local,250.00,300.00,275.00,backfill_year,1
@@ -22212,6 +22224,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,chili_dry_local,320.00,380.00,350.00,report,1
 2026-11-21,chili_dry_local,320.00,380.00,350.00,report,1
 2026-11-22,chili_dry_local,320.00,380.00,350.00,report,1
+2026-11-23,chili_dry_local,320.00,380.00,350.00,report,1
 2020-05-17,cinnamon,400.00,480.00,440.00,backfill_year,1
 2020-05-18,cinnamon,400.00,480.00,440.00,backfill_year,1
 2020-05-20,cinnamon,400.00,480.00,440.00,backfill_year,1
@@ -24187,6 +24200,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,cinnamon,500.00,620.00,560.00,report,1
 2026-11-21,cinnamon,500.00,620.00,560.00,report,1
 2026-11-22,cinnamon,500.00,620.00,560.00,report,1
+2026-11-23,cinnamon,500.00,620.00,560.00,report,1
 2020-05-17,clove,1000.00,1200.00,1100.00,backfill_year,1
 2020-05-18,clove,980.00,1100.00,1040.00,backfill_year,1
 2020-05-20,clove,980.00,1100.00,1040.00,backfill_year,1
@@ -26162,6 +26176,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,clove,1450.00,1600.00,1525.00,report,1
 2026-11-21,clove,1450.00,1600.00,1525.00,report,1
 2026-11-22,clove,1450.00,1600.00,1525.00,report,1
+2026-11-23,clove,1450.00,1600.00,1525.00,report,1
 2020-05-17,coriander,120.00,140.00,130.00,backfill_year,1
 2020-05-18,coriander,130.00,140.00,135.00,backfill_year,1
 2020-05-20,coriander,130.00,140.00,135.00,backfill_year,1
@@ -28137,6 +28152,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,coriander,200.00,250.00,225.00,report,1
 2026-11-21,coriander,200.00,250.00,225.00,report,1
 2026-11-22,coriander,200.00,250.00,225.00,report,1
+2026-11-23,coriander,200.00,250.00,225.00,report,1
 2025-02-18,cucumber,20.00,60.00,40.00,backfill_year,1
 2025-02-19,cucumber,20.00,60.00,40.00,backfill_year,1
 2025-02-20,cucumber,20.00,60.00,40.00,backfill_year,1
@@ -28367,6 +28383,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2025-11-20,cucumber,50.00,80.00,65.00,backfill_year,1
 2025-11-21,cucumber,50.00,80.00,65.00,backfill_year,1
 2025-11-22,cucumber,50.00,80.00,65.00,backfill_year,1
+2025-11-23,cucumber,60.00,100.00,80.00,backfill_year,1
 2026-01-18,cucumber,50.00,130.00,90.00,backfill_month,1
 2026-01-19,cucumber,50.00,130.00,90.00,backfill_month,1
 2026-01-20,cucumber,50.00,130.00,90.00,backfill_month,1
@@ -28643,6 +28660,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,cucumber,50.00,80.00,65.00,report,1
 2026-11-21,cucumber,50.00,80.00,65.00,report,1
 2026-11-22,cucumber,50.00,80.00,65.00,report,1
+2026-11-23,cucumber,50.00,80.00,65.00,report,1
 2020-05-17,cumin,500.00,600.00,550.00,backfill_year,1
 2020-05-18,cumin,450.00,550.00,500.00,backfill_year,1
 2020-05-20,cumin,450.00,550.00,500.00,backfill_year,1
@@ -30618,6 +30636,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,cumin,550.00,680.00,615.00,report,1
 2026-11-21,cumin,550.00,680.00,615.00,report,1
 2026-11-22,cumin,550.00,680.00,615.00,report,1
+2026-11-23,cumin,550.00,680.00,615.00,report,1
 2020-05-17,dates,220.00,300.00,260.00,backfill_year,1
 2020-05-18,dates,220.00,300.00,260.00,backfill_year,1
 2020-05-20,dates,220.00,300.00,260.00,backfill_year,1
@@ -32593,6 +32612,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,dates,350.00,550.00,450.00,report,1
 2026-11-21,dates,350.00,550.00,450.00,report,1
 2026-11-22,dates,350.00,550.00,450.00,report,1
+2026-11-23,dates,350.00,550.00,450.00,report,1
 2020-05-17,eggs,26.00,28.00,27.00,backfill_year,1
 2020-05-18,eggs,26.00,28.00,27.00,backfill_year,1
 2020-05-20,eggs,26.00,28.00,27.00,backfill_year,1
@@ -34568,6 +34588,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,eggs,42.00,45.00,43.50,report,1
 2026-11-21,eggs,42.00,45.00,43.50,report,1
 2026-11-22,eggs,42.00,45.00,43.50,report,1
+2026-11-23,eggs,42.00,45.00,43.50,report,1
 2020-05-17,garlic_imported,130.00,150.00,140.00,backfill_year,1
 2020-05-18,garlic_imported,130.00,150.00,140.00,backfill_year,1
 2020-05-20,garlic_imported,120.00,130.00,125.00,backfill_year,1
@@ -36543,6 +36564,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,garlic_imported,180.00,200.00,190.00,report,1
 2026-11-21,garlic_imported,180.00,200.00,190.00,report,1
 2026-11-22,garlic_imported,180.00,200.00,190.00,report,1
+2026-11-23,garlic_imported,180.00,200.00,190.00,report,1
 2020-05-17,garlic_local,100.00,120.00,110.00,backfill_year,1
 2020-05-18,garlic_local,100.00,120.00,110.00,backfill_year,1
 2020-05-20,garlic_local,100.00,120.00,110.00,backfill_year,1
@@ -38518,6 +38540,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,garlic_local,100.00,140.00,120.00,report,1
 2026-11-21,garlic_local,100.00,140.00,120.00,report,1
 2026-11-22,garlic_local,100.00,140.00,120.00,report,1
+2026-11-23,garlic_local,100.00,140.00,120.00,report,1
 2020-05-17,ginger_imported,140.00,160.00,150.00,backfill_year,1
 2020-05-18,ginger_imported,130.00,160.00,145.00,backfill_year,1
 2020-05-20,ginger_imported,130.00,150.00,140.00,backfill_year,1
@@ -40493,6 +40516,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,ginger_imported,160.00,180.00,170.00,report,1
 2026-11-21,ginger_imported,160.00,180.00,170.00,report,1
 2026-11-22,ginger_imported,160.00,180.00,170.00,report,1
+2026-11-23,ginger_imported,160.00,180.00,170.00,report,1
 2020-05-17,ginger_local,180.00,200.00,190.00,backfill_year,1
 2020-05-18,ginger_local,180.00,200.00,190.00,backfill_year,1
 2020-05-20,ginger_local,180.00,200.00,190.00,backfill_year,1
@@ -42305,6 +42329,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,ginger_local,100.00,150.00,125.00,report,1
 2026-11-21,ginger_local,100.00,150.00,125.00,report,1
 2026-11-22,ginger_local,100.00,150.00,125.00,report,1
+2026-11-23,ginger_local,100.00,150.00,125.00,report,1
 2025-02-18,green_chili,40.00,80.00,60.00,backfill_year,1
 2025-02-19,green_chili,40.00,80.00,60.00,backfill_year,1
 2025-02-20,green_chili,40.00,80.00,60.00,backfill_year,1
@@ -42499,6 +42524,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2025-11-20,green_chili,180.00,200.00,190.00,backfill_year,1
 2025-11-21,green_chili,180.00,200.00,190.00,backfill_year,1
 2025-11-22,green_chili,180.00,200.00,190.00,backfill_year,1
+2025-11-23,green_chili,180.00,200.00,190.00,backfill_year,1
 2026-01-18,green_chili,80.00,120.00,100.00,backfill_month,1
 2026-01-19,green_chili,100.00,120.00,110.00,backfill_month,1
 2026-01-20,green_chili,80.00,120.00,100.00,backfill_month,1
@@ -42775,6 +42801,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,green_chili,60.00,120.00,90.00,report,1
 2026-11-21,green_chili,60.00,120.00,90.00,report,1
 2026-11-22,green_chili,60.00,120.00,90.00,report,1
+2026-11-23,green_chili,80.00,120.00,100.00,report,1
 2020-05-17,hilsa,1000.00,1200.00,1100.00,backfill_year,1
 2020-05-18,hilsa,1000.00,1200.00,1100.00,backfill_year,1
 2020-05-20,hilsa,1000.00,1200.00,1100.00,backfill_year,1
@@ -44645,6 +44672,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,hilsa,700.00,2000.00,1350.00,report,1
 2026-11-21,hilsa,700.00,2000.00,1350.00,report,1
 2026-11-22,hilsa,700.00,2000.00,1350.00,report,1
+2026-11-23,hilsa,700.00,2000.00,1350.00,report,1
 2026-01-19,lemon,34.00,45.00,39.50,backfill_month,1
 2026-02-18,lemon,60.00,120.00,90.00,report,1
 2026-02-19,lemon,60.00,120.00,90.00,report,1
@@ -44898,6 +44926,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,lemon,20.00,30.00,25.00,report,1
 2026-11-21,lemon,20.00,30.00,25.00,report,1
 2026-11-22,lemon,20.00,30.00,25.00,report,1
+2026-11-23,lemon,20.00,30.00,25.00,report,1
 2020-05-17,lentil_bold,90.00,100.00,95.00,backfill_year,1
 2020-05-18,lentil_bold,80.00,90.00,85.00,backfill_year,1
 2020-05-20,lentil_bold,80.00,90.00,85.00,backfill_year,1
@@ -46873,6 +46902,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,lentil_bold,90.00,100.00,95.00,report,1
 2026-11-21,lentil_bold,90.00,100.00,95.00,report,1
 2026-11-22,lentil_bold,90.00,100.00,95.00,report,1
+2026-11-23,lentil_bold,90.00,100.00,95.00,report,1
 2020-05-17,lentil_fine,125.00,130.00,127.50,backfill_year,1
 2020-05-18,lentil_fine,120.00,130.00,125.00,backfill_year,1
 2020-05-20,lentil_fine,120.00,130.00,125.00,backfill_year,1
@@ -48848,6 +48878,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,lentil_fine,150.00,160.00,155.00,report,1
 2026-11-21,lentil_fine,150.00,160.00,155.00,report,1
 2026-11-22,lentil_fine,150.00,160.00,155.00,report,1
+2026-11-23,lentil_fine,150.00,160.00,155.00,report,1
 2020-05-17,lentil_medium,100.00,110.00,105.00,backfill_year,1
 2020-05-18,lentil_medium,100.00,110.00,105.00,backfill_year,1
 2020-05-20,lentil_medium,100.00,110.00,105.00,backfill_year,1
@@ -50823,6 +50854,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,lentil_medium,115.00,120.00,117.50,report,1
 2026-11-21,lentil_medium,115.00,120.00,117.50,report,1
 2026-11-22,lentil_medium,115.00,120.00,117.50,report,1
+2026-11-23,lentil_medium,115.00,120.00,117.50,report,1
 2020-05-17,maida_loose,35.00,45.00,40.00,backfill_year,1
 2020-05-18,maida_loose,35.00,45.00,40.00,backfill_year,1
 2020-05-20,maida_loose,35.00,45.00,40.00,backfill_year,1
@@ -52798,6 +52830,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,maida_loose,70.00,70.00,70.00,report,1
 2026-11-21,maida_loose,70.00,70.00,70.00,report,1
 2026-11-22,maida_loose,70.00,70.00,70.00,report,1
+2026-11-23,maida_loose,70.00,70.00,70.00,report,1
 2020-05-17,maida_pkt,45.00,50.00,47.50,backfill_year,1
 2020-05-18,maida_pkt,45.00,50.00,47.50,backfill_year,1
 2020-05-20,maida_pkt,45.00,50.00,47.50,backfill_year,1
@@ -54773,6 +54806,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,maida_pkt,85.00,90.00,87.50,report,1
 2026-11-21,maida_pkt,85.00,90.00,87.50,report,1
 2026-11-22,maida_pkt,85.00,90.00,87.50,report,1
+2026-11-23,maida_pkt,85.00,90.00,87.50,report,1
 2020-05-17,milk_dano,600.00,630.00,615.00,backfill_year,1
 2020-05-18,milk_dano,600.00,630.00,615.00,backfill_year,1
 2020-05-20,milk_dano,600.00,630.00,615.00,backfill_year,1
@@ -56748,6 +56782,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,milk_dano,850.00,950.00,900.00,report,1
 2026-11-21,milk_dano,850.00,950.00,900.00,report,1
 2026-11-22,milk_dano,850.00,950.00,900.00,report,1
+2026-11-23,milk_dano,850.00,950.00,900.00,report,1
 2020-05-17,milk_diploma,600.00,620.00,610.00,backfill_year,1
 2020-05-18,milk_diploma,600.00,620.00,610.00,backfill_year,1
 2020-05-20,milk_diploma,600.00,620.00,610.00,backfill_year,1
@@ -58723,6 +58758,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,milk_diploma,900.00,950.00,925.00,report,1
 2026-11-21,milk_diploma,900.00,950.00,925.00,report,1
 2026-11-22,milk_diploma,900.00,950.00,925.00,report,1
+2026-11-23,milk_diploma,900.00,950.00,925.00,report,1
 2020-05-17,milk_fresh,540.00,550.00,545.00,backfill_year,1
 2020-05-18,milk_fresh,540.00,550.00,545.00,backfill_year,1
 2020-05-20,milk_fresh,540.00,550.00,545.00,backfill_year,1
@@ -60698,6 +60734,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,milk_fresh,870.00,950.00,910.00,report,1
 2026-11-21,milk_fresh,870.00,950.00,910.00,report,1
 2026-11-22,milk_fresh,870.00,950.00,910.00,report,1
+2026-11-23,milk_fresh,870.00,950.00,910.00,report,1
 2020-05-17,milk_marks,550.00,560.00,555.00,backfill_year,1
 2020-05-18,milk_marks,550.00,560.00,555.00,backfill_year,1
 2020-05-20,milk_marks,550.00,560.00,555.00,backfill_year,1
@@ -62673,6 +62710,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,milk_marks,870.00,960.00,915.00,report,1
 2026-11-21,milk_marks,870.00,960.00,915.00,report,1
 2026-11-22,milk_marks,870.00,960.00,915.00,report,1
+2026-11-23,milk_marks,870.00,960.00,915.00,report,1
 2020-05-17,mung,90.00,130.00,110.00,backfill_year,1
 2020-05-18,mung,90.00,130.00,110.00,backfill_year,1
 2020-05-20,mung,90.00,130.00,110.00,backfill_year,1
@@ -64648,6 +64686,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,mung,130.00,170.00,150.00,report,1
 2026-11-21,mung,130.00,170.00,150.00,report,1
 2026-11-22,mung,130.00,170.00,150.00,report,1
+2026-11-23,mung,130.00,170.00,150.00,report,1
 2020-05-17,mutton,800.00,900.00,850.00,backfill_year,1
 2020-05-18,mutton,800.00,900.00,850.00,backfill_year,1
 2020-05-20,mutton,800.00,900.00,850.00,backfill_year,1
@@ -66618,6 +66657,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,mutton,1200.00,1350.00,1275.00,report,1
 2026-11-21,mutton,1200.00,1350.00,1275.00,report,1
 2026-11-22,mutton,1200.00,1350.00,1275.00,report,1
+2026-11-23,mutton,1200.00,1350.00,1275.00,report,1
 2020-05-17,onion_imported,35.00,45.00,40.00,backfill_year,1
 2020-05-18,onion_imported,35.00,40.00,37.50,backfill_year,1
 2020-05-20,onion_imported,35.00,45.00,40.00,backfill_year,1
@@ -70027,6 +70067,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,onion_local,45.00,55.00,50.00,report,1
 2026-11-21,onion_local,45.00,55.00,50.00,report,1
 2026-11-22,onion_local,45.00,55.00,50.00,report,1
+2026-11-23,onion_local,45.00,55.00,50.00,report,1
 2020-05-17,palm_loose,65.00,70.00,67.50,backfill_year,1
 2020-05-18,palm_loose,65.00,70.00,67.50,backfill_year,1
 2020-05-20,palm_loose,65.00,70.00,67.50,backfill_year,1
@@ -72001,6 +72042,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,palm_loose,168.00,175.00,171.50,report,1
 2026-11-21,palm_loose,168.00,175.00,171.50,report,1
 2026-11-22,palm_loose,168.00,175.00,171.50,report,1
+2026-11-23,palm_loose,168.00,175.00,171.50,report,1
 2020-05-17,palm_super_loose,75.00,80.00,77.50,backfill_year,1
 2020-05-18,palm_super_loose,75.00,80.00,77.50,backfill_year,1
 2020-05-20,palm_super_loose,75.00,80.00,77.50,backfill_year,1
@@ -73782,6 +73824,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,palm_super_loose,176.00,180.00,178.00,report,1
 2026-11-21,palm_super_loose,176.00,180.00,178.00,report,1
 2026-11-22,palm_super_loose,176.00,180.00,178.00,report,1
+2026-11-23,palm_super_loose,176.00,180.00,178.00,report,1
 2020-05-17,paper,20.00,25.00,22.50,backfill_year,1
 2020-05-18,paper,20.00,25.00,22.50,backfill_year,1
 2020-05-20,paper,20.00,25.00,22.50,backfill_year,1
@@ -75757,6 +75800,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,paper,34.00,40.00,37.00,report,1
 2026-11-21,paper,34.00,40.00,37.00,report,1
 2026-11-22,paper,34.00,40.00,37.00,report,1
+2026-11-23,paper,34.00,40.00,37.00,report,1
 2020-05-17,potato,22.00,25.00,23.50,backfill_year,1
 2020-05-18,potato,22.00,25.00,23.50,backfill_year,1
 2020-05-20,potato,20.00,25.00,22.50,backfill_year,1
@@ -77732,6 +77776,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,potato,25.00,30.00,27.50,report,1
 2026-11-21,potato,25.00,30.00,27.50,report,1
 2026-11-22,potato,25.00,30.00,27.50,report,1
+2026-11-23,potato,25.00,30.00,27.50,report,1
 2026-08-03,rice_aromatic,160.00,200.00,180.00,report,1
 2026-08-04,rice_aromatic,160.00,200.00,180.00,report,1
 2026-08-06,rice_aromatic,160.00,200.00,180.00,report,1
@@ -77837,6 +77882,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,rice_aromatic,130.00,220.00,175.00,report,1
 2026-11-21,rice_aromatic,130.00,220.00,175.00,report,1
 2026-11-22,rice_aromatic,130.00,220.00,175.00,report,1
+2026-11-23,rice_aromatic,130.00,220.00,175.00,report,1
 2026-08-03,rice_aromatic_pkt,200.00,230.00,215.00,report,1
 2026-08-04,rice_aromatic_pkt,200.00,230.00,215.00,report,1
 2026-08-06,rice_aromatic_pkt,200.00,230.00,215.00,report,1
@@ -77942,6 +77988,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,rice_aromatic_pkt,200.00,230.00,215.00,report,1
 2026-11-21,rice_aromatic_pkt,200.00,230.00,215.00,report,1
 2026-11-22,rice_aromatic_pkt,200.00,230.00,215.00,report,1
+2026-11-23,rice_aromatic_pkt,200.00,230.00,215.00,report,1
 2020-05-17,rice_coarse,38.00,50.00,44.00,backfill_year,1
 2020-05-18,rice_coarse,38.00,48.00,43.00,backfill_year,1
 2020-05-20,rice_coarse,38.00,48.00,43.00,backfill_year,1
@@ -79917,6 +79964,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,rice_coarse,50.00,55.00,52.50,report,1
 2026-11-21,rice_coarse,50.00,55.00,52.50,report,1
 2026-11-22,rice_coarse,50.00,55.00,52.50,report,1
+2026-11-23,rice_coarse,50.00,55.00,52.50,report,1
 2020-05-17,rice_fine,55.00,65.00,60.00,backfill_year,1
 2020-05-18,rice_fine,55.00,65.00,60.00,backfill_year,1
 2020-05-20,rice_fine,55.00,65.00,60.00,backfill_year,1
@@ -81892,6 +81940,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,rice_fine,70.00,90.00,80.00,report,1
 2026-11-21,rice_fine,70.00,90.00,80.00,report,1
 2026-11-22,rice_fine,70.00,90.00,80.00,report,1
+2026-11-23,rice_fine,70.00,90.00,80.00,report,1
 2020-05-17,rice_medium,48.00,52.00,50.00,backfill_year,1
 2020-05-18,rice_medium,45.00,50.00,47.50,backfill_year,1
 2020-05-20,rice_medium,45.00,50.00,47.50,backfill_year,1
@@ -83867,6 +83916,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,rice_medium,56.00,65.00,60.50,report,1
 2026-11-21,rice_medium,56.00,65.00,60.50,report,1
 2026-11-22,rice_medium,56.00,65.00,60.50,report,1
+2026-11-23,rice_medium,56.00,65.00,60.50,report,1
 2024-05-20,ricebran_1l,170.00,175.00,172.50,report,1
 2024-05-21,ricebran_1l,170.00,175.00,172.50,report,1
 2024-05-23,ricebran_1l,172.00,176.00,174.00,report,1
@@ -84973,6 +85023,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,ricebran_5l,1035.00,1200.00,1117.50,report,1
 2026-11-21,ricebran_5l,1035.00,1200.00,1117.50,report,1
 2026-11-22,ricebran_5l,1035.00,1200.00,1117.50,report,1
+2026-11-23,ricebran_5l,1035.00,1200.00,1117.50,report,1
 2020-05-17,rod_40,54000.00,57500.00,55750.00,backfill_year,1
 2020-05-18,rod_40,54000.00,57500.00,55750.00,backfill_year,1
 2020-05-20,rod_40,54000.00,57500.00,55750.00,backfill_year,1
@@ -86948,6 +86999,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,rod_40,86000.00,88000.00,87000.00,report,1
 2026-11-21,rod_40,86000.00,88000.00,87000.00,report,1
 2026-11-22,rod_40,86000.00,88000.00,87000.00,report,1
+2026-11-23,rod_40,86000.00,88000.00,87000.00,report,1
 2020-05-17,rod_60,58000.00,61000.00,59500.00,backfill_year,1
 2020-05-18,rod_60,58000.00,61000.00,59500.00,backfill_year,1
 2020-05-20,rod_60,58000.00,61000.00,59500.00,backfill_year,1
@@ -88923,6 +88975,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,rod_60,89500.00,93000.00,91250.00,report,1
 2026-11-21,rod_60,89500.00,93000.00,91250.00,report,1
 2026-11-22,rod_60,89500.00,93000.00,91250.00,report,1
+2026-11-23,rod_60,89500.00,93000.00,91250.00,report,1
 2020-05-17,rui,300.00,350.00,325.00,backfill_year,1
 2020-05-18,rui,300.00,350.00,325.00,backfill_year,1
 2020-05-20,rui,300.00,350.00,325.00,backfill_year,1
@@ -90898,6 +90951,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,rui,300.00,450.00,375.00,report,1
 2026-11-21,rui,300.00,450.00,375.00,report,1
 2026-11-22,rui,300.00,450.00,375.00,report,1
+2026-11-23,rui,300.00,450.00,375.00,report,1
 2020-05-17,salt,25.00,35.00,30.00,backfill_year,1
 2020-05-18,salt,25.00,35.00,30.00,backfill_year,1
 2020-05-20,salt,25.00,35.00,30.00,backfill_year,1
@@ -92873,6 +92927,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,salt,40.00,42.00,41.00,report,1
 2026-11-21,salt,40.00,42.00,41.00,report,1
 2026-11-22,salt,40.00,42.00,41.00,report,1
+2026-11-23,salt,40.00,42.00,41.00,report,1
 2020-05-17,soybean_1l,100.00,110.00,105.00,backfill_year,1
 2020-05-18,soybean_1l,105.00,110.00,107.50,backfill_year,1
 2020-05-20,soybean_1l,105.00,110.00,107.50,backfill_year,1
@@ -94848,6 +94903,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,soybean_1l,204.00,204.00,204.00,report,1
 2026-11-21,soybean_1l,204.00,204.00,204.00,report,1
 2026-11-22,soybean_1l,204.00,204.00,204.00,report,1
+2026-11-23,soybean_1l,204.00,204.00,204.00,report,1
 2023-09-03,soybean_2l,335.00,340.00,337.50,backfill_year,1
 2023-09-04,soybean_2l,335.00,340.00,337.50,backfill_year,1
 2023-09-05,soybean_2l,335.00,340.00,337.50,backfill_year,2
@@ -95854,6 +95910,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,soybean_2l,410.00,410.00,410.00,report,1
 2026-11-21,soybean_2l,410.00,410.00,410.00,report,1
 2026-11-22,soybean_2l,410.00,410.00,410.00,report,1
+2026-11-23,soybean_2l,410.00,410.00,410.00,report,1
 2020-05-17,soybean_5l,480.00,520.00,500.00,backfill_year,1
 2020-05-18,soybean_5l,470.00,520.00,495.00,backfill_year,1
 2020-05-20,soybean_5l,470.00,520.00,495.00,backfill_year,1
@@ -97829,6 +97886,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,soybean_5l,1000.00,1000.00,1000.00,report,1
 2026-11-21,soybean_5l,1000.00,1000.00,1000.00,report,1
 2026-11-22,soybean_5l,1000.00,1000.00,1000.00,report,1
+2026-11-23,soybean_5l,1000.00,1000.00,1000.00,report,1
 2020-05-17,soybean_loose,88.00,92.00,90.00,backfill_year,1
 2020-05-18,soybean_loose,88.00,92.00,90.00,backfill_year,1
 2020-05-20,soybean_loose,88.00,92.00,90.00,backfill_year,1
@@ -99788,6 +99846,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,soybean_loose,190.00,196.00,193.00,report,1
 2026-11-21,soybean_loose,190.00,196.00,193.00,report,1
 2026-11-22,soybean_loose,190.00,196.00,193.00,report,1
+2026-11-23,soybean_loose,190.00,196.00,193.00,report,1
 2020-05-17,sugar,65.00,70.00,67.50,backfill_year,1
 2020-05-18,sugar,65.00,70.00,67.50,backfill_year,1
 2020-05-20,sugar,65.00,70.00,67.50,backfill_year,1
@@ -101763,6 +101822,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,sugar,110.00,115.00,112.50,report,1
 2026-11-21,sugar,110.00,115.00,112.50,report,1
 2026-11-22,sugar,110.00,115.00,112.50,report,1
+2026-11-23,sugar,110.00,115.00,112.50,report,1
 2020-05-17,turmeric_imported,180.00,200.00,190.00,backfill_year,1
 2020-05-18,turmeric_imported,170.00,250.00,210.00,backfill_year,1
 2020-05-20,turmeric_imported,170.00,250.00,210.00,backfill_year,1
@@ -103738,6 +103798,7 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,turmeric_imported,300.00,350.00,325.00,report,1
 2026-11-21,turmeric_imported,300.00,350.00,325.00,report,1
 2026-11-22,turmeric_imported,300.00,350.00,325.00,report,1
+2026-11-23,turmeric_imported,300.00,350.00,325.00,report,1
 2020-05-17,turmeric_local,150.00,180.00,165.00,backfill_year,1
 2020-05-18,turmeric_local,150.00,180.00,165.00,backfill_year,1
 2020-05-20,turmeric_local,150.00,180.00,165.00,backfill_year,1
@@ -105713,3 +105774,4 @@ date,commodity_id,price_min,price_max,price_mid,source,n_reports
 2026-11-20,turmeric_local,320.00,350.00,335.00,report,1
 2026-11-21,turmeric_local,320.00,350.00,335.00,report,1
 2026-11-22,turmeric_local,320.00,350.00,335.00,report,1
+2026-11-23,turmeric_local,320.00,350.00,335.00,report,1

@@ -1,14 +1,14 @@
 {
-  "generated_from_reports": 1405,
+  "generated_from_reports": 1406,
   "commodities": 61,
   "date_range": [
     "2020-05-17",
-    "2026-11-22"
+    "2026-11-23"
   ],
-  "rows": 105714,
+  "rows": 105776,
   "rows_by_source": {
-    "report": 75105,
-    "backfill_year": 18496,
+    "report": 75164,
+    "backfill_year": 18499,
     "backfill_week": 6563,
     "backfill_month": 5550
   },
@@ -46,25 +46,25 @@
       "report": 298
     },
     "2026": {
-      "report": 297
+      "report": 298
     }
   },
   "self_consistency_vs_original_report": {
     "week": {
-      "pairs": 68480,
+      "pairs": 68539,
       "exact_match_rate": 0.998,
       "median_abs_pct_err": 0.0,
       "p90_abs_pct_err": 0.0
     },
     "month": {
-      "pairs": 65769,
+      "pairs": 65827,
       "exact_match_rate": 0.9981,
       "median_abs_pct_err": 0.0,
       "p90_abs_pct_err": 0.0
     },
     "year": {
-      "pairs": 46149,
-      "exact_match_rate": 0.9959,
+      "pairs": 46202,
+      "exact_match_rate": 0.996,
       "median_abs_pct_err": 0.0,
       "p90_abs_pct_err": 0.0
     }
