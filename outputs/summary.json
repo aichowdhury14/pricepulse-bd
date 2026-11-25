@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-24T13:36:09",
- "data_through": "2026-11-24",
+ "generated": "2026-11-25T12:43:41",
+ "data_through": "2026-11-25",
  "core_basket_index_latest": 140.6,
  "import_vs_domestic": {
   "n_import": 19,
@@ -15,7 +15,7 @@
   0.85,
   0.97
  ],
- "spike_episodes_up": 224,
+ "spike_episodes_up": 225,
  "known_shocks_detected": "6/6 evaluable",
  "festival_significant_q10": {
   "Eid-ul-Adha": 7,

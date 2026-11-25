@@ -253,18 +253,6 @@
    "price_peak": 310.0
   },
   {
-   "commodity_id": "lentil_bold",
-   "name_en": "Lentil (masur), bold grain",
-   "start": "2022-01-04T00:00:00.000",
-   "end": "2022-01-15T00:00:00.000",
-   "peak_date": "2022-01-12T00:00:00.000",
-   "days_flagged": 5,
-   "change_14d_pct": 15.17,
-   "z_peak": 7.06,
-   "price_before": 87.5,
-   "price_peak": 102.5
-  },
-  {
    "commodity_id": "lentil_medium",
    "name_en": "Lentil (masur), medium grain",
    "start": "2022-01-04T00:00:00.000",
@@ -275,6 +263,18 @@
    "z_peak": 4.88,
    "price_before": 97.5,
    "price_peak": 107.5
+  },
+  {
+   "commodity_id": "lentil_bold",
+   "name_en": "Lentil (masur), bold grain",
+   "start": "2022-01-04T00:00:00.000",
+   "end": "2022-01-15T00:00:00.000",
+   "peak_date": "2022-01-12T00:00:00.000",
+   "days_flagged": 5,
+   "change_14d_pct": 15.17,
+   "z_peak": 7.06,
+   "price_before": 87.5,
+   "price_peak": 102.5
   },
   {
    "commodity_id": "onion_local",
@@ -397,18 +397,6 @@
    "price_peak": 350.0
   },
   {
-   "commodity_id": "dates",
-   "name_en": "Dates (khejur), regular",
-   "start": "2022-04-02T00:00:00.000",
-   "end": "2022-04-06T00:00:00.000",
-   "peak_date": "2022-04-02T00:00:00.000",
-   "days_flagged": 5,
-   "change_14d_pct": 20.0,
-   "z_peak": 9.12,
-   "price_before": 250.0,
-   "price_peak": 300.0
-  },
-  {
    "commodity_id": "hilsa",
    "name_en": "Hilsa (ilish)",
    "start": "2022-04-02T00:00:00.000",
@@ -419,6 +407,18 @@
    "z_peak": 14.38,
    "price_before": 900.0,
    "price_peak": 1200.0
+  },
+  {
+   "commodity_id": "dates",
+   "name_en": "Dates (khejur), regular",
+   "start": "2022-04-02T00:00:00.000",
+   "end": "2022-04-06T00:00:00.000",
+   "peak_date": "2022-04-02T00:00:00.000",
+   "days_flagged": 5,
+   "change_14d_pct": 20.0,
+   "z_peak": 9.12,
+   "price_before": 250.0,
+   "price_peak": 300.0
   },
   {
    "commodity_id": "mung",
@@ -757,6 +757,18 @@
    "price_peak": 57.5
   },
   {
+   "commodity_id": "palm_loose",
+   "name_en": "Palm oil, loose",
+   "start": "2022-08-20T00:00:00.000",
+   "end": "2022-08-25T00:00:00.000",
+   "peak_date": "2022-08-20T00:00:00.000",
+   "days_flagged": 6,
+   "change_14d_pct": 16.33,
+   "z_peak": 3.84,
+   "price_before": 122.5,
+   "price_peak": 142.5
+  },
+  {
    "commodity_id": "maida_loose",
    "name_en": "Maida, loose",
    "start": "2022-08-20T00:00:00.000",
@@ -779,18 +791,6 @@
    "z_peak": 7.12,
    "price_before": 49.0,
    "price_peak": 56.5
-  },
-  {
-   "commodity_id": "palm_loose",
-   "name_en": "Palm oil, loose",
-   "start": "2022-08-20T00:00:00.000",
-   "end": "2022-08-25T00:00:00.000",
-   "peak_date": "2022-08-20T00:00:00.000",
-   "days_flagged": 6,
-   "change_14d_pct": 16.33,
-   "z_peak": 3.84,
-   "price_before": 122.5,
-   "price_peak": 142.5
   },
   {
    "commodity_id": "clove",
@@ -997,18 +997,6 @@
    "price_peak": 175.0
   },
   {
-   "commodity_id": "rui",
-   "name_en": "Rui fish",
-   "start": "2022-12-04T00:00:00.000",
-   "end": "2022-12-17T00:00:00.000",
-   "peak_date": "2022-12-04T00:00:00.000",
-   "days_flagged": 14,
-   "change_14d_pct": 33.33,
-   "z_peak": 14.38,
-   "price_before": 300.0,
-   "price_peak": 400.0
-  },
-  {
    "commodity_id": "atta_pkt",
    "name_en": "Atta, packet",
    "start": "2022-12-04T00:00:00.000",
@@ -1019,6 +1007,18 @@
    "z_peak": 3.84,
    "price_before": 63.5,
    "price_peak": 72.5
+  },
+  {
+   "commodity_id": "rui",
+   "name_en": "Rui fish",
+   "start": "2022-12-04T00:00:00.000",
+   "end": "2022-12-17T00:00:00.000",
+   "peak_date": "2022-12-04T00:00:00.000",
+   "days_flagged": 14,
+   "change_14d_pct": 33.33,
+   "z_peak": 14.38,
+   "price_before": 300.0,
+   "price_peak": 400.0
   },
   {
    "commodity_id": "maida_loose",
@@ -1057,16 +1057,16 @@
    "price_peak": 185.0
   },
   {
-   "commodity_id": "ginger_imported",
-   "name_en": "Ginger, imported",
+   "commodity_id": "cumin",
+   "name_en": "Cumin",
    "start": "2023-01-11T00:00:00.000",
-   "end": "2023-01-24T00:00:00.000",
-   "peak_date": "2023-01-19T00:00:00.000",
-   "days_flagged": 12,
-   "change_14d_pct": 60.0,
-   "z_peak": 5.23,
-   "price_before": 120.0,
-   "price_peak": 200.0
+   "end": "2023-01-21T00:00:00.000",
+   "peak_date": "2023-01-11T00:00:00.000",
+   "days_flagged": 11,
+   "change_14d_pct": 16.82,
+   "z_peak": 4.4,
+   "price_before": 535.0,
+   "price_peak": 700.0
   },
   {
    "commodity_id": "garlic_local",
@@ -1081,16 +1081,16 @@
    "price_peak": 130.0
   },
   {
-   "commodity_id": "cumin",
-   "name_en": "Cumin",
+   "commodity_id": "ginger_imported",
+   "name_en": "Ginger, imported",
    "start": "2023-01-11T00:00:00.000",
-   "end": "2023-01-21T00:00:00.000",
-   "peak_date": "2023-01-11T00:00:00.000",
-   "days_flagged": 11,
-   "change_14d_pct": 16.82,
-   "z_peak": 4.4,
-   "price_before": 535.0,
-   "price_peak": 700.0
+   "end": "2023-01-24T00:00:00.000",
+   "peak_date": "2023-01-19T00:00:00.000",
+   "days_flagged": 12,
+   "change_14d_pct": 60.0,
+   "z_peak": 5.23,
+   "price_before": 120.0,
+   "price_peak": 200.0
   },
   {
    "commodity_id": "garlic_imported",
@@ -1249,18 +1249,6 @@
    "price_peak": 260.0
   },
   {
-   "commodity_id": "sugar",
-   "name_en": "Sugar",
-   "start": "2023-04-26T00:00:00.000",
-   "end": "2023-05-13T00:00:00.000",
-   "peak_date": "2023-05-03T00:00:00.000",
-   "days_flagged": 14,
-   "change_14d_pct": 14.89,
-   "z_peak": 6.94,
-   "price_before": 112.5,
-   "price_peak": 135.0
-  },
-  {
    "commodity_id": "paper",
    "name_en": "Writing paper, white",
    "start": "2023-04-26T00:00:00.000",
@@ -1271,6 +1259,18 @@
    "z_peak": 8.35,
    "price_before": 27.5,
    "price_peak": 32.5
+  },
+  {
+   "commodity_id": "sugar",
+   "name_en": "Sugar",
+   "start": "2023-04-26T00:00:00.000",
+   "end": "2023-05-13T00:00:00.000",
+   "peak_date": "2023-05-03T00:00:00.000",
+   "days_flagged": 14,
+   "change_14d_pct": 14.89,
+   "z_peak": 6.94,
+   "price_before": 112.5,
+   "price_peak": 135.0
   },
   {
    "commodity_id": "garlic_local",
@@ -1429,18 +1429,6 @@
    "price_peak": 225.0
   },
   {
-   "commodity_id": "rui",
-   "name_en": "Rui fish",
-   "start": "2023-08-14T00:00:00.000",
-   "end": "2023-08-27T00:00:00.000",
-   "peak_date": "2023-08-14T00:00:00.000",
-   "days_flagged": 14,
-   "change_14d_pct": 25.0,
-   "z_peak": 11.16,
-   "price_before": 400.0,
-   "price_peak": 500.0
-  },
-  {
    "commodity_id": "turmeric_local",
    "name_en": "Turmeric, local",
    "start": "2023-08-14T00:00:00.000",
@@ -1451,6 +1439,18 @@
    "z_peak": 7.58,
    "price_before": 275.0,
    "price_peak": 350.0
+  },
+  {
+   "commodity_id": "rui",
+   "name_en": "Rui fish",
+   "start": "2023-08-14T00:00:00.000",
+   "end": "2023-08-27T00:00:00.000",
+   "peak_date": "2023-08-14T00:00:00.000",
+   "days_flagged": 14,
+   "change_14d_pct": 25.0,
+   "z_peak": 11.16,
+   "price_before": 400.0,
+   "price_peak": 500.0
   },
   {
    "commodity_id": "onion_imported",
@@ -1717,18 +1717,6 @@
    "price_peak": 340.0
   },
   {
-   "commodity_id": "ginger_local",
-   "name_en": "Ginger, local",
-   "start": "2024-04-08T00:00:00.000",
-   "end": "2024-05-12T00:00:00.000",
-   "peak_date": "2024-05-04T00:00:00.000",
-   "days_flagged": 28,
-   "change_14d_pct": 54.55,
-   "z_peak": 7.93,
-   "price_before": 250.0,
-   "price_peak": 425.0
-  },
-  {
    "commodity_id": "hilsa",
    "name_en": "Hilsa (ilish)",
    "start": "2024-04-08T00:00:00.000",
@@ -1739,6 +1727,18 @@
    "z_peak": 5.89,
    "price_before": 1000.0,
    "price_peak": 1150.0
+  },
+  {
+   "commodity_id": "ginger_local",
+   "name_en": "Ginger, local",
+   "start": "2024-04-08T00:00:00.000",
+   "end": "2024-05-12T00:00:00.000",
+   "peak_date": "2024-05-04T00:00:00.000",
+   "days_flagged": 28,
+   "change_14d_pct": 54.55,
+   "z_peak": 7.93,
+   "price_before": 250.0,
+   "price_peak": 425.0
   },
   {
    "commodity_id": "turmeric_imported",
@@ -1981,18 +1981,6 @@
    "price_peak": 190.0
   },
   {
-   "commodity_id": "cardamom",
-   "name_en": "Cardamom (small)",
-   "start": "2025-01-06T00:00:00.000",
-   "end": "2025-01-19T00:00:00.000",
-   "peak_date": "2025-01-17T00:00:00.000",
-   "days_flagged": 14,
-   "change_14d_pct": 13.92,
-   "z_peak": 5.23,
-   "price_before": 3900.0,
-   "price_peak": 4700.0
-  },
-  {
    "commodity_id": "cinnamon",
    "name_en": "Cinnamon",
    "start": "2025-01-06T00:00:00.000",
@@ -2003,6 +1991,18 @@
    "z_peak": 7.62,
    "price_before": 515.0,
    "price_peak": 640.0
+  },
+  {
+   "commodity_id": "cardamom",
+   "name_en": "Cardamom (small)",
+   "start": "2025-01-06T00:00:00.000",
+   "end": "2025-01-19T00:00:00.000",
+   "peak_date": "2025-01-17T00:00:00.000",
+   "days_flagged": 14,
+   "change_14d_pct": 13.92,
+   "z_peak": 5.23,
+   "price_before": 3900.0,
+   "price_peak": 4700.0
   },
   {
    "commodity_id": "chili_dry_local",
@@ -2221,18 +2221,6 @@
    "price_peak": 155.0
   },
   {
-   "commodity_id": "eggs",
-   "name_en": "Eggs, farm",
-   "start": "2025-08-14T00:00:00.000",
-   "end": "2025-08-16T00:00:00.000",
-   "peak_date": "2025-08-15T00:00:00.000",
-   "days_flagged": 3,
-   "change_14d_pct": 18.07,
-   "z_peak": 5.21,
-   "price_before": 41.5,
-   "price_peak": 49.0
-  },
-  {
    "commodity_id": "mung",
    "name_en": "Mung dal",
    "start": "2025-08-14T00:00:00.000",
@@ -2243,6 +2231,18 @@
    "z_peak": 6.26,
    "price_before": 150.0,
    "price_peak": 170.0
+  },
+  {
+   "commodity_id": "eggs",
+   "name_en": "Eggs, farm",
+   "start": "2025-08-14T00:00:00.000",
+   "end": "2025-08-16T00:00:00.000",
+   "peak_date": "2025-08-15T00:00:00.000",
+   "days_flagged": 3,
+   "change_14d_pct": 18.07,
+   "z_peak": 5.21,
+   "price_before": 41.5,
+   "price_peak": 49.0
   },
   {
    "commodity_id": "atta_pkt",
@@ -2401,18 +2401,6 @@
    "price_peak": 220.0
   },
   {
-   "commodity_id": "chili_dry_local",
-   "name_en": "Dry chilli, local",
-   "start": "2026-03-24T00:00:00.000",
-   "end": "2026-04-12T00:00:00.000",
-   "peak_date": "2026-03-24T00:00:00.000",
-   "days_flagged": 14,
-   "change_14d_pct": 34.55,
-   "z_peak": 14.84,
-   "price_before": 275.0,
-   "price_peak": 370.0
-  },
-  {
    "commodity_id": "chili_dry_imported",
    "name_en": "Dry chilli, imported",
    "start": "2026-03-24T00:00:00.000",
@@ -2423,6 +2411,18 @@
    "z_peak": 16.93,
    "price_before": 335.0,
    "price_peak": 470.0
+  },
+  {
+   "commodity_id": "chili_dry_local",
+   "name_en": "Dry chilli, local",
+   "start": "2026-03-24T00:00:00.000",
+   "end": "2026-04-12T00:00:00.000",
+   "peak_date": "2026-03-24T00:00:00.000",
+   "days_flagged": 14,
+   "change_14d_pct": 34.55,
+   "z_peak": 14.84,
+   "price_before": 275.0,
+   "price_peak": 370.0
   },
   {
    "commodity_id": "potato",
@@ -2485,18 +2485,6 @@
    "price_peak": 50.0
   },
   {
-   "commodity_id": "dates",
-   "name_en": "Dates (khejur), regular",
-   "start": "2026-05-21T00:00:00.000",
-   "end": "2026-06-03T00:00:00.000",
-   "peak_date": "2026-05-21T00:00:00.000",
-   "days_flagged": 14,
-   "change_14d_pct": 12.5,
-   "z_peak": 5.89,
-   "price_before": 400.0,
-   "price_peak": 450.0
-  },
-  {
    "commodity_id": "ginger_imported",
    "name_en": "Ginger, imported",
    "start": "2026-05-21T00:00:00.000",
@@ -2507,6 +2495,18 @@
    "z_peak": 5.49,
    "price_before": 160.0,
    "price_peak": 200.0
+  },
+  {
+   "commodity_id": "dates",
+   "name_en": "Dates (khejur), regular",
+   "start": "2026-05-21T00:00:00.000",
+   "end": "2026-06-03T00:00:00.000",
+   "peak_date": "2026-05-21T00:00:00.000",
+   "days_flagged": 14,
+   "change_14d_pct": 12.5,
+   "z_peak": 5.89,
+   "price_before": 400.0,
+   "price_peak": 450.0
   },
   {
    "commodity_id": "milk_dano",
@@ -2687,6 +2687,18 @@
    "z_peak": 5.62,
    "price_before": 105.0,
    "price_peak": 117.5
+  },
+  {
+   "commodity_id": "clove",
+   "name_en": "Clove",
+   "start": "2026-11-25T00:00:00.000",
+   "end": "2026-11-25T00:00:00.000",
+   "peak_date": "2026-11-25T00:00:00.000",
+   "days_flagged": 1,
+   "change_14d_pct": 11.48,
+   "z_peak": 5.43,
+   "price_before": 1525.0,
+   "price_peak": 1700.0
   }
  ],
  "down": [
